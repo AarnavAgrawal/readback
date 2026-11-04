@@ -1,54 +1,91 @@
-# Remotion video
+# Readback
 
-<p align="center">
-  <a href="https://github.com/remotion-dev/logo">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github.com/remotion-dev/logo/raw/main/animated-logo-banner-dark.apng">
-      <img alt="Animated Remotion Logo" src="https://github.com/remotion-dev/logo/raw/main/animated-logo-banner-light.gif">
-    </picture>
-  </a>
-</p>
+Turns a notable moment on US air traffic control radio (a go-around, an emergency, a laser strike) into a 30–60 s vertical video. The video uses the **real radio audio**, verbatim karaoke captions, a schematic airport map and explainer cards. Data comes from the [Enhanced Radar API](https://enhancedradar.com/docs/api), the story framing from Claude, and the video is rendered with [Remotion](https://remotion.dev).
 
-Welcome to your Remotion project!
-
-## Commands
-
-**Install Dependencies**
-
-```console
-npm i --loglevel=error
+```
+ Enhanced Radar events ─► discover ─► collect ─► clean ─► storyboard (Claude) ─► audio ─► props ─► render (Remotion)
 ```
 
-**Start Preview**
+## Setup
 
-```console
-npm run dev
+```bash
+npm i
+cp .env.example .env          # add ENHANCED_RADAR_API_KEY and ANTHROPIC_API_KEY
+# runway geometry (public domain, ~15 MB):
+mkdir -p data/ourairports
+curl -o data/ourairports/runways.csv https://davidmegginson.github.io/ourairports-data/runways.csv
+curl -o data/ourairports/airports.csv https://davidmegginson.github.io/ourairports-data/airports.csv
 ```
 
-**Render video**
+Requirements:
+- Node 20.19+ or 24+.
+- An Enhanced Radar account with the dashboard liveness check completed (needed for audio clips).
 
-```console
-npx remotion render
+## Usage
+
+```bash
+# 1. Find stories: event searches at an airport in the last N hours (≤48)
+npm run discover -- --airport SFO --hours 24
+#    costs $1 per query + $1 per event returned (default 4 queries × 5 events ≤ $24)
+
+# 2. Build one story into render props + audio, then preview
+npm run story -- --event 5627999
+npm run studio                 # Remotion Studio → StoryVideo
+
+# 3. Render the MP4
+npm run story -- --event 5627999 --render     # → out/5627999.mp4
 ```
 
-**Upgrade Remotion**
+Each stage caches its output in `data/stories/<event_id>/`, so re-running never pays for the same data twice. Flags:
+- `--force-collect` re-fetches transcripts.
+- `--force-storyboard` asks Claude for a new storyboard.
 
-```console
-npx remotion upgrade
+Every charged API call is logged to `data/stories/<event_id>/costs.jsonl`.
+
+## Web app
+
+Live at https://readback-atc.vercel.app. A Next.js app (`app/`, `server/`) in the same package: a gallery of finished stories, plus "Make one now", which runs the pipeline in a Vercel Function and streams progress to the page. Videos play in the browser with Remotion's Player.
+
+```bash
+npm run dev                                                   # http://localhost:3000
+npm run publish:story -- --event <id> [--event <id>] --featured   # add a CLI-built story to the gallery
+vercel deploy --prod                                          # deploy
 ```
 
-## Docs
+- **Storage:** Vercel Blob for story files and Upstash Redis for caches and the gallery index. Without their env vars, local dev uses `.local-store/`.
+- **Usage limit:** new searches and builds stop when total Enhanced Radar usage reaches `DEMO_TOTAL_CAP_USD` ($800), measured as `DEMO_STARTING_CREDIT_USD` minus the balance the API reports. The gallery keeps working.
+- **Caching:** airport searches are cached for 6 hours and finished videos are reused.
+- **MP4 downloads:** rendered on demand in a Vercel Sandbox and stored in Blob. `npm run build` bundles the composition into `build/` for this.
 
-Get started with Remotion by reading the [fundamentals page](https://www.remotion.dev/docs/the-fundamentals).
+## Pipeline stages (`pipeline/`)
 
-## Help
+| Stage | What it does | Enhanced Radar cost |
+|---|---|---|
+| `discover` | Event searches; groups duplicate events per incident; ranks them by type, evidence and stated cause | $1/query + $1/event |
+| `collect` | `GET /events/{id}`, then every transcript for the flight's callsign(s) from 10 min before to 15 min after | $0.03/transcript (≈ $1–2) |
+| `clean` | Removes duplicates (the same audio heard on two frequencies), orders by start time, fixes controller/pilot roles, labels channels | free (facility list is free) |
+| `storyboard` | Claude (`claude-opus-5-5`, structured output) picks 5–10 beats, a verbatim hook, notes and explainers; the result is checked against the transcripts | — |
+| `audio` | Downloads clips (links expire in 3 min, so they're fetched immediately), applies a radio band-pass and loudness normalization, adds static gaps, "N minutes later" jumps and explainer pauses | $0.02/clip |
+| `props` | Writes `public/stories/<id>/render-props.json` (see `src/types.ts`) with OurAirports runway geometry and local time | — |
+| `render` | `remotion render` → `out/<id>.mp4` | — |
 
-We provide help on our [Discord server](https://discord.gg/6VzzNDwUwV).
+Typical cost per video: **≈ $2–4** in Enhanced Radar credits.
 
-## Issues
+## Video (`src/`)
 
-Found an issue with Remotion? [File an issue here](https://github.com/remotion-dev/remotion/issues/new).
+`StoryVideo` is a 1080×1920, 30 fps composition driven entirely by `RenderProps`:
+- title card with the hook quote
+- airport map with an animated, phase-driven flight path
+- speaker badge (amber for ATC, cyan for the pilot)
+- karaoke captions and a waveform
+- note stamps, explainer cards, time-jump cards
+- an end card with a recap and attribution
 
-## License
+## Guardrails
 
-Note that for some entities a company license is needed. [Read the terms here](https://github.com/remotion-dev/remotion/blob/main/LICENSE.md).
+- **Verbatim only.** Captions always use the Enhanced Radar transcript text, never model output. The storyboard is rejected if it references unknown transmissions or a hook that isn't in the transcript.
+- **Secrets** live in `.env` (gitignored). Downloaded audio and API caches are gitignored too.
+
+## Seed story
+
+`data/stories/5627999/`: United 1274's wake-turbulence go-around at SFO, Nov 4, 2026 05:58Z. Its data was pulled through the Enhanced Radar MCP server. Its storyboard was written by hand because no Anthropic key was configured; rerun with `--force-storyboard` to have Claude write it.

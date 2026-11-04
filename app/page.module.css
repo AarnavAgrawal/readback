@@ -1,0 +1,154 @@
+/* ---------- Hero ---------- */
+
+.hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 340px);
+  align-items: center;
+  gap: clamp(2rem, 6vw, 5rem);
+  padding-top: clamp(1.5rem, 5vw, 4rem);
+  padding-bottom: clamp(2.5rem, 6vw, 5rem);
+  /* The range rings are wider than the phone; keep them from widening the page. */
+  overflow-x: clip;
+}
+
+.heroText {
+  display: grid;
+  gap: 1.25rem;
+}
+
+.headline {
+  font-size: var(--step-4);
+  line-height: 1.08;
+  letter-spacing: -0.01em;
+  max-width: 20ch;
+}
+
+.sub {
+  color: var(--dim);
+  font-size: var(--step-1);
+  line-height: 1.45;
+  max-width: 46ch;
+}
+
+.ctas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 0.5rem;
+}
+
+.heroPlayer {
+  position: relative;
+  width: 100%;
+  max-width: 340px;
+  justify-self: center;
+}
+
+/* Range rings behind the phone, with one slow sweep. */
+.scope {
+  position: absolute;
+  left: 50%;
+  top: 46%;
+  width: 190%;
+  aspect-ratio: 1;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  pointer-events: none;
+  background: radial-gradient(
+    circle,
+    transparent 0 24.6%,
+    rgba(18, 58, 82, 0.55) 24.8% 25%,
+    transparent 25.2% 37.1%,
+    rgba(18, 58, 82, 0.45) 37.3% 37.5%,
+    transparent 37.7% 49.6%,
+    rgba(18, 58, 82, 0.35) 49.8% 50%,
+    transparent 50.2%
+  );
+  mask-image: radial-gradient(circle, #000 55%, transparent 72%);
+}
+
+.sweep {
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  background: conic-gradient(from 0deg, transparent 0deg, transparent 300deg, rgba(92, 225, 242, 0.1) 355deg, rgba(92, 225, 242, 0.22) 360deg);
+  animation: sweep 12s linear infinite;
+}
+
+@keyframes sweep {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .sweep {
+    animation: none;
+  }
+}
+
+.caption {
+  position: relative;
+  margin-top: 0.875rem;
+  font-size: var(--step--1);
+  color: var(--dim);
+  text-align: center;
+}
+.caption a {
+  color: var(--text);
+  font-weight: 700;
+}
+.caption .captionMeta {
+  display: block;
+  margin-top: 0.125rem;
+}
+
+@media (max-width: 820px) {
+  .hero {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .heroPlayer {
+    max-width: 290px;
+  }
+}
+
+/* ---------- Gallery ---------- */
+
+.gallery {
+  display: grid;
+  gap: 1.25rem;
+  scroll-margin-top: 1rem;
+}
+
+.sectionHead {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.25rem 1rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid var(--grid);
+}
+
+.h2 {
+  font-size: var(--step-3);
+}
+
+.muted {
+  color: var(--dim);
+  font-size: var(--step--1);
+}
+
+.strips {
+  display: grid;
+  gap: 0.625rem;
+  margin: 0;
+  padding: 0;
+}
+
+/* ---------- Make one now ---------- */
+
+.make {
+  margin-top: clamp(3rem, 8vw, 5.5rem);
+  scroll-margin-top: 1rem;
+}

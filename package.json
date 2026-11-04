@@ -1,7 +1,7 @@
 {
-  "name": "atc-story-videos",
+  "name": "readback",
   "version": "1.0.0",
-  "description": "My Remotion video",
+  "description": "Real ATC radio, turned into finished vertical videos",
   "repository": {},
   "license": "UNLICENSED",
   "engines": {
@@ -9,24 +9,45 @@
   },
   "private": true,
   "dependencies": {
+    "@anthropic-ai/sdk": "^1.4.0",
     "@remotion/cli": "4.0.540",
+    "@remotion/google-fonts": "4.0.540",
+    "@remotion/media": "4.0.540",
+    "@remotion/media-utils": "4.0.540",
+    "@remotion/player": "4.0.540",
+    "@remotion/vercel": "4.0.540",
+    "@upstash/redis": "^1.41.0",
+    "@vercel/blob": "^2.8.2",
+    "@vercel/sandbox": "1.10.2",
+    "dotenv": "^18.0.9",
+    "next": "^16.4.5",
     "react": "19.3.1",
     "react-dom": "19.3.1",
-    "remotion": "4.0.540"
+    "remotion": "4.0.540",
+    "zod": "^4.6.7"
   },
   "devDependencies": {
     "@remotion/eslint-config-flat": "4.0.540",
+    "@types/node": "^26.6.6",
     "@types/react": "19.3.0",
     "@types/web": "0.0.166",
     "eslint": "10.12.0",
     "prettier": "3.8.1",
+    "tsx": "^4.23.15",
     "typescript": "5.9.3"
   },
   "scripts": {
-    "dev": "remotion studio",
-    "build": "remotion bundle",
+    "dev": "next dev",
+    "build": "remotion bundle && next build",
+    "start": "next start",
+    "studio": "remotion studio",
+    "remotion:bundle": "remotion bundle",
     "upgrade": "remotion upgrade",
-    "lint": "eslint src && tsc"
+    "publish:story": "tsx server/publish.ts",
+    "lint": "eslint src && tsc && tsc -p pipeline",
+    "discover": "tsx pipeline/run.ts discover",
+    "story": "tsx pipeline/run.ts story",
+    "typecheck:pipeline": "tsc -p pipeline"
   },
   "allowScripts": {
     "esbuild": false

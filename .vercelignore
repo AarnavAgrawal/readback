@@ -1,0 +1,10 @@
+.env
+.env.*
+.local-store
+.next
+out
+data/stories
+data/ourairports
+data/cache
+public/stories
+build

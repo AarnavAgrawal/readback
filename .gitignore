@@ -5,3 +5,20 @@ dist
 
 # Ignore the output video from Git but not videos you import into src/.
 out
+
+# Downloaded data: large public CSVs, cached API responses, and ATC audio.
+data/ourairports/
+data/cache/
+data/stories/*/audio/
+data/stories/*/costs.jsonl
+public/stories/
+.local-store/
+
+# Next.js build output
+.next/
+*.tsbuildinfo
+
+.vercel
+.env*
+build/
+!.env.example

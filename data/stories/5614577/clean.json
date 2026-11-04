@@ -1,0 +1,4763 @@
+{
+  "event_id": 5614577,
+  "event_summary": "Heading instruction, approach cancellation, go around, \"cancel your approach, go around\"",
+  "happened_at": "2026-11-03T22:26:56.97420521Z",
+  "airport_code": "JFK",
+  "callsigns": [
+    "THY1"
+  ],
+  "transmissions": [
+    {
+      "audio_sample_id": "32681cce-1671-4eb0-bb7c-2f0958a26924",
+      "start_utc": "2026-11-03T22:17:41.120Z",
+      "end_utc": "2026-11-03T22:17:46.122Z",
+      "duration_seconds": 5.001125,
+      "atc_channel_id": 504,
+      "channel": {
+        "facilityId": "a291a26a-b466-4622-9cac-7b0b4e76b442",
+        "facilityCode": "JFK",
+        "facilityType": "airport",
+        "facilityName": "John F. Kennedy",
+        "category": "Approach",
+        "name": "South",
+        "frequency": "125.7"
+      },
+      "role": "controller",
+      "role_source": "api",
+      "speaker_label": "APPROACH",
+      "controller_label": "APPROACH",
+      "pilot_label": "TURKISH 1 HEAVY",
+      "frequency": "125.7",
+      "text": "Turkish 1 Heavy, increase your descent rate please minimum 1,800 feet per minute",
+      "callsigns": [
+        "THY1"
+      ],
+      "word_timestamps": [
+        {
+          "word": "turkish",
+          "start_seconds": 0.2,
+          "end_seconds": 0.46
+        },
+        {
+          "word": "1",
+          "start_seconds": 0.5,
+          "end_seconds": 0.6
+        },
+        {
+          "word": "heavy,",
+          "start_seconds": 0.64,
+          "end_seconds": 0.8200000000000001
+        },
+        {
+          "word": "increase",
+          "start_seconds": 0.9,
+          "end_seconds": 1.24
+        },
+        {
+          "word": "your",
+          "start_seconds": 1.26,
+          "end_seconds": 1.34
+        },
+        {
+          "word": "descent",
+          "start_seconds": 1.3800000000000001,
+          "end_seconds": 1.68
+        },
+        {
+          "word": "rate",
+          "start_seconds": 1.72,
+          "end_seconds": 1.8800000000000001
+        },
+        {
+          "word": "please",
+          "start_seconds": 1.96,
+          "end_seconds": 2.2
+        },
+        {
+          "word": "minimum",
+          "start_seconds": 2.32,
+          "end_seconds": 2.7
+        },
+        {
+          "word": "1,800",
+          "start_seconds": 2.82,
+          "end_seconds": 4.0600000000000005
+        },
+        {
+          "word": "feet",
+          "start_seconds": 4.16,
+          "end_seconds": 4.32
+        },
+        {
+          "word": "per",
+          "start_seconds": 4.38,
+          "end_seconds": 4.46
+        },
+        {
+          "word": "minute",
+          "start_seconds": 4.5600000000000005,
+          "end_seconds": 4.78
+        }
+      ],
+      "duplicate_ids": []
+    },
+    {
+      "audio_sample_id": "d81321d0-53cd-4ed4-88c2-03287130ebf5",
+      "start_utc": "2026-11-03T22:17:46.504Z",
+      "end_utc": "2026-11-03T22:17:52.806Z",
+      "duration_seconds": 6.301125,
+      "atc_channel_id": 504,
+      "channel": {
+        "facilityId": "a291a26a-b466-4622-9cac-7b0b4e76b442",
+        "facilityCode": "JFK",
+        "facilityType": "airport",
+        "facilityName": "John F. Kennedy",
+        "category": "Approach",
+        "name": "South",
+        "frequency": "125.7"
+      },
+      "role": "pilot",
+      "role_source": "api",
+      "speaker_label": "TURKISH 1 HEAVY",
+      "controller_label": "APPROACH",
+      "pilot_label": "TURKISH 1 HEAVY",
+      "frequency": "125.7",
+      "text": "Increasing descent rate minimum 1,800 feet per minute, Turkish 1 heavy",
+      "callsigns": [
+        "THY1"
+      ],
+      "word_timestamps": [
+        {
+          "word": "increasing",
+          "start_seconds": 1.6,
+          "end_seconds": 2.08
+        },
+        {
+          "word": "descent",
+          "start_seconds": 2.16,
+          "end_seconds": 2.52
+        },
+        {
+          "word": "rate",
+          "start_seconds": 2.64,
+          "end_seconds": 2.86
+        },
+        {
+          "word": "minimum",
+          "start_seconds": 3.04,
+          "end_seconds": 3.42
+        },
+        {
+          "word": "1,800",
+          "start_seconds": 3.44,
+          "end_seconds": 4.22
+        },
+        {
+          "word": "feet",
+          "start_seconds": 4.26,
+          "end_seconds": 4.36
+        },
+        {
+          "word": "per",
+          "start_seconds": 4.46,
+          "end_seconds": 4.58
+        },
+        {
+          "word": "minute,",
+          "start_seconds": 4.64,
+          "end_seconds": 4.86
+        },
+        {
+          "word": "turkish",
+          "start_seconds": 4.94,
+          "end_seconds": 5.26
+        },
+        {
+          "word": "1",
+          "start_seconds": 5.72,
+          "end_seconds": 5.82
+        },
+        {
+          "word": "heavy",
+          "start_seconds": 5.88,
+          "end_seconds": 6.2
+        }
+      ],
+      "duplicate_ids": [
+        "23964245-4aab-4d24-8cfd-fb0c12b820fc"
+      ]
+    },
+    {
+      "audio_sample_id": "eedc7f43-96ce-48da-9ac5-2dec18dea583",
+      "start_utc": "2026-11-03T22:18:17.837Z",
+      "end_utc": "2026-11-03T22:18:21.249Z",
+      "duration_seconds": 3.411125,
+      "atc_channel_id": 504,
+      "channel": {
+        "facilityId": "a291a26a-b466-4622-9cac-7b0b4e76b442",
+        "facilityCode": "JFK",
+        "facilityType": "airport",
+        "facilityName": "John F. Kennedy",
+        "category": "Approach",
+        "name": "South",
+        "frequency": "125.7"
+      },
+      "role": "controller",
+      "role_source": "api",
+      "speaker_label": "APPROACH",
+      "controller_label": "APPROACH",
+      "pilot_label": "TURKISH 1 HEAVY",
+      "frequency": "125.7",
+      "text": "Turkish 1 Heavy, turn right heading 330",
+      "callsigns": [
+        "THY1"
+      ],
+      "word_timestamps": [
+        {
+          "word": "turkish",
+          "start_seconds": 0,
+          "end_seconds": 0.22
+        },
+        {
+          "word": "1",
+          "start_seconds": 0.28,
+          "end_seconds": 0.38
+        },
+        {
+          "word": "heavy,",
+          "start_seconds": 0.44,
+          "end_seconds": 0.58
+        },
+        {
+          "word": "turn",
+          "start_seconds": 0.68,
+          "end_seconds": 0.8
+        },
+        {
+          "word": "right",
+          "start_seconds": 0.86,
+          "end_seconds": 0.96
+        },
+        {
+          "word": "heading",
+          "start_seconds": 0.98,
+          "end_seconds": 1.1400000000000001
+        },
+        {
+          "word": "330",
+          "start_seconds": 1.24,
+          "end_seconds": 3.22
+        }
+      ],
+      "duplicate_ids": []
+    },
+    {
+      "audio_sample_id": "33503df1-40c8-4488-8e40-d1984f52d82c",
+      "start_utc": "2026-11-03T22:18:21.734Z",
+      "end_utc": "2026-11-03T22:18:24.196Z",
+      "duration_seconds": 2.461125,
+      "atc_channel_id": 504,
+      "channel": {
+        "facilityId": "a291a26a-b466-4622-9cac-7b0b4e76b442",
+        "facilityCode": "JFK",
+        "facilityType": "airport",
+        "facilityName": "John F. Kennedy",
+        "category": "Approach",
+        "name": "South",
+        "frequency": "125.7"
+      },
+      "role": "pilot",
+      "role_source": "api",
+      "speaker_label": "TURKISH 1 HEAVY",
+      "controller_label": "APPROACH",
+      "pilot_label": "TURKISH 1 HEAVY",
+      "frequency": "125.7",
+      "text": "Right heading 330, Turkish 1 heavy",
+      "callsigns": [
+        "THY1"
+      ],
+      "word_timestamps": [
+        {
+          "word": "right",
+          "start_seconds": 0.12,
+          "end_seconds": 0.26
+        },
+        {
+          "word": "heading",
+          "start_seconds": 0.28,
+          "end_seconds": 0.52
+        },
+        {
+          "word": "330,",
+          "start_seconds": 0.74,
+          "end_seconds": 1.56
+        },
+        {
+          "word": "turkish",
+          "start_seconds": 1.6,
+          "end_seconds": 1.86
+        },
+        {
+          "word": "1",
+          "start_seconds": 1.9000000000000001,
+          "end_seconds": 2
+        },
+        {
+          "word": "heavy",
+          "start_seconds": 2.02,
+          "end_seconds": 2.18
+        }
+      ],
+      "duplicate_ids": [
+        "9c5853c6-54cd-4463-8f4d-daba3e4901ea"
+      ]
+    },
+    {
+      "audio_sample_id": "20a43a8e-fdd7-4c08-bef3-a90716d8fcbd",
+      "start_utc": "2026-11-03T22:19:26.819Z",
+      "end_utc": "2026-11-03T22:19:30.041Z",
+      "duration_seconds": 3.221125,
+      "atc_channel_id": 504,
+      "channel": {
+        "facilityId": "a291a26a-b466-4622-9cac-7b0b4e76b442",
+        "facilityCode": "JFK",
+        "facilityType": "airport",
+        "facilityName": "John F. Kennedy",
+        "category": "Approach",
+        "name": "South",
+        "frequency": "125.7"
+      },
+      "role": "controller",
+      "role_source": "api",
+      "speaker_label": "APPROACH",
+      "controller_label": "APPROACH",
+      "pilot_label": "TURKISH 1 HEAVY",
+      "frequency": "125.7",
+      "text": "Europa 91 heavy, New York Approach, X-ray is current, expect ILS 22L",
+      "callsigns": [
+        "THY1"
+      ],
+      "word_timestamps": [
+        {
+          "word": "europa",
+          "start_seconds": 0.12,
+          "end_seconds": 0.34
+        },
+        {
+          "word": "91",
+          "start_seconds": 0.38,
+          "end_seconds": 0.62
+        },
+        {
+          "word": "heavy,",
+          "start_seconds": 0.66,
+          "end_seconds": 0.76
+        },
+        {
+          "word": "new",
+          "start_seconds": 0.78,
+          "end_seconds": 0.84
+        },
+        {
+          "word": "york",
+          "start_seconds": 0.86,
+          "end_seconds": 0.9400000000000001
+        },
+        {
+          "word": "approach,",
+          "start_seconds": 0.96,
+          "end_seconds": 1.2
+        },
+        {
+          "word": "x-ray",
+          "start_seconds": 1.34,
+          "end_seconds": 1.48
+        },
+        {
+          "word": "is",
+          "start_seconds": 1.52,
+          "end_seconds": 1.6
+        },
+        {
+          "word": "current,",
+          "start_seconds": 1.6600000000000001,
+          "end_seconds": 1.8800000000000001
+        },
+        {
+          "word": "expect",
+          "start_seconds": 1.96,
+          "end_seconds": 2.2
+        },
+        {
+          "word": "ils",
+          "start_seconds": 2.2600000000000002,
+          "end_seconds": 2.5
+        },
+        {
+          "word": "22l",
+          "start_seconds": 2.56,
+          "end_seconds": 3.1
+        }
+      ],
+      "duplicate_ids": []
+    },
+    {
+      "audio_sample_id": "e39e8589-704a-499e-a8ef-350108131c24",
+      "start_utc": "2026-11-03T22:19:30.414Z",
+      "end_utc": "2026-11-03T22:19:33.056Z",
+      "duration_seconds": 2.6411249999999997,
+      "atc_channel_id": 630,
+      "channel": {
+        "facilityId": "20319ca9-41e9-4bbb-a891-570af8b49d56",
+        "facilityCode": "LGA",
+        "facilityType": "airport",
+        "facilityName": "LaGuardia",
+        "category": "Class B",
+        "name": "East",
+        "frequency": "125.7"
+      },
+      "role": "pilot",
+      "role_source": "api",
+      "speaker_label": "TURKISH 1 HEAVY",
+      "controller_label": "APPROACH",
+      "pilot_label": "TURKISH 1 HEAVY",
+      "frequency": "125.7",
+      "text": "22L, thank you so much, Europa 091 heavy",
+      "callsigns": [
+        "THY1"
+      ],
+      "word_timestamps": [
+        {
+          "word": "22l,",
+          "start_seconds": 0.42,
+          "end_seconds": 0.86
+        },
+        {
+          "word": "thank",
+          "start_seconds": 0.9,
+          "end_seconds": 1.04
+        },
+        {
+          "word": "you",
+          "start_seconds": 1.06,
+          "end_seconds": 1.12
+        },
+        {
+          "word": "so",
+          "start_seconds": 1.1400000000000001,
+          "end_seconds": 1.22
+        },
+        {
+          "word": "much,",
+          "start_seconds": 1.26,
+          "end_seconds": 1.36
+        },
+        {
+          "word": "europa",
+          "start_seconds": 1.54,
+          "end_seconds": 1.7
+        },
+        {
+          "word": "091",
+          "start_seconds": 1.74,
+          "end_seconds": 2.16
+        },
+        {
+          "word": "heavy",
+          "start_seconds": 2.24,
+          "end_seconds": 2.4
+        }
+      ],
+      "duplicate_ids": [
+        "3a635126-0271-4df1-b8cc-e201b5d31e05"
+      ]
+    },
+    {
+      "audio_sample_id": "65653f2b-ac07-4938-90c2-759ee1106c75",
+      "start_utc": "2026-11-03T22:20:01.898Z",
+      "end_utc": "2026-11-03T22:20:04.000Z",
+      "duration_seconds": 2.101125,
+      "atc_channel_id": 504,
+      "channel": {
+        "facilityId": "a291a26a-b466-4622-9cac-7b0b4e76b442",
+        "facilityCode": "JFK",
+        "facilityType": "airport",
+        "facilityName": "John F. Kennedy",
+        "category": "Approach",
+        "name": "South",
+        "frequency": "125.7"
+      },
+      "role": "controller",
+      "role_source": "api",
+      "speaker_label": "APPROACH",
+      "controller_label": "APPROACH",
+      "pilot_label": "TURKISH 1 HEAVY",
+      "frequency": "125.7",
+      "text": "Turkish 1 Heavy, turn left heading 310",
+      "callsigns": [
+        "THY1"
+      ],
+      "word_timestamps": [
+        {
+          "word": "turkish",
+          "start_seconds": 0.02,
+          "end_seconds": 0.26
+        },
+        {
+          "word": "1",
+          "start_seconds": 0.32,
+          "end_seconds": 0.44
+        },
+        {
+          "word": "heavy,",
+          "start_seconds": 0.48,
+          "end_seconds": 0.62
+        },
+        {
+          "word": "turn",
+          "start_seconds": 0.7000000000000001,
+          "end_seconds": 0.8200000000000001
+        },
+        {
+          "word": "left",
+          "start_seconds": 0.86,
+          "end_seconds": 0.9400000000000001
+        },
+        {
+          "word": "heading",
+          "start_seconds": 0.96,
+          "end_seconds": 1.12
+        },
+        {
+          "word": "310",
+          "start_seconds": 1.18,
+          "end_seconds": 1.94
+        }
+      ],
+      "duplicate_ids": []
+    },
+    {
+      "audio_sample_id": "5872a0cd-a13c-4422-89a6-64dbabfdb0e5",
+      "start_utc": "2026-11-03T22:20:04.174Z",
+      "end_utc": "2026-11-03T22:20:06.116Z",
+      "duration_seconds": 1.941125,
+      "atc_channel_id": 630,
+      "channel": {
+        "facilityId": "20319ca9-41e9-4bbb-a891-570af8b49d56",
+        "facilityCode": "LGA",
+        "facilityType": "airport",
+        "facilityName": "LaGuardia",
+        "category": "Class B",
+        "name": "East",
+        "frequency": "125.7"
+      },
+      "role": "pilot",
+      "role_source": "api",
+      "speaker_label": "TURKISH 1 HEAVY",
+      "controller_label": "APPROACH",
+      "pilot_label": "TURKISH 1 HEAVY",
+      "frequency": "125.7",
+      "text": "Left heading 310, Turkish 1 heavy",
+      "callsigns": [
+        "THY1"
+      ],
+      "word_timestamps": [
+        {
+          "word": "left",
+          "start_seconds": 0.16,
+          "end_seconds": 0.26
+        },
+        {
+          "word": "heading",
+          "start_seconds": 0.34,
+          "end_seconds": 0.56
+        },
+        {
+          "word": "310,",
+          "start_seconds": 0.6,
+          "end_seconds": 1.08
+        },
+        {
+          "word": "turkish",
+          "start_seconds": 1.16,
+          "end_seconds": 1.4000000000000001
+        },
+        {
+          "word": "1",
+          "start_seconds": 1.42,
+          "end_seconds": 1.52
+        },
+        {
+          "word": "heavy",
+          "start_seconds": 1.56,
+          "end_seconds": 1.92
+        }
+      ],
+      "duplicate_ids": [
+        "4297b048-a1ca-4b39-b40e-245c379bf069",
+        "9f17025a-998e-422d-9377-f8fa25e838b5"
+      ]
+    },
+    {
+      "audio_sample_id": "224cacd4-330c-414f-8c52-dd433d5b7569",
+      "start_utc": "2026-11-03T22:20:20.413Z",
+      "end_utc": "2026-11-03T22:20:23.105Z",
+      "duration_seconds": 2.691125,
+      "atc_channel_id": 504,
+      "channel": {
+        "facilityId": "a291a26a-b466-4622-9cac-7b0b4e76b442",
+        "facilityCode": "JFK",
+        "facilityType": "airport",
+        "facilityName": "John F. Kennedy",
+        "category": "Approach",
+        "name": "South",
+        "frequency": "125.7"
+      },
+      "role": "controller",
+      "role_source": "api",
+      "speaker_label": "APPROACH",
+      "controller_label": "APPROACH",
+      "pilot_label": "TURKISH 1 HEAVY",
+      "frequency": "125.7",
+      "text": "Europa 91 heavy, descend maintain 9,000",
+      "callsigns": [
+        "THY1"
+      ],
+      "word_timestamps": [
+        {
+          "word": "europa",
+          "start_seconds": 0.42,
+          "end_seconds": 0.64
+        },
+        {
+          "word": "91",
+          "start_seconds": 0.66,
+          "end_seconds": 0.96
+        },
+        {
+          "word": "heavy,",
+          "start_seconds": 1,
+          "end_seconds": 1.1400000000000001
+        },
+        {
+          "word": "descend",
+          "start_seconds": 1.2,
+          "end_seconds": 1.4000000000000001
+        },
+        {
+          "word": "maintain",
+          "start_seconds": 1.42,
+          "end_seconds": 1.74
+        },
+        {
+          "word": "9,000",
+          "start_seconds": 1.82,
+          "end_seconds": 2.5
+        }
+      ],
+      "duplicate_ids": []
+    },
+    {
+      "audio_sample_id": "7038dc40-83f1-45ce-8fff-70fc09b6fc83",
+      "start_utc": "2026-11-03T22:20:55.323Z",
+      "end_utc": "2026-11-03T22:20:57.395Z",
+      "duration_seconds": 2.071125,
+      "atc_channel_id": 504,
+      "channel": {
+        "facilityId": "a291a26a-b466-4622-9cac-7b0b4e76b442",
+        "facilityCode": "JFK",
+        "facilityType": "airport",
+        "facilityName": "John F. Kennedy",
+        "category": "Approach",
+        "name": "South",
+        "frequency": "125.7"
+      },
+      "role": "controller",
+      "role_source": "api",
+      "speaker_label": "APPROACH",
+      "controller_label": "APPROACH",
+      "pilot_label": "TURKISH 1 HEAVY",
+      "frequency": "125.7",
+      "text": "Turkish 1 Heavy, descend maintain 2,000",
+      "callsigns": [
+        "THY1"
+      ],
+      "word_timestamps": [
+        {
+          "word": "turkish",
+          "start_seconds": 0.1,
+          "end_seconds": 0.36
+        },
+        {
+          "word": "1",
+          "start_seconds": 0.4,
+          "end_seconds": 0.5
+        },
+        {
+          "word": "heavy,",
+          "start_seconds": 0.54,
+          "end_seconds": 0.64
+        },
+        {
+          "word": "descend",
+          "start_seconds": 0.7000000000000001,
+          "end_seconds": 0.96
+        },
+        {
+          "word": "maintain",
+          "start_seconds": 0.98,
+          "end_seconds": 1.26
+        },
+        {
+          "word": "2,000",
+          "start_seconds": 1.36,
+          "end_seconds": 1.82
+        }
+      ],
+      "duplicate_ids": []
+    },
+    {
+      "audio_sample_id": "759466ca-e6ad-4134-839e-a454aec3fa66",
+      "start_utc": "2026-11-03T22:20:57.659Z",
+      "end_utc": "2026-11-03T22:21:01.201Z",
+      "duration_seconds": 3.541125,
+      "atc_channel_id": 709,
+      "channel": {
+        "facilityId": "d7992d47-bef6-4243-9791-65afb94418cf",
+        "facilityCode": "EWR",
+        "facilityType": "airport",
+        "facilityName": "Newark",
+        "category": "Class B",
+        "name": "East",
+        "frequency": "125.7"
+      },
+      "role": "pilot",
+      "role_source": "api",
+      "speaker_label": "TURKISH 1 HEAVY",
+      "controller_label": "APPROACH",
+      "pilot_label": "TURKISH 1 HEAVY",
+      "frequency": "125.7",
+      "text": "Descend maintain 2,000, Turkish 1 heavy, keeping speed 250",
+      "callsigns": [
+        "THY1"
+      ],
+      "word_timestamps": [
+        {
+          "word": "descend",
+          "start_seconds": 0.28,
+          "end_seconds": 0.44
+        },
+        {
+          "word": "maintain",
+          "start_seconds": 0.46,
+          "end_seconds": 0.74
+        },
+        {
+          "word": "2,000,",
+          "start_seconds": 0.8200000000000001,
+          "end_seconds": 1.26
+        },
+        {
+          "word": "turkish",
+          "start_seconds": 1.36,
+          "end_seconds": 1.72
+        },
+        {
+          "word": "1",
+          "start_seconds": 1.78,
+          "end_seconds": 1.86
+        },
+        {
+          "word": "heavy,",
+          "start_seconds": 1.8800000000000001,
+          "end_seconds": 2.04
+        },
+        {
+          "word": "keeping",
+          "start_seconds": 2.2600000000000002,
+          "end_seconds": 2.56
+        },
+        {
+          "word": "speed",
+          "start_seconds": 2.64,
+          "end_seconds": 2.82
+        },
+        {
+          "word": "250",
+          "start_seconds": 2.88,
+          "end_seconds": 3.52
+        }
+      ],
+      "duplicate_ids": []
+    },
+    {
+      "audio_sample_id": "92157dd2-f173-4b21-90d2-646e60f67432",
+      "start_utc": "2026-11-03T22:20:57.666Z",
+      "end_utc": "2026-11-03T22:21:01.358Z",
+      "duration_seconds": 3.691125,
+      "atc_channel_id": 630,
+      "channel": {
+        "facilityId": "20319ca9-41e9-4bbb-a891-570af8b49d56",
+        "facilityCode": "LGA",
+        "facilityType": "airport",
+        "facilityName": "LaGuardia",
+        "category": "Class B",
+        "name": "East",
+        "frequency": "125.7"
+      },
+      "role": "pilot",
+      "role_source": "api",
+      "speaker_label": "TURKISH 1 HEAVY",
+      "controller_label": "APPROACH",
+      "pilot_label": "TURKISH 1 HEAVY",
+      "frequency": "125.7",
+      "text": "Descend maintain 2,000, Turkish 1 heavy, speed 250",
+      "callsigns": [
+        "THY1"
+      ],
+      "word_timestamps": [
+        {
+          "word": "descend",
+          "start_seconds": 0.26,
+          "end_seconds": 0.44
+        },
+        {
+          "word": "maintain",
+          "start_seconds": 0.46,
+          "end_seconds": 0.74
+        },
+        {
+          "word": "2,000,",
+          "start_seconds": 0.8200000000000001,
+          "end_seconds": 1.28
+        },
+        {
+          "word": "turkish",
+          "start_seconds": 1.36,
+          "end_seconds": 1.68
+        },
+        {
+          "word": "1",
+          "start_seconds": 1.78,
+          "end_seconds": 1.86
+        },
+        {
+          "word": "heavy,",
+          "start_seconds": 1.8800000000000001,
+          "end_seconds": 2.06
+        },
+        {
+          "word": "speed",
+          "start_seconds": 2.2600000000000002,
+          "end_seconds": 2.56
+        },
+        {
+          "word": "250",
+          "start_seconds": 2.66,
+          "end_seconds": 3.46
+        }
+      ],
+      "duplicate_ids": []
+    },
+    {
+      "audio_sample_id": "3f83928b-a7b8-4f19-8fac-0d78cc694a70",
+      "start_utc": "2026-11-03T22:21:38.681Z",
+      "end_utc": "2026-11-03T22:21:41.643Z",
+      "duration_seconds": 2.961125,
+      "atc_channel_id": 504,
+      "channel": {
+        "facilityId": "a291a26a-b466-4622-9cac-7b0b4e76b442",
+        "facilityCode": "JFK",
+        "facilityType": "airport",
+        "facilityName": "John F. Kennedy",
+        "category": "Approach",
+        "name": "South",
+        "frequency": "125.7"
+      },
+      "role": "controller",
+      "role_source": "api",
+      "speaker_label": "APPROACH",
+      "controller_label": "APPROACH",
+      "pilot_label": "TURKISH 1 HEAVY",
+      "frequency": "125.7",
+      "text": "Turkish 1 Heavy, turn left heading 270 speed 210",
+      "callsigns": [
+        "THY1"
+      ],
+      "word_timestamps": [
+        {
+          "word": "turkish",
+          "start_seconds": 0.04,
+          "end_seconds": 0.3
+        },
+        {
+          "word": "1",
+          "start_seconds": 0.34,
+          "end_seconds": 0.44
+        },
+        {
+          "word": "heavy,",
+          "start_seconds": 0.46,
+          "end_seconds": 0.62
+        },
+        {
+          "word": "turn",
+          "start_seconds": 0.7000000000000001,
+          "end_seconds": 0.78
+        },
+        {
+          "word": "left",
+          "start_seconds": 0.8200000000000001,
+          "end_seconds": 0.92
+        },
+        {
+          "word": "heading",
+          "start_seconds": 0.9400000000000001,
+          "end_seconds": 1.1
+        },
+        {
+          "word": "270",
+          "start_seconds": 1.16,
+          "end_seconds": 1.9000000000000001
+        },
+        {
+          "word": "speed",
+          "start_seconds": 1.92,
+          "end_seconds": 2.1
+        },
+        {
+          "word": "210",
+          "start_seconds": 2.16,
+          "end_seconds": 2.82
+        }
+      ],
+      "duplicate_ids": []
+    },
+    {
+      "audio_sample_id": "f2167b58-2a2d-447b-b53c-828842a42d45",
+      "start_utc": "2026-11-03T22:21:42.336Z",
+      "end_utc": "2026-11-03T22:21:45.558Z",
+      "duration_seconds": 3.221125,
+      "atc_channel_id": 504,
+      "channel": {
+        "facilityId": "a291a26a-b466-4622-9cac-7b0b4e76b442",
+        "facilityCode": "JFK",
+        "facilityType": "airport",
+        "facilityName": "John F. Kennedy",
+        "category": "Approach",
+        "name": "South",
+        "frequency": "125.7"
+      },
+      "role": "pilot",
+      "role_source": "api",
+      "speaker_label": "TURKISH 1 HEAVY",
+      "controller_label": "APPROACH",
+      "pilot_label": "TURKISH 1 HEAVY",
+      "frequency": "125.7",
+      "text": "Turn left heading 270 speed 210, Turkish 1 heavy",
+      "callsigns": [
+        "THY1"
+      ],
+      "word_timestamps": [
+        {
+          "word": "turn",
+          "start_seconds": 0.22,
+          "end_seconds": 0.34
+        },
+        {
+          "word": "left",
+          "start_seconds": 0.44,
+          "end_seconds": 0.56
+        },
+        {
+          "word": "heading",
+          "start_seconds": 0.6,
+          "end_seconds": 0.8
+        },
+        {
+          "word": "270",
+          "start_seconds": 0.86,
+          "end_seconds": 1.3800000000000001
+        },
+        {
+          "word": "speed",
+          "start_seconds": 1.42,
+          "end_seconds": 1.62
+        },
+        {
+          "word": "210,",
+          "start_seconds": 1.7,
+          "end_seconds": 2.2
+        },
+        {
+          "word": "turkish",
+          "start_seconds": 2.24,
+          "end_seconds": 2.58
+        },
+        {
+          "word": "1",
+          "start_seconds": 2.7600000000000002,
+          "end_seconds": 2.9
+        },
+        {
+          "word": "heavy",
+          "start_seconds": 2.96,
+          "end_seconds": 3.12
+        }
+      ],
+      "duplicate_ids": [
+        "73accdee-dc28-40f2-940f-8b31b050f349",
+        "5b3cf83c-7705-4e4a-9bba-d1cb85c023b5"
+      ]
+    },
+    {
+      "audio_sample_id": "f8e0373f-efe2-405d-8afd-00de38af8a65",
+      "start_utc": "2026-11-03T22:22:47.926Z",
+      "end_utc": "2026-11-03T22:22:54.908Z",
+      "duration_seconds": 6.9811250000000005,
+      "atc_channel_id": 504,
+      "channel": {
+        "facilityId": "a291a26a-b466-4622-9cac-7b0b4e76b442",
+        "facilityCode": "JFK",
+        "facilityType": "airport",
+        "facilityName": "John F. Kennedy",
+        "category": "Approach",
+        "name": "South",
+        "frequency": "125.7"
+      },
+      "role": "controller",
+      "role_source": "api",
+      "speaker_label": "APPROACH",
+      "controller_label": "APPROACH",
+      "pilot_label": "TURKISH 1 HEAVY",
+      "frequency": "125.7",
+      "text": "Turkish 1 Heavy, 7 miles from ZALPO turn left heading 250 maintain 2,000 till established on localizer cleared ILS runway 22L approach",
+      "callsigns": [
+        "THY1"
+      ],
+      "word_timestamps": [
+        {
+          "word": "turkish",
+          "start_seconds": 0.06,
+          "end_seconds": 0.32
+        },
+        {
+          "word": "1",
+          "start_seconds": 0.42,
+          "end_seconds": 0.54
+        },
+        {
+          "word": "heavy,",
+          "start_seconds": 0.64,
+          "end_seconds": 0.8
+        },
+        {
+          "word": "7",
+          "start_seconds": 0.9400000000000001,
+          "end_seconds": 1.1400000000000001
+        },
+        {
+          "word": "miles",
+          "start_seconds": 1.18,
+          "end_seconds": 1.36
+        },
+        {
+          "word": "from",
+          "start_seconds": 1.3800000000000001,
+          "end_seconds": 1.48
+        },
+        {
+          "word": "zalpo",
+          "start_seconds": 1.56,
+          "end_seconds": 1.84
+        },
+        {
+          "word": "turn",
+          "start_seconds": 1.98,
+          "end_seconds": 2.1
+        },
+        {
+          "word": "left",
+          "start_seconds": 2.12,
+          "end_seconds": 2.22
+        },
+        {
+          "word": "heading",
+          "start_seconds": 2.24,
+          "end_seconds": 2.44
+        },
+        {
+          "word": "250",
+          "start_seconds": 2.48,
+          "end_seconds": 3.1
+        },
+        {
+          "word": "maintain",
+          "start_seconds": 3.2,
+          "end_seconds": 3.54
+        },
+        {
+          "word": "2,000",
+          "start_seconds": 3.68,
+          "end_seconds": 4.2
+        },
+        {
+          "word": "till",
+          "start_seconds": 4.32,
+          "end_seconds": 4.46
+        },
+        {
+          "word": "established",
+          "start_seconds": 4.48,
+          "end_seconds": 4.88
+        },
+        {
+          "word": "on",
+          "start_seconds": 4.9,
+          "end_seconds": 4.96
+        },
+        {
+          "word": "localizer",
+          "start_seconds": 4.98,
+          "end_seconds": 5.3
+        },
+        {
+          "word": "cleared",
+          "start_seconds": 5.38,
+          "end_seconds": 5.68
+        },
+        {
+          "word": "ils",
+          "start_seconds": 5.7,
+          "end_seconds": 5.8
+        },
+        {
+          "word": "runway",
+          "start_seconds": 5.82,
+          "end_seconds": 6
+        },
+        {
+          "word": "22l",
+          "start_seconds": 6.08,
+          "end_seconds": 6.34
+        },
+        {
+          "word": "approach",
+          "start_seconds": 6.36,
+          "end_seconds": 6.8
+        }
+      ],
+      "duplicate_ids": []
+    },
+    {
+      "audio_sample_id": "a81ddb99-5263-46ca-82f0-d276eaffddad",
+      "start_utc": "2026-11-03T22:22:55.496Z",
+      "end_utc": "2026-11-03T22:23:02.328Z",
+      "duration_seconds": 6.831125,
+      "atc_channel_id": 504,
+      "channel": {
+        "facilityId": "a291a26a-b466-4622-9cac-7b0b4e76b442",
+        "facilityCode": "JFK",
+        "facilityType": "airport",
+        "facilityName": "John F. Kennedy",
+        "category": "Approach",
+        "name": "South",
+        "frequency": "125.7"
+      },
+      "role": "pilot",
+      "role_source": "api",
+      "speaker_label": "TURKISH 1 HEAVY",
+      "controller_label": "APPROACH",
+      "pilot_label": "TURKISH 1 HEAVY",
+      "frequency": "125.7",
+      "text": "Left heading 250, 2,000 till established localizer, cleared for the ILS runway 22L, Turkish 1",
+      "callsigns": [
+        "THY1"
+      ],
+      "word_timestamps": [
+        {
+          "word": "left",
+          "start_seconds": 0.3,
+          "end_seconds": 0.48
+        },
+        {
+          "word": "heading",
+          "start_seconds": 0.5,
+          "end_seconds": 0.72
+        },
+        {
+          "word": "250,",
+          "start_seconds": 0.8,
+          "end_seconds": 1.56
+        },
+        {
+          "word": "2,000",
+          "start_seconds": 1.6600000000000001,
+          "end_seconds": 1.98
+        },
+        {
+          "word": "till",
+          "start_seconds": 2.04,
+          "end_seconds": 2.2
+        },
+        {
+          "word": "established",
+          "start_seconds": 2.2600000000000002,
+          "end_seconds": 2.82
+        },
+        {
+          "word": "localizer,",
+          "start_seconds": 3.1,
+          "end_seconds": 3.72
+        },
+        {
+          "word": "cleared",
+          "start_seconds": 3.96,
+          "end_seconds": 4.22
+        },
+        {
+          "word": "for",
+          "start_seconds": 4.28,
+          "end_seconds": 4.44
+        },
+        {
+          "word": "the",
+          "start_seconds": 4.54,
+          "end_seconds": 4.7
+        },
+        {
+          "word": "ils",
+          "start_seconds": 4.78,
+          "end_seconds": 4.92
+        },
+        {
+          "word": "runway",
+          "start_seconds": 5,
+          "end_seconds": 5.22
+        },
+        {
+          "word": "22l,",
+          "start_seconds": 5.3,
+          "end_seconds": 5.6000000000000005
+        },
+        {
+          "word": "turkish",
+          "start_seconds": 5.86,
+          "end_seconds": 6.2
+        },
+        {
+          "word": "1",
+          "start_seconds": 6.44,
+          "end_seconds": 6.66
+        }
+      ],
+      "duplicate_ids": [
+        "ba064f8b-69b4-469e-9edc-12f819df8157"
+      ]
+    },
+    {
+      "audio_sample_id": "410f1cc0-335d-4f0c-9c3d-706895e52532",
+      "start_utc": "2026-11-03T22:23:11.709Z",
+      "end_utc": "2026-11-03T22:23:13.641Z",
+      "duration_seconds": 1.931125,
+      "atc_channel_id": 504,
+      "channel": {
+        "facilityId": "a291a26a-b466-4622-9cac-7b0b4e76b442",
+        "facilityCode": "JFK",
+        "facilityType": "airport",
+        "facilityName": "John F. Kennedy",
+        "category": "Approach",
+        "name": "South",
+        "frequency": "125.7"
+      },
+      "role": "controller",
+      "role_source": "api",
+      "speaker_label": "APPROACH",
+      "controller_label": "APPROACH",
+      "pilot_label": "TURKISH 1 HEAVY",
+      "frequency": "125.7",
+      "text": "Turkish 1 Heavy, reduce speed to 180",
+      "callsigns": [
+        "THY1"
+      ],
+      "word_timestamps": [
+        {
+          "word": "turkish",
+          "start_seconds": 0.1,
+          "end_seconds": 0.32
+        },
+        {
+          "word": "1",
+          "start_seconds": 0.36,
+          "end_seconds": 0.5
+        },
+        {
+          "word": "heavy,",
+          "start_seconds": 0.52,
+          "end_seconds": 0.66
+        },
+        {
+          "word": "reduce",
+          "start_seconds": 0.74,
+          "end_seconds": 0.92
+        },
+        {
+          "word": "speed",
+          "start_seconds": 0.98,
+          "end_seconds": 1.1
+        },
+        {
+          "word": "to",
+          "start_seconds": 1.12,
+          "end_seconds": 1.16
+        },
+        {
+          "word": "180",
+          "start_seconds": 1.22,
+          "end_seconds": 1.78
+        }
+      ],
+      "duplicate_ids": []
+    },
+    {
+      "audio_sample_id": "b3ff6a0a-e932-4485-9c47-2e5f19794e31",
+      "start_utc": "2026-11-03T22:23:13.739Z",
+      "end_utc": "2026-11-03T22:23:16.161Z",
+      "duration_seconds": 2.421125,
+      "atc_channel_id": 630,
+      "channel": {
+        "facilityId": "20319ca9-41e9-4bbb-a891-570af8b49d56",
+        "facilityCode": "LGA",
+        "facilityType": "airport",
+        "facilityName": "LaGuardia",
+        "category": "Class B",
+        "name": "East",
+        "frequency": "125.7"
+      },
+      "role": "pilot",
+      "role_source": "api",
+      "speaker_label": "TURKISH 1 HEAVY",
+      "controller_label": "APPROACH",
+      "pilot_label": "TURKISH 1 HEAVY",
+      "frequency": "125.7",
+      "text": "Reduce speed 180, Turkish 1 heavy",
+      "callsigns": [
+        "THY1"
+      ],
+      "word_timestamps": [
+        {
+          "word": "reduce",
+          "start_seconds": 0.14,
+          "end_seconds": 0.38
+        },
+        {
+          "word": "speed",
+          "start_seconds": 0.4,
+          "end_seconds": 0.64
+        },
+        {
+          "word": "180,",
+          "start_seconds": 0.74,
+          "end_seconds": 1.26
+        },
+        {
+          "word": "turkish",
+          "start_seconds": 1.28,
+          "end_seconds": 1.62
+        },
+        {
+          "word": "1",
+          "start_seconds": 1.9000000000000001,
+          "end_seconds": 2
+        },
+        {
+          "word": "heavy",
+          "start_seconds": 2.1,
+          "end_seconds": 2.2600000000000002
+        }
+      ],
+      "duplicate_ids": [
+        "226b5fd4-879f-4633-9329-70e245f7608b",
+        "b9cb1fe4-ea6f-46b8-a0be-4f3d8f68ca26"
+      ]
+    },
+    {
+      "audio_sample_id": "0b009fa4-f36c-4d4b-ae50-b92fcc528c71",
+      "start_utc": "2026-11-03T22:23:46.213Z",
+      "end_utc": "2026-11-03T22:23:48.295Z",
+      "duration_seconds": 2.081125,
+      "atc_channel_id": 504,
+      "channel": {
+        "facilityId": "a291a26a-b466-4622-9cac-7b0b4e76b442",
+        "facilityCode": "JFK",
+        "facilityType": "airport",
+        "facilityName": "John F. Kennedy",
+        "category": "Approach",
+        "name": "South",
+        "frequency": "125.7"
+      },
+      "role": "controller",
+      "role_source": "api",
+      "speaker_label": "APPROACH",
+      "controller_label": "APPROACH",
+      "pilot_label": "TURKISH 1 HEAVY",
+      "frequency": "125.7",
+      "text": "Turkish 1 Heavy, reduce speed to 160",
+      "callsigns": [
+        "THY1"
+      ],
+      "word_timestamps": [
+        {
+          "word": "turkish",
+          "start_seconds": 0,
+          "end_seconds": 0.28
+        },
+        {
+          "word": "1",
+          "start_seconds": 0.34,
+          "end_seconds": 0.44
+        },
+        {
+          "word": "heavy,",
+          "start_seconds": 0.48,
+          "end_seconds": 0.62
+        },
+        {
+          "word": "reduce",
+          "start_seconds": 0.68,
+          "end_seconds": 0.88
+        },
+        {
+          "word": "speed",
+          "start_seconds": 0.9,
+          "end_seconds": 1.04
+        },
+        {
+          "word": "to",
+          "start_seconds": 1.06,
+          "end_seconds": 1.1
+        },
+        {
+          "word": "160",
+          "start_seconds": 1.16,
+          "end_seconds": 2
+        }
+      ],
+      "duplicate_ids": []
+    },
+    {
+      "audio_sample_id": "b28a597e-1923-442b-b530-7c9f6f6e2c6c",
+      "start_utc": "2026-11-03T22:23:48.810Z",
+      "end_utc": "2026-11-03T22:23:51.792Z",
+      "duration_seconds": 2.981125,
+      "atc_channel_id": 504,
+      "channel": {
+        "facilityId": "a291a26a-b466-4622-9cac-7b0b4e76b442",
+        "facilityCode": "JFK",
+        "facilityType": "airport",
+        "facilityName": "John F. Kennedy",
+        "category": "Approach",
+        "name": "South",
+        "frequency": "125.7"
+      },
+      "role": "pilot",
+      "role_source": "api",
+      "speaker_label": "TURKISH 1 HEAVY",
+      "controller_label": "APPROACH",
+      "pilot_label": "TURKISH 1 HEAVY",
+      "frequency": "125.7",
+      "text": "Reduce speed 160, Turkish 1 heavy",
+      "callsigns": [
+        "THY1"
+      ],
+      "word_timestamps": [
+        {
+          "word": "reduce",
+          "start_seconds": 0.16,
+          "end_seconds": 0.42
+        },
+        {
+          "word": "speed",
+          "start_seconds": 0.44,
+          "end_seconds": 0.62
+        },
+        {
+          "word": "160,",
+          "start_seconds": 0.72,
+          "end_seconds": 1.2
+        },
+        {
+          "word": "turkish",
+          "start_seconds": 1.42,
+          "end_seconds": 2.2800000000000002
+        },
+        {
+          "word": "1",
+          "start_seconds": 2.5,
+          "end_seconds": 2.66
+        },
+        {
+          "word": "heavy",
+          "start_seconds": 2.72,
+          "end_seconds": 2.88
+        }
+      ],
+      "duplicate_ids": [
+        "56ca9761-907c-4b13-834c-eaae7675766b",
+        "68adbb22-e736-40ea-962b-35477cce73a8"
+      ]
+    },
+    {
+      "audio_sample_id": "1120034f-ec7d-4a23-8fa5-2ca0ad03de01",
+      "start_utc": "2026-11-03T22:24:28.488Z",
+      "end_utc": "2026-11-03T22:24:30.780Z",
+      "duration_seconds": 2.291125,
+      "atc_channel_id": 504,
+      "channel": {
+        "facilityId": "a291a26a-b466-4622-9cac-7b0b4e76b442",
+        "facilityCode": "JFK",
+        "facilityType": "airport",
+        "facilityName": "John F. Kennedy",
+        "category": "Approach",
+        "name": "South",
+        "frequency": "125.7"
+      },
+      "role": "controller",
+      "role_source": "api",
+      "speaker_label": "APPROACH",
+      "controller_label": "APPROACH",
+      "pilot_label": "TURKISH 1 HEAVY",
+      "frequency": "125.7",
+      "text": "Turkish 1 Heavy, contact Tower 119.1",
+      "callsigns": [
+        "THY1"
+      ],
+      "word_timestamps": [
+        {
+          "word": "turkish",
+          "start_seconds": 0.02,
+          "end_seconds": 0.18
+        },
+        {
+          "word": "1",
+          "start_seconds": 0.22,
+          "end_seconds": 0.3
+        },
+        {
+          "word": "heavy,",
+          "start_seconds": 0.34,
+          "end_seconds": 0.5
+        },
+        {
+          "word": "contact",
+          "start_seconds": 0.58,
+          "end_seconds": 0.9400000000000001
+        },
+        {
+          "word": "tower",
+          "start_seconds": 1.06,
+          "end_seconds": 1.26
+        },
+        {
+          "word": "119.1",
+          "start_seconds": 1.36,
+          "end_seconds": 2.12
+        }
+      ],
+      "duplicate_ids": []
+    },
+    {
+      "audio_sample_id": "18264071-c05e-43c6-800a-11ff8828106b",
+      "start_utc": "2026-11-03T22:24:30.973Z",
+      "end_utc": "2026-11-03T22:24:32.515Z",
+      "duration_seconds": 1.541125,
+      "atc_channel_id": 504,
+      "channel": {
+        "facilityId": "a291a26a-b466-4622-9cac-7b0b4e76b442",
+        "facilityCode": "JFK",
+        "facilityType": "airport",
+        "facilityName": "John F. Kennedy",
+        "category": "Approach",
+        "name": "South",
+        "frequency": "125.7"
+      },
+      "role": "pilot",
+      "role_source": "api",
+      "speaker_label": "TURKISH 1 HEAVY",
+      "controller_label": "APPROACH",
+      "pilot_label": "TURKISH 1 HEAVY",
+      "frequency": "125.7",
+      "text": "119.1, Turkish 1 heavy",
+      "callsigns": [
+        "THY1"
+      ],
+      "word_timestamps": [
+        {
+          "word": "119.1,",
+          "start_seconds": 0,
+          "end_seconds": 0.74
+        },
+        {
+          "word": "turkish",
+          "start_seconds": 0.8200000000000001,
+          "end_seconds": 1.06
+        },
+        {
+          "word": "1",
+          "start_seconds": 1.1400000000000001,
+          "end_seconds": 1.28
+        },
+        {
+          "word": "heavy",
+          "start_seconds": 1.32,
+          "end_seconds": 1.46
+        }
+      ],
+      "duplicate_ids": [
+        "f4e45a1b-2cf4-4586-a7ed-aa70b17a2721",
+        "c542db9c-b199-4286-9942-0c35b981c9b5"
+      ]
+    },
+    {
+      "audio_sample_id": "3206b957-096a-479d-a8a8-4ca8a7a81d5d",
+      "start_utc": "2026-11-03T22:24:45.080Z",
+      "end_utc": "2026-11-03T22:24:49.742Z",
+      "duration_seconds": 4.661125,
+      "atc_channel_id": 65,
+      "channel": {
+        "facilityId": "a291a26a-b466-4622-9cac-7b0b4e76b442",
+        "facilityCode": "JFK",
+        "facilityType": "airport",
+        "facilityName": "John F. Kennedy",
+        "category": "Tower",
+        "name": "Rwy 04R-13L",
+        "frequency": "119.1"
+      },
+      "role": "pilot",
+      "role_source": "api",
+      "speaker_label": "TURKISH 1 HEAVY",
+      "controller_label": "JFK TOWER",
+      "pilot_label": "TURKISH 1 HEAVY",
+      "frequency": "119.1",
+      "text": "Tower, hello, Turkish 1 Heavy, ILS runway 22L",
+      "callsigns": [
+        "THY1"
+      ],
+      "word_timestamps": [
+        {
+          "word": "tower,",
+          "start_seconds": 1.4000000000000001,
+          "end_seconds": 1.6
+        },
+        {
+          "word": "hello,",
+          "start_seconds": 1.6400000000000001,
+          "end_seconds": 1.82
+        },
+        {
+          "word": "turkish",
+          "start_seconds": 1.92,
+          "end_seconds": 2.38
+        },
+        {
+          "word": "1",
+          "start_seconds": 2.72,
+          "end_seconds": 2.84
+        },
+        {
+          "word": "heavy,",
+          "start_seconds": 2.94,
+          "end_seconds": 3.12
+        },
+        {
+          "word": "ils",
+          "start_seconds": 3.38,
+          "end_seconds": 3.66
+        },
+        {
+          "word": "runway",
+          "start_seconds": 3.74,
+          "end_seconds": 3.94
+        },
+        {
+          "word": "22l",
+          "start_seconds": 4,
+          "end_seconds": 4.58
+        }
+      ],
+      "duplicate_ids": []
+    },
+    {
+      "audio_sample_id": "e8fbb209-1132-4d91-9f86-a8514fdb0126",
+      "start_utc": "2026-11-03T22:24:52.018Z",
+      "end_utc": "2026-11-03T22:24:55.380Z",
+      "duration_seconds": 3.361125,
+      "atc_channel_id": 65,
+      "channel": {
+        "facilityId": "a291a26a-b466-4622-9cac-7b0b4e76b442",
+        "facilityCode": "JFK",
+        "facilityType": "airport",
+        "facilityName": "John F. Kennedy",
+        "category": "Tower",
+        "name": "Rwy 04R-13L",
+        "frequency": "119.1"
+      },
+      "role": "controller",
+      "role_source": "api",
+      "speaker_label": "JFK TOWER",
+      "controller_label": "JFK TOWER",
+      "pilot_label": "TURKISH 1 HEAVY",
+      "frequency": "119.1",
+      "text": "Turkish 1 Heavy, Kennedy Tower, wind 190 at 8, runway 22L cleared to land",
+      "callsigns": [
+        "THY1"
+      ],
+      "word_timestamps": [
+        {
+          "word": "turkish",
+          "start_seconds": 0.06,
+          "end_seconds": 0.3
+        },
+        {
+          "word": "1",
+          "start_seconds": 0.38,
+          "end_seconds": 0.48
+        },
+        {
+          "word": "heavy,",
+          "start_seconds": 0.54,
+          "end_seconds": 0.7000000000000001
+        },
+        {
+          "word": "kennedy",
+          "start_seconds": 0.78,
+          "end_seconds": 1.02
+        },
+        {
+          "word": "tower,",
+          "start_seconds": 1.1,
+          "end_seconds": 1.26
+        },
+        {
+          "word": "wind",
+          "start_seconds": 1.28,
+          "end_seconds": 1.4000000000000001
+        },
+        {
+          "word": "190",
+          "start_seconds": 1.46,
+          "end_seconds": 1.8800000000000001
+        },
+        {
+          "word": "at",
+          "start_seconds": 1.9000000000000001,
+          "end_seconds": 1.94
+        },
+        {
+          "word": "8,",
+          "start_seconds": 1.96,
+          "end_seconds": 2.06
+        },
+        {
+          "word": "runway",
+          "start_seconds": 2.1,
+          "end_seconds": 2.2800000000000002
+        },
+        {
+          "word": "22l",
+          "start_seconds": 2.3000000000000003,
+          "end_seconds": 2.66
+        },
+        {
+          "word": "cleared",
+          "start_seconds": 2.72,
+          "end_seconds": 2.88
+        },
+        {
+          "word": "to",
+          "start_seconds": 2.9,
+          "end_seconds": 2.96
+        },
+        {
+          "word": "land",
+          "start_seconds": 3,
+          "end_seconds": 3.16
+        }
+      ],
+      "duplicate_ids": []
+    },
+    {
+      "audio_sample_id": "d719c7e1-1fef-4987-90ed-9c00fd100c72",
+      "start_utc": "2026-11-03T22:24:55.580Z",
+      "end_utc": "2026-11-03T22:24:58.522Z",
+      "duration_seconds": 2.941125,
+      "atc_channel_id": 65,
+      "channel": {
+        "facilityId": "a291a26a-b466-4622-9cac-7b0b4e76b442",
+        "facilityCode": "JFK",
+        "facilityType": "airport",
+        "facilityName": "John F. Kennedy",
+        "category": "Tower",
+        "name": "Rwy 04R-13L",
+        "frequency": "119.1"
+      },
+      "role": "pilot",
+      "role_source": "api",
+      "speaker_label": "TURKISH 1 HEAVY",
+      "controller_label": "JFK TOWER",
+      "pilot_label": "TURKISH 1 HEAVY",
+      "frequency": "119.1",
+      "text": "Cleared to land runway 22L, Turkish uh 1 heavy",
+      "callsigns": [
+        "THY1"
+      ],
+      "word_timestamps": [
+        {
+          "word": "cleared",
+          "start_seconds": 0.2,
+          "end_seconds": 0.48
+        },
+        {
+          "word": "to",
+          "start_seconds": 0.5,
+          "end_seconds": 0.54
+        },
+        {
+          "word": "land",
+          "start_seconds": 0.56,
+          "end_seconds": 0.7000000000000001
+        },
+        {
+          "word": "runway",
+          "start_seconds": 0.76,
+          "end_seconds": 0.9400000000000001
+        },
+        {
+          "word": "22l,",
+          "start_seconds": 1,
+          "end_seconds": 1.36
+        },
+        {
+          "word": "turkish",
+          "start_seconds": 1.5,
+          "end_seconds": 1.94
+        },
+        {
+          "word": "uh",
+          "start_seconds": 2.22,
+          "end_seconds": 2.3000000000000003
+        },
+        {
+          "word": "1",
+          "start_seconds": 2.4,
+          "end_seconds": 2.5
+        },
+        {
+          "word": "heavy",
+          "start_seconds": 2.52,
+          "end_seconds": 2.66
+        }
+      ],
+      "duplicate_ids": []
+    },
+    {
+      "audio_sample_id": "24addcb5-461b-4aae-9c46-1abf4d0ae8a6",
+      "start_utc": "2026-11-03T22:25:13.056Z",
+      "end_utc": "2026-11-03T22:25:16.048Z",
+      "duration_seconds": 2.9911250000000003,
+      "atc_channel_id": 65,
+      "channel": {
+        "facilityId": "a291a26a-b466-4622-9cac-7b0b4e76b442",
+        "facilityCode": "JFK",
+        "facilityType": "airport",
+        "facilityName": "John F. Kennedy",
+        "category": "Tower",
+        "name": "Rwy 04R-13L",
+        "frequency": "119.1"
+      },
+      "role": "controller",
+      "role_source": "api",
+      "speaker_label": "JFK TOWER",
+      "controller_label": "JFK TOWER",
+      "pilot_label": "TURKISH 1 HEAVY",
+      "frequency": "119.1",
+      "text": "Turkish 1 Heavy, if you can please reduce 10 to 20 knots",
+      "callsigns": [
+        "THY1"
+      ],
+      "word_timestamps": [
+        {
+          "word": "turkish",
+          "start_seconds": 0.06,
+          "end_seconds": 0.32
+        },
+        {
+          "word": "1",
+          "start_seconds": 0.38,
+          "end_seconds": 0.48
+        },
+        {
+          "word": "heavy,",
+          "start_seconds": 0.54,
+          "end_seconds": 0.64
+        },
+        {
+          "word": "if",
+          "start_seconds": 0.7000000000000001,
+          "end_seconds": 0.78
+        },
+        {
+          "word": "you",
+          "start_seconds": 0.84,
+          "end_seconds": 0.92
+        },
+        {
+          "word": "can",
+          "start_seconds": 1.02,
+          "end_seconds": 1.16
+        },
+        {
+          "word": "please",
+          "start_seconds": 1.26,
+          "end_seconds": 1.46
+        },
+        {
+          "word": "reduce",
+          "start_seconds": 1.52,
+          "end_seconds": 1.82
+        },
+        {
+          "word": "10",
+          "start_seconds": 1.94,
+          "end_seconds": 2.04
+        },
+        {
+          "word": "to",
+          "start_seconds": 2.12,
+          "end_seconds": 2.16
+        },
+        {
+          "word": "20",
+          "start_seconds": 2.24,
+          "end_seconds": 2.44
+        },
+        {
+          "word": "knots",
+          "start_seconds": 2.5,
+          "end_seconds": 2.72
+        }
+      ],
+      "duplicate_ids": []
+    },
+    {
+      "audio_sample_id": "b3756824-98ca-4cf5-aa34-586396019e08",
+      "start_utc": "2026-11-03T22:25:18.008Z",
+      "end_utc": "2026-11-03T22:25:21.190Z",
+      "duration_seconds": 3.181125,
+      "atc_channel_id": 65,
+      "channel": {
+        "facilityId": "a291a26a-b466-4622-9cac-7b0b4e76b442",
+        "facilityCode": "JFK",
+        "facilityType": "airport",
+        "facilityName": "John F. Kennedy",
+        "category": "Tower",
+        "name": "Rwy 04R-13L",
+        "frequency": "119.1"
+      },
+      "role": "pilot",
+      "role_source": "api",
+      "speaker_label": "TURKISH 1 HEAVY",
+      "controller_label": "JFK TOWER",
+      "pilot_label": "TURKISH 1 HEAVY",
+      "frequency": "119.1",
+      "text": "Reduce 10 to 20, Turkish 1 heavy",
+      "callsigns": [
+        "THY1"
+      ],
+      "word_timestamps": [
+        {
+          "word": "reduce",
+          "start_seconds": 0.2,
+          "end_seconds": 0.44
+        },
+        {
+          "word": "10",
+          "start_seconds": 1,
+          "end_seconds": 1.12
+        },
+        {
+          "word": "to",
+          "start_seconds": 1.22,
+          "end_seconds": 1.3
+        },
+        {
+          "word": "20,",
+          "start_seconds": 1.3800000000000001,
+          "end_seconds": 1.68
+        },
+        {
+          "word": "turkish",
+          "start_seconds": 1.82,
+          "end_seconds": 2.2
+        },
+        {
+          "word": "1",
+          "start_seconds": 2.68,
+          "end_seconds": 2.82
+        },
+        {
+          "word": "heavy",
+          "start_seconds": 3,
+          "end_seconds": 3.1
+        }
+      ],
+      "duplicate_ids": []
+    },
+    {
+      "audio_sample_id": "5e2bb582-7aad-4a90-8d85-858c74d3b05a",
+      "start_utc": "2026-11-03T22:25:21.237Z",
+      "end_utc": "2026-11-03T22:25:22.029Z",
+      "duration_seconds": 0.791125,
+      "atc_channel_id": 65,
+      "channel": {
+        "facilityId": "a291a26a-b466-4622-9cac-7b0b4e76b442",
+        "facilityCode": "JFK",
+        "facilityType": "airport",
+        "facilityName": "John F. Kennedy",
+        "category": "Tower",
+        "name": "Rwy 04R-13L",
+        "frequency": "119.1"
+      },
+      "role": "controller",
+      "role_source": "api",
+      "speaker_label": "JFK TOWER",
+      "controller_label": "JFK TOWER",
+      "pilot_label": "TURKISH 1 HEAVY",
+      "frequency": "119.1",
+      "text": "Thank you sir",
+      "callsigns": [
+        "THY1"
+      ],
+      "word_timestamps": [
+        {
+          "word": "thank",
+          "start_seconds": 0.04,
+          "end_seconds": 0.22
+        },
+        {
+          "word": "you",
+          "start_seconds": 0.26,
+          "end_seconds": 0.38
+        },
+        {
+          "word": "sir",
+          "start_seconds": 0.44,
+          "end_seconds": 0.5
+        }
+      ],
+      "duplicate_ids": []
+    },
+    {
+      "audio_sample_id": "8175260a-6f70-494b-85a5-9cca163ac73d",
+      "start_utc": "2026-11-03T22:25:50.806Z",
+      "end_utc": "2026-11-03T22:25:55.358Z",
+      "duration_seconds": 4.551125,
+      "atc_channel_id": 65,
+      "channel": {
+        "facilityId": "a291a26a-b466-4622-9cac-7b0b4e76b442",
+        "facilityCode": "JFK",
+        "facilityType": "airport",
+        "facilityName": "John F. Kennedy",
+        "category": "Tower",
+        "name": "Rwy 04R-13L",
+        "frequency": "119.1"
+      },
+      "role": "controller",
+      "role_source": "api",
+      "speaker_label": "JFK TOWER",
+      "controller_label": "JFK TOWER",
+      "pilot_label": "TURKISH 1 HEAVY",
+      "frequency": "119.1",
+      "text": "And Turkish 1 Heavy, if able maintain slowest practical speed slowest please",
+      "callsigns": [
+        "THY1"
+      ],
+      "word_timestamps": [
+        {
+          "word": "and",
+          "start_seconds": 0.18,
+          "end_seconds": 0.26
+        },
+        {
+          "word": "turkish",
+          "start_seconds": 0.36,
+          "end_seconds": 0.6
+        },
+        {
+          "word": "1",
+          "start_seconds": 0.68,
+          "end_seconds": 0.78
+        },
+        {
+          "word": "heavy,",
+          "start_seconds": 0.84,
+          "end_seconds": 1.02
+        },
+        {
+          "word": "if",
+          "start_seconds": 1.06,
+          "end_seconds": 1.1
+        },
+        {
+          "word": "able",
+          "start_seconds": 1.18,
+          "end_seconds": 1.4000000000000001
+        },
+        {
+          "word": "maintain",
+          "start_seconds": 1.46,
+          "end_seconds": 1.78
+        },
+        {
+          "word": "slowest",
+          "start_seconds": 2.1,
+          "end_seconds": 2.58
+        },
+        {
+          "word": "practical",
+          "start_seconds": 2.7,
+          "end_seconds": 3.12
+        },
+        {
+          "word": "speed",
+          "start_seconds": 3.24,
+          "end_seconds": 3.44
+        },
+        {
+          "word": "slowest",
+          "start_seconds": 3.6,
+          "end_seconds": 3.94
+        },
+        {
+          "word": "please",
+          "start_seconds": 4.04,
+          "end_seconds": 4.38
+        }
+      ],
+      "duplicate_ids": []
+    },
+    {
+      "audio_sample_id": "e5c8d61a-66b5-418c-ab0b-220f2b4b4f81",
+      "start_utc": "2026-11-03T22:25:55.656Z",
+      "end_utc": "2026-11-03T22:25:59.558Z",
+      "duration_seconds": 3.901125,
+      "atc_channel_id": 65,
+      "channel": {
+        "facilityId": "a291a26a-b466-4622-9cac-7b0b4e76b442",
+        "facilityCode": "JFK",
+        "facilityType": "airport",
+        "facilityName": "John F. Kennedy",
+        "category": "Tower",
+        "name": "Rwy 04R-13L",
+        "frequency": "119.1"
+      },
+      "role": "pilot",
+      "role_source": "api",
+      "speaker_label": "TURKISH 1 HEAVY",
+      "controller_label": "JFK TOWER",
+      "pilot_label": "TURKISH 1 HEAVY",
+      "frequency": "119.1",
+      "text": "Roger, we we are keeping minimum approach speed, Turkish 1 heavy",
+      "callsigns": [
+        "THY1"
+      ],
+      "word_timestamps": [
+        {
+          "word": "roger,",
+          "start_seconds": 0.34,
+          "end_seconds": 0.62
+        },
+        {
+          "word": "we",
+          "start_seconds": 0.72,
+          "end_seconds": 0.78
+        },
+        {
+          "word": "we",
+          "start_seconds": 1.16,
+          "end_seconds": 1.2
+        },
+        {
+          "word": "are",
+          "start_seconds": 1.26,
+          "end_seconds": 1.34
+        },
+        {
+          "word": "keeping",
+          "start_seconds": 1.4000000000000001,
+          "end_seconds": 1.6600000000000001
+        },
+        {
+          "word": "minimum",
+          "start_seconds": 1.76,
+          "end_seconds": 2.08
+        },
+        {
+          "word": "approach",
+          "start_seconds": 2.24,
+          "end_seconds": 2.56
+        },
+        {
+          "word": "speed,",
+          "start_seconds": 2.6,
+          "end_seconds": 2.7800000000000002
+        },
+        {
+          "word": "turkish",
+          "start_seconds": 2.86,
+          "end_seconds": 3.22
+        },
+        {
+          "word": "1",
+          "start_seconds": 3.38,
+          "end_seconds": 3.48
+        },
+        {
+          "word": "heavy",
+          "start_seconds": 3.52,
+          "end_seconds": 3.8000000000000003
+        }
+      ],
+      "duplicate_ids": []
+    },
+    {
+      "audio_sample_id": "57c190ce-55e3-43f3-ae77-1260a605d401",
+      "start_utc": "2026-11-03T22:26:46.631Z",
+      "end_utc": "2026-11-03T22:26:52.213Z",
+      "duration_seconds": 5.581125,
+      "atc_channel_id": 65,
+      "channel": {
+        "facilityId": "a291a26a-b466-4622-9cac-7b0b4e76b442",
+        "facilityCode": "JFK",
+        "facilityType": "airport",
+        "facilityName": "John F. Kennedy",
+        "category": "Tower",
+        "name": "Rwy 04R-13L",
+        "frequency": "119.1"
+      },
+      "role": "controller",
+      "role_source": "api",
+      "speaker_label": "JFK TOWER",
+      "controller_label": "JFK TOWER",
+      "pilot_label": "TURKISH 1 HEAVY",
+      "frequency": "119.1",
+      "text": "And Turkish 1 Heavy, cancel your approach, go around, maintain 2,000, fly runway heading",
+      "callsigns": [
+        "THY1"
+      ],
+      "word_timestamps": [
+        {
+          "word": "and",
+          "start_seconds": 0.16,
+          "end_seconds": 0.28
+        },
+        {
+          "word": "turkish",
+          "start_seconds": 0.4,
+          "end_seconds": 0.7000000000000001
+        },
+        {
+          "word": "1",
+          "start_seconds": 0.86,
+          "end_seconds": 1
+        },
+        {
+          "word": "heavy,",
+          "start_seconds": 1.1,
+          "end_seconds": 1.3
+        },
+        {
+          "word": "cancel",
+          "start_seconds": 1.44,
+          "end_seconds": 1.76
+        },
+        {
+          "word": "your",
+          "start_seconds": 1.84,
+          "end_seconds": 1.96
+        },
+        {
+          "word": "approach,",
+          "start_seconds": 2.04,
+          "end_seconds": 2.46
+        },
+        {
+          "word": "go",
+          "start_seconds": 2.7600000000000002,
+          "end_seconds": 2.82
+        },
+        {
+          "word": "around,",
+          "start_seconds": 2.94,
+          "end_seconds": 3.24
+        },
+        {
+          "word": "maintain",
+          "start_seconds": 3.36,
+          "end_seconds": 3.7
+        },
+        {
+          "word": "2,000,",
+          "start_seconds": 3.8000000000000003,
+          "end_seconds": 4.3
+        },
+        {
+          "word": "fly",
+          "start_seconds": 4.44,
+          "end_seconds": 4.5600000000000005
+        },
+        {
+          "word": "runway",
+          "start_seconds": 4.66,
+          "end_seconds": 4.98
+        },
+        {
+          "word": "heading",
+          "start_seconds": 5.0600000000000005,
+          "end_seconds": 5.28
+        }
+      ],
+      "duplicate_ids": []
+    },
+    {
+      "audio_sample_id": "ed84e83a-2f69-4438-ae47-515f29dbdf64",
+      "start_utc": "2026-11-03T22:26:52.592Z",
+      "end_utc": "2026-11-03T22:26:56.974Z",
+      "duration_seconds": 4.381125,
+      "atc_channel_id": 65,
+      "channel": {
+        "facilityId": "a291a26a-b466-4622-9cac-7b0b4e76b442",
+        "facilityCode": "JFK",
+        "facilityType": "airport",
+        "facilityName": "John F. Kennedy",
+        "category": "Tower",
+        "name": "Rwy 04R-13L",
+        "frequency": "119.1"
+      },
+      "role": "pilot",
+      "role_source": "api",
+      "speaker_label": "TURKISH 1 HEAVY",
+      "controller_label": "JFK TOWER",
+      "pilot_label": "TURKISH 1 HEAVY",
+      "frequency": "119.1",
+      "text": "Go around maintain uh runway heading climb 2,000, Turkish 1",
+      "callsigns": [
+        "THY1"
+      ],
+      "word_timestamps": [
+        {
+          "word": "go",
+          "start_seconds": 0.32,
+          "end_seconds": 0.38
+        },
+        {
+          "word": "around",
+          "start_seconds": 0.48,
+          "end_seconds": 0.76
+        },
+        {
+          "word": "maintain",
+          "start_seconds": 1,
+          "end_seconds": 1.42
+        },
+        {
+          "word": "uh",
+          "start_seconds": 1.86,
+          "end_seconds": 2.08
+        },
+        {
+          "word": "runway",
+          "start_seconds": 2.2,
+          "end_seconds": 2.44
+        },
+        {
+          "word": "heading",
+          "start_seconds": 2.46,
+          "end_seconds": 2.7800000000000002
+        },
+        {
+          "word": "climb",
+          "start_seconds": 2.98,
+          "end_seconds": 3.18
+        },
+        {
+          "word": "2,000,",
+          "start_seconds": 3.2600000000000002,
+          "end_seconds": 3.66
+        },
+        {
+          "word": "turkish",
+          "start_seconds": 3.8200000000000003,
+          "end_seconds": 4.08
+        },
+        {
+          "word": "1",
+          "start_seconds": 4.16,
+          "end_seconds": 4.32
+        }
+      ],
+      "duplicate_ids": []
+    },
+    {
+      "audio_sample_id": "0a4e5b2e-2ab3-41af-b142-3665c93a5e79",
+      "start_utc": "2026-11-03T22:27:25.231Z",
+      "end_utc": "2026-11-03T22:27:28.773Z",
+      "duration_seconds": 3.541125,
+      "atc_channel_id": 65,
+      "channel": {
+        "facilityId": "a291a26a-b466-4622-9cac-7b0b4e76b442",
+        "facilityCode": "JFK",
+        "facilityType": "airport",
+        "facilityName": "John F. Kennedy",
+        "category": "Tower",
+        "name": "Rwy 04R-13L",
+        "frequency": "119.1"
+      },
+      "role": "controller",
+      "role_source": "api",
+      "speaker_label": "JFK TOWER",
+      "controller_label": "JFK TOWER",
+      "pilot_label": "TURKISH 1 HEAVY",
+      "frequency": "119.1",
+      "text": "Turkish 1 Heavy, maintain heading of 180, 2,000",
+      "callsigns": [
+        "THY1"
+      ],
+      "word_timestamps": [
+        {
+          "word": "turkish",
+          "start_seconds": 0.12,
+          "end_seconds": 0.4
+        },
+        {
+          "word": "1",
+          "start_seconds": 0.48,
+          "end_seconds": 0.58
+        },
+        {
+          "word": "heavy,",
+          "start_seconds": 0.62,
+          "end_seconds": 0.76
+        },
+        {
+          "word": "maintain",
+          "start_seconds": 0.88,
+          "end_seconds": 1.28
+        },
+        {
+          "word": "heading",
+          "start_seconds": 1.44,
+          "end_seconds": 1.6400000000000001
+        },
+        {
+          "word": "of",
+          "start_seconds": 1.72,
+          "end_seconds": 1.8
+        },
+        {
+          "word": "180,",
+          "start_seconds": 1.9000000000000001,
+          "end_seconds": 2.7
+        },
+        {
+          "word": "2,000",
+          "start_seconds": 2.7800000000000002,
+          "end_seconds": 3.38
+        }
+      ],
+      "duplicate_ids": []
+    },
+    {
+      "audio_sample_id": "39ffe71a-79ff-4c0c-b3dd-7c2494b14133",
+      "start_utc": "2026-11-03T22:27:29.106Z",
+      "end_utc": "2026-11-03T22:27:32.648Z",
+      "duration_seconds": 3.541125,
+      "atc_channel_id": 65,
+      "channel": {
+        "facilityId": "a291a26a-b466-4622-9cac-7b0b4e76b442",
+        "facilityCode": "JFK",
+        "facilityType": "airport",
+        "facilityName": "John F. Kennedy",
+        "category": "Tower",
+        "name": "Rwy 04R-13L",
+        "frequency": "119.1"
+      },
+      "role": "pilot",
+      "role_source": "api",
+      "speaker_label": "TURKISH 1 HEAVY",
+      "controller_label": "JFK TOWER",
+      "pilot_label": "TURKISH 1 HEAVY",
+      "frequency": "119.1",
+      "text": "Maintain heading 180, 2,000, Turkish 1 heavy",
+      "callsigns": [
+        "THY1"
+      ],
+      "word_timestamps": [
+        {
+          "word": "maintain",
+          "start_seconds": 0.26,
+          "end_seconds": 0.58
+        },
+        {
+          "word": "heading",
+          "start_seconds": 0.66,
+          "end_seconds": 0.9400000000000001
+        },
+        {
+          "word": "180,",
+          "start_seconds": 1.04,
+          "end_seconds": 1.58
+        },
+        {
+          "word": "2,000,",
+          "start_seconds": 1.6400000000000001,
+          "end_seconds": 2.1
+        },
+        {
+          "word": "turkish",
+          "start_seconds": 2.2800000000000002,
+          "end_seconds": 2.68
+        },
+        {
+          "word": "1",
+          "start_seconds": 2.92,
+          "end_seconds": 3.04
+        },
+        {
+          "word": "heavy",
+          "start_seconds": 3.08,
+          "end_seconds": 3.2600000000000002
+        }
+      ],
+      "duplicate_ids": []
+    },
+    {
+      "audio_sample_id": "ab357907-345b-472d-8f47-1b2c0031dcc8",
+      "start_utc": "2026-11-03T22:27:45.030Z",
+      "end_utc": "2026-11-03T22:27:49.952Z",
+      "duration_seconds": 4.921125,
+      "atc_channel_id": 65,
+      "channel": {
+        "facilityId": "a291a26a-b466-4622-9cac-7b0b4e76b442",
+        "facilityCode": "JFK",
+        "facilityType": "airport",
+        "facilityName": "John F. Kennedy",
+        "category": "Tower",
+        "name": "Rwy 04R-13L",
+        "frequency": "119.1"
+      },
+      "role": "controller",
+      "role_source": "api",
+      "speaker_label": "JFK TOWER",
+      "controller_label": "JFK TOWER",
+      "pilot_label": "TURKISH 1 HEAVY",
+      "frequency": "119.1",
+      "text": "And Turkish 1 Heavy, contact New York Approach on 1 tree 5 point 9 please",
+      "callsigns": [
+        "THY1"
+      ],
+      "word_timestamps": [
+        {
+          "word": "and",
+          "start_seconds": 0.18,
+          "end_seconds": 0.3
+        },
+        {
+          "word": "turkish",
+          "start_seconds": 0.42,
+          "end_seconds": 0.72
+        },
+        {
+          "word": "1",
+          "start_seconds": 1,
+          "end_seconds": 1.12
+        },
+        {
+          "word": "heavy,",
+          "start_seconds": 1.3,
+          "end_seconds": 1.52
+        },
+        {
+          "word": "contact",
+          "start_seconds": 1.68,
+          "end_seconds": 2
+        },
+        {
+          "word": "new",
+          "start_seconds": 2.02,
+          "end_seconds": 2.1
+        },
+        {
+          "word": "york",
+          "start_seconds": 2.12,
+          "end_seconds": 2.2
+        },
+        {
+          "word": "approach",
+          "start_seconds": 2.22,
+          "end_seconds": 2.52
+        },
+        {
+          "word": "on",
+          "start_seconds": 2.62,
+          "end_seconds": 2.68
+        },
+        {
+          "word": "1",
+          "start_seconds": 2.86,
+          "end_seconds": 2.98
+        },
+        {
+          "word": "tree",
+          "start_seconds": 3.12,
+          "end_seconds": 3.2800000000000002
+        },
+        {
+          "word": "5",
+          "start_seconds": 3.46,
+          "end_seconds": 3.64
+        },
+        {
+          "word": "point",
+          "start_seconds": 3.7600000000000002,
+          "end_seconds": 3.96
+        },
+        {
+          "word": "9",
+          "start_seconds": 4.04,
+          "end_seconds": 4.26
+        },
+        {
+          "word": "please",
+          "start_seconds": 4.34,
+          "end_seconds": 4.68
+        }
+      ],
+      "duplicate_ids": []
+    },
+    {
+      "audio_sample_id": "bca5879e-ae5d-4194-b060-072481a9a7c5",
+      "start_utc": "2026-11-03T22:27:50.011Z",
+      "end_utc": "2026-11-03T22:27:52.393Z",
+      "duration_seconds": 2.381125,
+      "atc_channel_id": 65,
+      "channel": {
+        "facilityId": "a291a26a-b466-4622-9cac-7b0b4e76b442",
+        "facilityCode": "JFK",
+        "facilityType": "airport",
+        "facilityName": "John F. Kennedy",
+        "category": "Tower",
+        "name": "Rwy 04R-13L",
+        "frequency": "119.1"
+      },
+      "role": "pilot",
+      "role_source": "api",
+      "speaker_label": "TURKISH 1 HEAVY",
+      "controller_label": "JFK TOWER",
+      "pilot_label": "TURKISH 1 HEAVY",
+      "frequency": "119.1",
+      "text": "359, Turkish 1",
+      "callsigns": [
+        "THY1"
+      ],
+      "word_timestamps": [
+        {
+          "word": "359,",
+          "start_seconds": 0.56,
+          "end_seconds": 1.32
+        },
+        {
+          "word": "turkish",
+          "start_seconds": 1.44,
+          "end_seconds": 1.8
+        },
+        {
+          "word": "1",
+          "start_seconds": 1.9000000000000001,
+          "end_seconds": 1.98
+        }
+      ],
+      "duplicate_ids": []
+    },
+    {
+      "audio_sample_id": "6f20e915-a9ef-40ee-b5fd-005d131d8a21",
+      "start_utc": "2026-11-03T22:28:02.703Z",
+      "end_utc": "2026-11-03T22:28:07.805Z",
+      "duration_seconds": 5.101125,
+      "atc_channel_id": 506,
+      "channel": {
+        "facilityId": "a291a26a-b466-4622-9cac-7b0b4e76b442",
+        "facilityCode": "JFK",
+        "facilityType": "airport",
+        "facilityName": "John F. Kennedy",
+        "category": "Departure",
+        "name": "Main",
+        "frequency": "135.9"
+      },
+      "role": "pilot",
+      "role_source": "api",
+      "speaker_label": "TURKISH 1 HEAVY",
+      "controller_label": "DEPARTURE",
+      "pilot_label": "TURKISH 1 HEAVY",
+      "frequency": "135.9",
+      "text": "New York Approach, hello, Turkish 1 Heavy with you 2,000 heading 180",
+      "callsigns": [
+        "THY1"
+      ],
+      "word_timestamps": [
+        {
+          "word": "new",
+          "start_seconds": 0.5,
+          "end_seconds": 0.56
+        },
+        {
+          "word": "york",
+          "start_seconds": 0.58,
+          "end_seconds": 0.68
+        },
+        {
+          "word": "approach,",
+          "start_seconds": 0.76,
+          "end_seconds": 1.06
+        },
+        {
+          "word": "hello,",
+          "start_seconds": 1.08,
+          "end_seconds": 1.26
+        },
+        {
+          "word": "turkish",
+          "start_seconds": 1.42,
+          "end_seconds": 1.8
+        },
+        {
+          "word": "1",
+          "start_seconds": 2.06,
+          "end_seconds": 2.2
+        },
+        {
+          "word": "heavy",
+          "start_seconds": 2.34,
+          "end_seconds": 2.56
+        },
+        {
+          "word": "with",
+          "start_seconds": 2.72,
+          "end_seconds": 2.9
+        },
+        {
+          "word": "you",
+          "start_seconds": 2.92,
+          "end_seconds": 3.02
+        },
+        {
+          "word": "2,000",
+          "start_seconds": 3.18,
+          "end_seconds": 3.62
+        },
+        {
+          "word": "heading",
+          "start_seconds": 3.96,
+          "end_seconds": 4.18
+        },
+        {
+          "word": "180",
+          "start_seconds": 4.28,
+          "end_seconds": 4.98
+        }
+      ],
+      "duplicate_ids": []
+    },
+    {
+      "audio_sample_id": "d0e14edb-c9a8-4c89-84ae-181f220813b8",
+      "start_utc": "2026-11-03T22:28:14.166Z",
+      "end_utc": "2026-11-03T22:28:15.868Z",
+      "duration_seconds": 1.701125,
+      "atc_channel_id": 506,
+      "channel": {
+        "facilityId": "a291a26a-b466-4622-9cac-7b0b4e76b442",
+        "facilityCode": "JFK",
+        "facilityType": "airport",
+        "facilityName": "John F. Kennedy",
+        "category": "Departure",
+        "name": "Main",
+        "frequency": "135.9"
+      },
+      "role": "pilot",
+      "role_source": "api",
+      "speaker_label": "TURKISH 1 HEAVY",
+      "controller_label": "DEPARTURE",
+      "pilot_label": "TURKISH 1 HEAVY",
+      "frequency": "135.9",
+      "text": "Uh did you call Turkish 1",
+      "callsigns": [
+        "THY1"
+      ],
+      "word_timestamps": [
+        {
+          "word": "uh",
+          "start_seconds": 0.22,
+          "end_seconds": 0.3
+        },
+        {
+          "word": "did",
+          "start_seconds": 0.44,
+          "end_seconds": 0.54
+        },
+        {
+          "word": "you",
+          "start_seconds": 0.6,
+          "end_seconds": 0.66
+        },
+        {
+          "word": "call",
+          "start_seconds": 0.7000000000000001,
+          "end_seconds": 0.8200000000000001
+        },
+        {
+          "word": "turkish",
+          "start_seconds": 0.9,
+          "end_seconds": 1.18
+        },
+        {
+          "word": "1",
+          "start_seconds": 1.2,
+          "end_seconds": 1.3800000000000001
+        }
+      ],
+      "duplicate_ids": []
+    },
+    {
+      "audio_sample_id": "ef030e58-22e4-4233-b93e-fd2815f0f991",
+      "start_utc": "2026-11-03T22:28:15.816Z",
+      "end_utc": "2026-11-03T22:28:18.838Z",
+      "duration_seconds": 3.021125,
+      "atc_channel_id": 506,
+      "channel": {
+        "facilityId": "a291a26a-b466-4622-9cac-7b0b4e76b442",
+        "facilityCode": "JFK",
+        "facilityType": "airport",
+        "facilityName": "John F. Kennedy",
+        "category": "Departure",
+        "name": "Main",
+        "frequency": "135.9"
+      },
+      "role": "controller",
+      "role_source": "api",
+      "speaker_label": "DEPARTURE",
+      "controller_label": "DEPARTURE",
+      "pilot_label": "TURKISH 1 HEAVY",
+      "frequency": "135.9",
+      "text": "Turkish 1 Heavy, fly heading 080, left turn heading 080",
+      "callsigns": [
+        "THY1"
+      ],
+      "word_timestamps": [
+        {
+          "word": "turkish",
+          "start_seconds": 0,
+          "end_seconds": 0.26
+        },
+        {
+          "word": "1",
+          "start_seconds": 0.3,
+          "end_seconds": 0.38
+        },
+        {
+          "word": "heavy,",
+          "start_seconds": 0.44,
+          "end_seconds": 0.6
+        },
+        {
+          "word": "fly",
+          "start_seconds": 0.72,
+          "end_seconds": 0.86
+        },
+        {
+          "word": "heading",
+          "start_seconds": 0.88,
+          "end_seconds": 1.02
+        },
+        {
+          "word": "080,",
+          "start_seconds": 1.16,
+          "end_seconds": 1.56
+        },
+        {
+          "word": "left",
+          "start_seconds": 1.6600000000000001,
+          "end_seconds": 1.78
+        },
+        {
+          "word": "turn",
+          "start_seconds": 1.8,
+          "end_seconds": 1.92
+        },
+        {
+          "word": "heading",
+          "start_seconds": 1.94,
+          "end_seconds": 2.12
+        },
+        {
+          "word": "080",
+          "start_seconds": 2.22,
+          "end_seconds": 2.7800000000000002
+        }
+      ],
+      "duplicate_ids": []
+    },
+    {
+      "audio_sample_id": "ed17bf42-37a7-415f-96be-47509463f424",
+      "start_utc": "2026-11-03T22:28:18.758Z",
+      "end_utc": "2026-11-03T22:28:24.070Z",
+      "duration_seconds": 5.311125,
+      "atc_channel_id": 506,
+      "channel": {
+        "facilityId": "a291a26a-b466-4622-9cac-7b0b4e76b442",
+        "facilityCode": "JFK",
+        "facilityType": "airport",
+        "facilityName": "John F. Kennedy",
+        "category": "Departure",
+        "name": "Main",
+        "frequency": "135.9"
+      },
+      "role": "pilot",
+      "role_source": "api",
+      "speaker_label": "TURKISH 1 HEAVY",
+      "controller_label": "DEPARTURE",
+      "pilot_label": "TURKISH 1 HEAVY",
+      "frequency": "135.9",
+      "text": "Left turn heading 080 climb uh 3,000 will be 22R confirm Turkish 1",
+      "callsigns": [
+        "THY1"
+      ],
+      "word_timestamps": [
+        {
+          "word": "left",
+          "start_seconds": 0.22,
+          "end_seconds": 0.4
+        },
+        {
+          "word": "turn",
+          "start_seconds": 0.42,
+          "end_seconds": 0.52
+        },
+        {
+          "word": "heading",
+          "start_seconds": 0.6,
+          "end_seconds": 0.8
+        },
+        {
+          "word": "080",
+          "start_seconds": 0.98,
+          "end_seconds": 1.32
+        },
+        {
+          "word": "climb",
+          "start_seconds": 1.52,
+          "end_seconds": 1.78
+        },
+        {
+          "word": "uh",
+          "start_seconds": 1.98,
+          "end_seconds": 2.14
+        },
+        {
+          "word": "3,000",
+          "start_seconds": 2.36,
+          "end_seconds": 2.94
+        },
+        {
+          "word": "will",
+          "start_seconds": 3.1,
+          "end_seconds": 3.2600000000000002
+        },
+        {
+          "word": "be",
+          "start_seconds": 3.3000000000000003,
+          "end_seconds": 3.34
+        },
+        {
+          "word": "22r",
+          "start_seconds": 3.54,
+          "end_seconds": 4.0600000000000005
+        },
+        {
+          "word": "confirm",
+          "start_seconds": 4.22,
+          "end_seconds": 4.5
+        },
+        {
+          "word": "turkish",
+          "start_seconds": 4.6000000000000005,
+          "end_seconds": 4.82
+        },
+        {
+          "word": "1",
+          "start_seconds": 4.88,
+          "end_seconds": 5.04
+        }
+      ],
+      "duplicate_ids": []
+    },
+    {
+      "audio_sample_id": "7b26f622-7277-4236-b593-b485417ba176",
+      "start_utc": "2026-11-03T22:28:23.883Z",
+      "end_utc": "2026-11-03T22:28:28.625Z",
+      "duration_seconds": 4.741125,
+      "atc_channel_id": 506,
+      "channel": {
+        "facilityId": "a291a26a-b466-4622-9cac-7b0b4e76b442",
+        "facilityCode": "JFK",
+        "facilityType": "airport",
+        "facilityName": "John F. Kennedy",
+        "category": "Departure",
+        "name": "Main",
+        "frequency": "135.9"
+      },
+      "role": "controller",
+      "role_source": "api",
+      "speaker_label": "DEPARTURE",
+      "controller_label": "DEPARTURE",
+      "pilot_label": "TURKISH 1 HEAVY",
+      "frequency": "135.9",
+      "text": "Turkish 1 Heavy, that is correct heading 080 up to 3,000 please for the right side ILS 22R",
+      "callsigns": [
+        "THY1"
+      ],
+      "word_timestamps": [
+        {
+          "word": "turkish",
+          "start_seconds": 0,
+          "end_seconds": 0.22
+        },
+        {
+          "word": "1",
+          "start_seconds": 0.26,
+          "end_seconds": 0.32
+        },
+        {
+          "word": "heavy,",
+          "start_seconds": 0.34,
+          "end_seconds": 0.5
+        },
+        {
+          "word": "that",
+          "start_seconds": 0.56,
+          "end_seconds": 0.66
+        },
+        {
+          "word": "is",
+          "start_seconds": 0.72,
+          "end_seconds": 0.8
+        },
+        {
+          "word": "correct",
+          "start_seconds": 0.86,
+          "end_seconds": 1.12
+        },
+        {
+          "word": "heading",
+          "start_seconds": 1.16,
+          "end_seconds": 1.34
+        },
+        {
+          "word": "080",
+          "start_seconds": 1.6600000000000001,
+          "end_seconds": 1.8800000000000001
+        },
+        {
+          "word": "up",
+          "start_seconds": 2.06,
+          "end_seconds": 2.12
+        },
+        {
+          "word": "to",
+          "start_seconds": 2.16,
+          "end_seconds": 2.2
+        },
+        {
+          "word": "3,000",
+          "start_seconds": 2.2800000000000002,
+          "end_seconds": 2.8000000000000003
+        },
+        {
+          "word": "please",
+          "start_seconds": 2.86,
+          "end_seconds": 3.08
+        },
+        {
+          "word": "for",
+          "start_seconds": 3.12,
+          "end_seconds": 3.18
+        },
+        {
+          "word": "the",
+          "start_seconds": 3.22,
+          "end_seconds": 3.2800000000000002
+        },
+        {
+          "word": "right",
+          "start_seconds": 3.3200000000000003,
+          "end_seconds": 3.48
+        },
+        {
+          "word": "side",
+          "start_seconds": 3.54,
+          "end_seconds": 3.74
+        },
+        {
+          "word": "ils",
+          "start_seconds": 3.8000000000000003,
+          "end_seconds": 4.04
+        },
+        {
+          "word": "22r",
+          "start_seconds": 4.08,
+          "end_seconds": 4.5600000000000005
+        }
+      ],
+      "duplicate_ids": []
+    },
+    {
+      "audio_sample_id": "24c26127-56b7-4c08-a925-b6baa10602ee",
+      "start_utc": "2026-11-03T22:28:28.721Z",
+      "end_utc": "2026-11-03T22:28:30.223Z",
+      "duration_seconds": 1.501125,
+      "atc_channel_id": 506,
+      "channel": {
+        "facilityId": "a291a26a-b466-4622-9cac-7b0b4e76b442",
+        "facilityCode": "JFK",
+        "facilityType": "airport",
+        "facilityName": "John F. Kennedy",
+        "category": "Departure",
+        "name": "Main",
+        "frequency": "135.9"
+      },
+      "role": "pilot",
+      "role_source": "api",
+      "speaker_label": "TURKISH 1 HEAVY",
+      "controller_label": "DEPARTURE",
+      "pilot_label": "TURKISH 1 HEAVY",
+      "frequency": "135.9",
+      "text": "Roger, Turkish 1",
+      "callsigns": [
+        "THY1"
+      ],
+      "word_timestamps": [
+        {
+          "word": "roger,",
+          "start_seconds": 0.44,
+          "end_seconds": 0.7000000000000001
+        },
+        {
+          "word": "turkish",
+          "start_seconds": 0.9,
+          "end_seconds": 1.1400000000000001
+        },
+        {
+          "word": "1",
+          "start_seconds": 1.2,
+          "end_seconds": 1.28
+        }
+      ],
+      "duplicate_ids": []
+    },
+    {
+      "audio_sample_id": "f73c5ff5-f606-4210-b53f-0a0c1ec482e0",
+      "start_utc": "2026-11-03T22:28:41.441Z",
+      "end_utc": "2026-11-03T22:28:43.913Z",
+      "duration_seconds": 2.471125,
+      "atc_channel_id": 506,
+      "channel": {
+        "facilityId": "a291a26a-b466-4622-9cac-7b0b4e76b442",
+        "facilityCode": "JFK",
+        "facilityType": "airport",
+        "facilityName": "John F. Kennedy",
+        "category": "Departure",
+        "name": "Main",
+        "frequency": "135.9"
+      },
+      "role": "controller",
+      "role_source": "api",
+      "speaker_label": "DEPARTURE",
+      "controller_label": "DEPARTURE",
+      "pilot_label": "TURKISH 1 HEAVY",
+      "frequency": "135.9",
+      "text": "Turkish 1 Heavy, continue left turn heading 060",
+      "callsigns": [
+        "THY1"
+      ],
+      "word_timestamps": [
+        {
+          "word": "turkish",
+          "start_seconds": 0.04,
+          "end_seconds": 0.28
+        },
+        {
+          "word": "1",
+          "start_seconds": 0.36,
+          "end_seconds": 0.44
+        },
+        {
+          "word": "heavy,",
+          "start_seconds": 0.48,
+          "end_seconds": 0.64
+        },
+        {
+          "word": "continue",
+          "start_seconds": 0.72,
+          "end_seconds": 1.02
+        },
+        {
+          "word": "left",
+          "start_seconds": 1.1,
+          "end_seconds": 1.2
+        },
+        {
+          "word": "turn",
+          "start_seconds": 1.22,
+          "end_seconds": 1.36
+        },
+        {
+          "word": "heading",
+          "start_seconds": 1.46,
+          "end_seconds": 1.78
+        },
+        {
+          "word": "060",
+          "start_seconds": 1.86,
+          "end_seconds": 2.2600000000000002
+        }
+      ],
+      "duplicate_ids": []
+    },
+    {
+      "audio_sample_id": "31cc9a17-dd52-4fe5-a805-eeff6c64218d",
+      "start_utc": "2026-11-03T22:28:43.829Z",
+      "end_utc": "2026-11-03T22:28:46.661Z",
+      "duration_seconds": 2.831125,
+      "atc_channel_id": 506,
+      "channel": {
+        "facilityId": "a291a26a-b466-4622-9cac-7b0b4e76b442",
+        "facilityCode": "JFK",
+        "facilityType": "airport",
+        "facilityName": "John F. Kennedy",
+        "category": "Departure",
+        "name": "Main",
+        "frequency": "135.9"
+      },
+      "role": "pilot",
+      "role_source": "api",
+      "speaker_label": "TURKISH 1 HEAVY",
+      "controller_label": "DEPARTURE",
+      "pilot_label": "TURKISH 1 HEAVY",
+      "frequency": "135.9",
+      "text": "Left turn heading 060, Turkish 1 heavy",
+      "callsigns": [
+        "THY1"
+      ],
+      "word_timestamps": [
+        {
+          "word": "left",
+          "start_seconds": 0.42,
+          "end_seconds": 0.6
+        },
+        {
+          "word": "turn",
+          "start_seconds": 0.64,
+          "end_seconds": 0.74
+        },
+        {
+          "word": "heading",
+          "start_seconds": 0.8,
+          "end_seconds": 1
+        },
+        {
+          "word": "060,",
+          "start_seconds": 1.28,
+          "end_seconds": 1.62
+        },
+        {
+          "word": "turkish",
+          "start_seconds": 1.78,
+          "end_seconds": 2.12
+        },
+        {
+          "word": "1",
+          "start_seconds": 2.34,
+          "end_seconds": 2.44
+        },
+        {
+          "word": "heavy",
+          "start_seconds": 2.46,
+          "end_seconds": 2.72
+        }
+      ],
+      "duplicate_ids": []
+    },
+    {
+      "audio_sample_id": "a0c80010-e6b2-4dc4-8352-67153a289fe6",
+      "start_utc": "2026-11-03T22:29:24.856Z",
+      "end_utc": "2026-11-03T22:29:27.558Z",
+      "duration_seconds": 2.701125,
+      "atc_channel_id": 506,
+      "channel": {
+        "facilityId": "a291a26a-b466-4622-9cac-7b0b4e76b442",
+        "facilityCode": "JFK",
+        "facilityType": "airport",
+        "facilityName": "John F. Kennedy",
+        "category": "Departure",
+        "name": "Main",
+        "frequency": "135.9"
+      },
+      "role": "controller",
+      "role_source": "api",
+      "speaker_label": "DEPARTURE",
+      "controller_label": "DEPARTURE",
+      "pilot_label": "TURKISH 1 HEAVY",
+      "frequency": "135.9",
+      "text": "Turkish 1 Heavy, contact Approach 125.7",
+      "callsigns": [
+        "THY1"
+      ],
+      "word_timestamps": [
+        {
+          "word": "turkish",
+          "start_seconds": 0,
+          "end_seconds": 0.2
+        },
+        {
+          "word": "1",
+          "start_seconds": 0.26,
+          "end_seconds": 0.36
+        },
+        {
+          "word": "heavy,",
+          "start_seconds": 0.38,
+          "end_seconds": 0.56
+        },
+        {
+          "word": "contact",
+          "start_seconds": 0.66,
+          "end_seconds": 1.02
+        },
+        {
+          "word": "approach",
+          "start_seconds": 1.08,
+          "end_seconds": 1.3800000000000001
+        },
+        {
+          "word": "125.7",
+          "start_seconds": 1.4000000000000001,
+          "end_seconds": 2.5
+        }
+      ],
+      "duplicate_ids": []
+    },
+    {
+      "audio_sample_id": "1dbd9df5-bbad-4111-a1ed-83b625e93f24",
+      "start_utc": "2026-11-03T22:29:27.640Z",
+      "end_utc": "2026-11-03T22:29:30.182Z",
+      "duration_seconds": 2.541125,
+      "atc_channel_id": 506,
+      "channel": {
+        "facilityId": "a291a26a-b466-4622-9cac-7b0b4e76b442",
+        "facilityCode": "JFK",
+        "facilityType": "airport",
+        "facilityName": "John F. Kennedy",
+        "category": "Departure",
+        "name": "Main",
+        "frequency": "135.9"
+      },
+      "role": "pilot",
+      "role_source": "api",
+      "speaker_label": "TURKISH 1 HEAVY",
+      "controller_label": "DEPARTURE",
+      "pilot_label": "TURKISH 1 HEAVY",
+      "frequency": "135.9",
+      "text": "125.7, Turkish 1 heavy",
+      "callsigns": [
+        "THY1"
+      ],
+      "word_timestamps": [
+        {
+          "word": "125.7,",
+          "start_seconds": 0,
+          "end_seconds": 1
+        },
+        {
+          "word": "turkish",
+          "start_seconds": 1.08,
+          "end_seconds": 1.5
+        },
+        {
+          "word": "1",
+          "start_seconds": 1.94,
+          "end_seconds": 2.08
+        },
+        {
+          "word": "heavy",
+          "start_seconds": 2.14,
+          "end_seconds": 2.32
+        }
+      ],
+      "duplicate_ids": []
+    },
+    {
+      "audio_sample_id": "4a618c38-ad2f-4691-ba1d-2788fc8a5566",
+      "start_utc": "2026-11-03T22:29:36.398Z",
+      "end_utc": "2026-11-03T22:29:41.300Z",
+      "duration_seconds": 4.901125,
+      "atc_channel_id": 709,
+      "channel": {
+        "facilityId": "d7992d47-bef6-4243-9791-65afb94418cf",
+        "facilityCode": "EWR",
+        "facilityType": "airport",
+        "facilityName": "Newark",
+        "category": "Class B",
+        "name": "East",
+        "frequency": "125.7"
+      },
+      "role": "pilot",
+      "role_source": "api",
+      "speaker_label": "TURKISH 1 HEAVY",
+      "controller_label": "APPROACH",
+      "pilot_label": "TURKISH 1 HEAVY",
+      "frequency": "125.7",
+      "text": "Approach, hello, Turkish 1, heading 060, altitude 3,000",
+      "callsigns": [
+        "THY1"
+      ],
+      "word_timestamps": [
+        {
+          "word": "approach,",
+          "start_seconds": 0.6,
+          "end_seconds": 0.86
+        },
+        {
+          "word": "hello,",
+          "start_seconds": 0.9,
+          "end_seconds": 1.08
+        },
+        {
+          "word": "turkish",
+          "start_seconds": 1.1400000000000001,
+          "end_seconds": 1.6600000000000001
+        },
+        {
+          "word": "1,",
+          "start_seconds": 1.82,
+          "end_seconds": 2
+        },
+        {
+          "word": "heading",
+          "start_seconds": 2.24,
+          "end_seconds": 2.52
+        },
+        {
+          "word": "060,",
+          "start_seconds": 2.62,
+          "end_seconds": 3.2
+        },
+        {
+          "word": "altitude",
+          "start_seconds": 3.7,
+          "end_seconds": 4.0600000000000005
+        },
+        {
+          "word": "3,000",
+          "start_seconds": 4.08,
+          "end_seconds": 4.5600000000000005
+        }
+      ],
+      "duplicate_ids": [
+        "3965ccd1-bbef-4d7a-a151-e4587531b866"
+      ]
+    },
+    {
+      "audio_sample_id": "2a5db2e5-6a73-4ac5-8a24-3bc339c0b40d",
+      "start_utc": "2026-11-03T22:31:13.111Z",
+      "end_utc": "2026-11-03T22:31:18.613Z",
+      "duration_seconds": 5.501125,
+      "atc_channel_id": 709,
+      "channel": {
+        "facilityId": "d7992d47-bef6-4243-9791-65afb94418cf",
+        "facilityCode": "EWR",
+        "facilityType": "airport",
+        "facilityName": "Newark",
+        "category": "Class B",
+        "name": "East",
+        "frequency": "125.7"
+      },
+      "role": "pilot",
+      "role_source": "api",
+      "speaker_label": "TURKISH 1 HEAVY",
+      "controller_label": "APPROACH",
+      "pilot_label": "TURKISH 1 HEAVY",
+      "frequency": "125.7",
+      "text": "ILS uh 22L and 9,000 uh Virgin 9J approach hello, Turkish 1 heavy with you",
+      "callsigns": [
+        "THY1"
+      ],
+      "word_timestamps": [
+        {
+          "word": "ils",
+          "start_seconds": 0.24,
+          "end_seconds": 0.36
+        },
+        {
+          "word": "uh",
+          "start_seconds": 0.38,
+          "end_seconds": 0.44
+        },
+        {
+          "word": "22l",
+          "start_seconds": 0.5,
+          "end_seconds": 1.2
+        },
+        {
+          "word": "and",
+          "start_seconds": 1.22,
+          "end_seconds": 1.34
+        },
+        {
+          "word": "9,000",
+          "start_seconds": 1.36,
+          "end_seconds": 1.9000000000000001
+        },
+        {
+          "word": "uh",
+          "start_seconds": 2.32,
+          "end_seconds": 2.44
+        },
+        {
+          "word": "virgin",
+          "start_seconds": 2.58,
+          "end_seconds": 2.84
+        },
+        {
+          "word": "9j",
+          "start_seconds": 2.98,
+          "end_seconds": 3.3200000000000003
+        },
+        {
+          "word": "approach",
+          "start_seconds": 3.66,
+          "end_seconds": 3.92
+        },
+        {
+          "word": "hello,",
+          "start_seconds": 3.96,
+          "end_seconds": 4.14
+        },
+        {
+          "word": "turkish",
+          "start_seconds": 4.24,
+          "end_seconds": 4.5600000000000005
+        },
+        {
+          "word": "1",
+          "start_seconds": 4.64,
+          "end_seconds": 4.72
+        },
+        {
+          "word": "heavy",
+          "start_seconds": 4.76,
+          "end_seconds": 4.86
+        },
+        {
+          "word": "with",
+          "start_seconds": 4.88,
+          "end_seconds": 5.04
+        },
+        {
+          "word": "you",
+          "start_seconds": 5.16,
+          "end_seconds": 5.24
+        }
+      ],
+      "duplicate_ids": []
+    },
+    {
+      "audio_sample_id": "bfb10fd8-3749-44d7-97df-3b2f3a122550",
+      "start_utc": "2026-11-03T22:31:16.329Z",
+      "end_utc": "2026-11-03T22:31:18.621Z",
+      "duration_seconds": 2.291125,
+      "atc_channel_id": 630,
+      "channel": {
+        "facilityId": "20319ca9-41e9-4bbb-a891-570af8b49d56",
+        "facilityCode": "LGA",
+        "facilityType": "airport",
+        "facilityName": "LaGuardia",
+        "category": "Class B",
+        "name": "East",
+        "frequency": "125.7"
+      },
+      "role": "pilot",
+      "role_source": "api",
+      "speaker_label": "TURKISH 1 HEAVY",
+      "controller_label": "APPROACH",
+      "pilot_label": "TURKISH 1 HEAVY",
+      "frequency": "125.7",
+      "text": "Approach, hello, Turkish 1 Heavy with you",
+      "callsigns": [
+        "THY1"
+      ],
+      "word_timestamps": [
+        {
+          "word": "approach,",
+          "start_seconds": 0.48,
+          "end_seconds": 0.76
+        },
+        {
+          "word": "hello,",
+          "start_seconds": 0.78,
+          "end_seconds": 0.92
+        },
+        {
+          "word": "turkish",
+          "start_seconds": 1.04,
+          "end_seconds": 1.34
+        },
+        {
+          "word": "1",
+          "start_seconds": 1.42,
+          "end_seconds": 1.52
+        },
+        {
+          "word": "heavy",
+          "start_seconds": 1.54,
+          "end_seconds": 1.7
+        },
+        {
+          "word": "with",
+          "start_seconds": 1.76,
+          "end_seconds": 1.96
+        },
+        {
+          "word": "you",
+          "start_seconds": 2.1,
+          "end_seconds": 2.16
+        }
+      ],
+      "duplicate_ids": [
+        "ef35bf3b-689d-437a-b708-4e1740be64a5"
+      ]
+    },
+    {
+      "audio_sample_id": "95466545-4348-4c0b-8e7c-99505efd3925",
+      "start_utc": "2026-11-03T22:32:29.377Z",
+      "end_utc": "2026-11-03T22:32:31.189Z",
+      "duration_seconds": 1.811125,
+      "atc_channel_id": 709,
+      "channel": {
+        "facilityId": "d7992d47-bef6-4243-9791-65afb94418cf",
+        "facilityCode": "EWR",
+        "facilityType": "airport",
+        "facilityName": "Newark",
+        "category": "Class B",
+        "name": "East",
+        "frequency": "125.7"
+      },
+      "role": "pilot",
+      "role_source": "api",
+      "speaker_label": "TURKISH 1 HEAVY",
+      "controller_label": "APPROACH",
+      "pilot_label": "TURKISH 1 HEAVY",
+      "frequency": "125.7",
+      "text": "190, Turkish 1 heavy",
+      "callsigns": [
+        "THY1"
+      ],
+      "word_timestamps": [
+        {
+          "word": "190,",
+          "start_seconds": 0,
+          "end_seconds": 0.56
+        },
+        {
+          "word": "turkish",
+          "start_seconds": 0.72,
+          "end_seconds": 1.08
+        },
+        {
+          "word": "1",
+          "start_seconds": 1.26,
+          "end_seconds": 1.44
+        },
+        {
+          "word": "heavy",
+          "start_seconds": 1.5,
+          "end_seconds": 1.6600000000000001
+        }
+      ],
+      "duplicate_ids": []
+    },
+    {
+      "audio_sample_id": "9afc1e99-0a1f-4e62-ba9c-f173470af7d9",
+      "start_utc": "2026-11-03T22:32:52.321Z",
+      "end_utc": "2026-11-03T22:32:54.703Z",
+      "duration_seconds": 2.381125,
+      "atc_channel_id": 504,
+      "channel": {
+        "facilityId": "a291a26a-b466-4622-9cac-7b0b4e76b442",
+        "facilityCode": "JFK",
+        "facilityType": "airport",
+        "facilityName": "John F. Kennedy",
+        "category": "Approach",
+        "name": "South",
+        "frequency": "125.7"
+      },
+      "role": "controller",
+      "role_source": "api",
+      "speaker_label": "APPROACH",
+      "controller_label": "APPROACH",
+      "pilot_label": "TURKISH 1 HEAVY",
+      "frequency": "125.7",
+      "text": "Turkish 1 Heavy, turn left 320",
+      "callsigns": [
+        "THY1"
+      ],
+      "word_timestamps": [
+        {
+          "word": "turkish",
+          "start_seconds": 0.44,
+          "end_seconds": 0.68
+        },
+        {
+          "word": "1",
+          "start_seconds": 0.74,
+          "end_seconds": 0.84
+        },
+        {
+          "word": "heavy,",
+          "start_seconds": 0.86,
+          "end_seconds": 1.02
+        },
+        {
+          "word": "turn",
+          "start_seconds": 1.08,
+          "end_seconds": 1.2
+        },
+        {
+          "word": "left",
+          "start_seconds": 1.28,
+          "end_seconds": 1.42
+        },
+        {
+          "word": "320",
+          "start_seconds": 1.5,
+          "end_seconds": 2.36
+        }
+      ],
+      "duplicate_ids": []
+    },
+    {
+      "audio_sample_id": "e7d94b8e-8c1e-4f6b-a40a-0a759d954edf",
+      "start_utc": "2026-11-03T22:32:54.875Z",
+      "end_utc": "2026-11-03T22:32:56.657Z",
+      "duration_seconds": 1.7811249999999998,
+      "atc_channel_id": 709,
+      "channel": {
+        "facilityId": "d7992d47-bef6-4243-9791-65afb94418cf",
+        "facilityCode": "EWR",
+        "facilityType": "airport",
+        "facilityName": "Newark",
+        "category": "Class B",
+        "name": "East",
+        "frequency": "125.7"
+      },
+      "role": "pilot",
+      "role_source": "api",
+      "speaker_label": "TURKISH 1 HEAVY",
+      "controller_label": "APPROACH",
+      "pilot_label": "TURKISH 1 HEAVY",
+      "frequency": "125.7",
+      "text": "Heading 320, Turkish 1",
+      "callsigns": [
+        "THY1"
+      ],
+      "word_timestamps": [
+        {
+          "word": "heading",
+          "start_seconds": 0.4,
+          "end_seconds": 0.76
+        },
+        {
+          "word": "320,",
+          "start_seconds": 0.8,
+          "end_seconds": 1.32
+        },
+        {
+          "word": "turkish",
+          "start_seconds": 1.34,
+          "end_seconds": 1.6400000000000001
+        },
+        {
+          "word": "1",
+          "start_seconds": 1.68,
+          "end_seconds": 1.74
+        }
+      ],
+      "duplicate_ids": [
+        "35be7b24-52a6-4209-9cd9-011ca00d3c9f",
+        "2597c6e9-aee0-4599-a29a-19ea77809d40"
+      ]
+    },
+    {
+      "audio_sample_id": "a6404e49-763d-4ce8-9a1d-dbeaac9ac3a9",
+      "start_utc": "2026-11-03T22:33:30.375Z",
+      "end_utc": "2026-11-03T22:33:32.057Z",
+      "duration_seconds": 1.681125,
+      "atc_channel_id": 504,
+      "channel": {
+        "facilityId": "a291a26a-b466-4622-9cac-7b0b4e76b442",
+        "facilityCode": "JFK",
+        "facilityType": "airport",
+        "facilityName": "John F. Kennedy",
+        "category": "Approach",
+        "name": "South",
+        "frequency": "125.7"
+      },
+      "role": "controller",
+      "role_source": "api",
+      "speaker_label": "APPROACH",
+      "controller_label": "APPROACH",
+      "pilot_label": "TURKISH 1 HEAVY",
+      "frequency": "125.7",
+      "text": "Turkish 1 Heavy, heading 310",
+      "callsigns": [
+        "THY1"
+      ],
+      "word_timestamps": [
+        {
+          "word": "turkish",
+          "start_seconds": 0,
+          "end_seconds": 0.28
+        },
+        {
+          "word": "1",
+          "start_seconds": 0.34,
+          "end_seconds": 0.42
+        },
+        {
+          "word": "heavy,",
+          "start_seconds": 0.46,
+          "end_seconds": 0.64
+        },
+        {
+          "word": "heading",
+          "start_seconds": 0.66,
+          "end_seconds": 0.86
+        },
+        {
+          "word": "310",
+          "start_seconds": 0.92,
+          "end_seconds": 1.58
+        }
+      ],
+      "duplicate_ids": []
+    },
+    {
+      "audio_sample_id": "3b073246-eaf8-4efe-8cd2-a60d3e122443",
+      "start_utc": "2026-11-03T22:33:32.648Z",
+      "end_utc": "2026-11-03T22:33:34.400Z",
+      "duration_seconds": 1.751125,
+      "atc_channel_id": 504,
+      "channel": {
+        "facilityId": "a291a26a-b466-4622-9cac-7b0b4e76b442",
+        "facilityCode": "JFK",
+        "facilityType": "airport",
+        "facilityName": "John F. Kennedy",
+        "category": "Approach",
+        "name": "South",
+        "frequency": "125.7"
+      },
+      "role": "pilot",
+      "role_source": "api",
+      "speaker_label": "TURKISH 1 HEAVY",
+      "controller_label": "APPROACH",
+      "pilot_label": "TURKISH 1 HEAVY",
+      "frequency": "125.7",
+      "text": "Heading 310, Turkish 1",
+      "callsigns": [
+        "THY1"
+      ],
+      "word_timestamps": [
+        {
+          "word": "heading",
+          "start_seconds": 0.12,
+          "end_seconds": 0.34
+        },
+        {
+          "word": "310,",
+          "start_seconds": 0.44,
+          "end_seconds": 1.06
+        },
+        {
+          "word": "turkish",
+          "start_seconds": 1.16,
+          "end_seconds": 1.42
+        },
+        {
+          "word": "1",
+          "start_seconds": 1.6400000000000001,
+          "end_seconds": 1.7
+        }
+      ],
+      "duplicate_ids": [
+        "410e2cc2-ffe5-4214-b222-5e72916d7c04",
+        "bfb4b3ab-177a-4370-bf78-badd83fa0cc7"
+      ]
+    },
+    {
+      "audio_sample_id": "dfcc296d-d72e-411d-92f9-5e2c26ee3173",
+      "start_utc": "2026-11-03T22:34:14.240Z",
+      "end_utc": "2026-11-03T22:34:16.762Z",
+      "duration_seconds": 2.521125,
+      "atc_channel_id": 504,
+      "channel": {
+        "facilityId": "a291a26a-b466-4622-9cac-7b0b4e76b442",
+        "facilityCode": "JFK",
+        "facilityType": "airport",
+        "facilityName": "John F. Kennedy",
+        "category": "Approach",
+        "name": "South",
+        "frequency": "125.7"
+      },
+      "role": "controller",
+      "role_source": "api",
+      "speaker_label": "APPROACH",
+      "controller_label": "APPROACH",
+      "pilot_label": "TURKISH 1 HEAVY",
+      "frequency": "125.7",
+      "text": "Turkish 1 Heavy, heading 310",
+      "callsigns": [
+        "THY1"
+      ],
+      "word_timestamps": [
+        {
+          "word": "turkish",
+          "start_seconds": 0,
+          "end_seconds": 0.28
+        },
+        {
+          "word": "1",
+          "start_seconds": 0.34,
+          "end_seconds": 0.44
+        },
+        {
+          "word": "heavy,",
+          "start_seconds": 0.48,
+          "end_seconds": 0.66
+        },
+        {
+          "word": "heading",
+          "start_seconds": 1.5,
+          "end_seconds": 1.7
+        },
+        {
+          "word": "310",
+          "start_seconds": 1.78,
+          "end_seconds": 2.44
+        }
+      ],
+      "duplicate_ids": []
+    },
+    {
+      "audio_sample_id": "2041a126-44d1-43e1-b16a-b430c278da6c",
+      "start_utc": "2026-11-03T22:34:16.984Z",
+      "end_utc": "2026-11-03T22:34:18.766Z",
+      "duration_seconds": 1.7811249999999998,
+      "atc_channel_id": 709,
+      "channel": {
+        "facilityId": "d7992d47-bef6-4243-9791-65afb94418cf",
+        "facilityCode": "EWR",
+        "facilityType": "airport",
+        "facilityName": "Newark",
+        "category": "Class B",
+        "name": "East",
+        "frequency": "125.7"
+      },
+      "role": "pilot",
+      "role_source": "api",
+      "speaker_label": "TURKISH 1 HEAVY",
+      "controller_label": "APPROACH",
+      "pilot_label": "TURKISH 1 HEAVY",
+      "frequency": "125.7",
+      "text": "Heading 310, Turkish 1 heavy",
+      "callsigns": [
+        "THY1"
+      ],
+      "word_timestamps": [
+        {
+          "word": "heading",
+          "start_seconds": 0.2,
+          "end_seconds": 0.42
+        },
+        {
+          "word": "310,",
+          "start_seconds": 0.46,
+          "end_seconds": 1.02
+        },
+        {
+          "word": "turkish",
+          "start_seconds": 1.08,
+          "end_seconds": 1.34
+        },
+        {
+          "word": "1",
+          "start_seconds": 1.44,
+          "end_seconds": 1.54
+        },
+        {
+          "word": "heavy",
+          "start_seconds": 1.58,
+          "end_seconds": 1.74
+        }
+      ],
+      "duplicate_ids": [
+        "739974da-659b-46d0-9391-1ab88a2769e3",
+        "95b9cf9c-ca42-47af-a4d5-9f2f28cf8a7a"
+      ]
+    },
+    {
+      "audio_sample_id": "6d39aea0-a0ac-4516-80b1-57d985a4cb9d",
+      "start_utc": "2026-11-03T22:35:32.634Z",
+      "end_utc": "2026-11-03T22:35:34.316Z",
+      "duration_seconds": 1.681125,
+      "atc_channel_id": 504,
+      "channel": {
+        "facilityId": "a291a26a-b466-4622-9cac-7b0b4e76b442",
+        "facilityCode": "JFK",
+        "facilityType": "airport",
+        "facilityName": "John F. Kennedy",
+        "category": "Approach",
+        "name": "South",
+        "frequency": "125.7"
+      },
+      "role": "controller",
+      "role_source": "api",
+      "speaker_label": "APPROACH",
+      "controller_label": "APPROACH",
+      "pilot_label": "TURKISH 1 HEAVY",
+      "frequency": "125.7",
+      "text": "Turkish 1 Heavy, turn left 270",
+      "callsigns": [
+        "THY1"
+      ],
+      "word_timestamps": [
+        {
+          "word": "turkish",
+          "start_seconds": 0,
+          "end_seconds": 0.22
+        },
+        {
+          "word": "1",
+          "start_seconds": 0.28,
+          "end_seconds": 0.36
+        },
+        {
+          "word": "heavy,",
+          "start_seconds": 0.4,
+          "end_seconds": 0.56
+        },
+        {
+          "word": "turn",
+          "start_seconds": 0.62,
+          "end_seconds": 0.74
+        },
+        {
+          "word": "left",
+          "start_seconds": 0.8,
+          "end_seconds": 0.9400000000000001
+        },
+        {
+          "word": "270",
+          "start_seconds": 0.98,
+          "end_seconds": 1.62
+        }
+      ],
+      "duplicate_ids": []
+    },
+    {
+      "audio_sample_id": "4d1d1b57-1c8f-442b-b008-4fe956e6137f",
+      "start_utc": "2026-11-03T22:35:34.757Z",
+      "end_utc": "2026-11-03T22:35:36.819Z",
+      "duration_seconds": 2.061125,
+      "atc_channel_id": 504,
+      "channel": {
+        "facilityId": "a291a26a-b466-4622-9cac-7b0b4e76b442",
+        "facilityCode": "JFK",
+        "facilityType": "airport",
+        "facilityName": "John F. Kennedy",
+        "category": "Approach",
+        "name": "South",
+        "frequency": "125.7"
+      },
+      "role": "pilot",
+      "role_source": "api",
+      "speaker_label": "TURKISH 1 HEAVY",
+      "controller_label": "APPROACH",
+      "pilot_label": "TURKISH 1 HEAVY",
+      "frequency": "125.7",
+      "text": "Left 270, Turkish 1 heavy",
+      "callsigns": [
+        "THY1"
+      ],
+      "word_timestamps": [
+        {
+          "word": "left",
+          "start_seconds": 0.28,
+          "end_seconds": 0.46
+        },
+        {
+          "word": "270,",
+          "start_seconds": 0.52,
+          "end_seconds": 1.08
+        },
+        {
+          "word": "turkish",
+          "start_seconds": 1.1,
+          "end_seconds": 1.42
+        },
+        {
+          "word": "1",
+          "start_seconds": 1.56,
+          "end_seconds": 1.68
+        },
+        {
+          "word": "heavy",
+          "start_seconds": 1.7,
+          "end_seconds": 1.98
+        }
+      ],
+      "duplicate_ids": [
+        "773e9b12-1986-4e82-8ef6-e0245e74916e",
+        "bc1fc2a4-9a82-4802-af1c-c8525573fc2f"
+      ]
+    },
+    {
+      "audio_sample_id": "ead8c2b0-7f95-4457-97bd-d692f9be17a3",
+      "start_utc": "2026-11-03T22:35:51.119Z",
+      "end_utc": "2026-11-03T22:35:54.291Z",
+      "duration_seconds": 3.171125,
+      "atc_channel_id": 504,
+      "channel": {
+        "facilityId": "a291a26a-b466-4622-9cac-7b0b4e76b442",
+        "facilityCode": "JFK",
+        "facilityType": "airport",
+        "facilityName": "John F. Kennedy",
+        "category": "Approach",
+        "name": "South",
+        "frequency": "125.7"
+      },
+      "role": "controller",
+      "role_source": "api",
+      "speaker_label": "APPROACH",
+      "controller_label": "APPROACH",
+      "pilot_label": "TURKISH 1 HEAVY",
+      "frequency": "125.7",
+      "text": "Turkish 1 Heavy, turn left 250, intercept localizer, speed 170",
+      "callsigns": [
+        "THY1"
+      ],
+      "word_timestamps": [
+        {
+          "word": "turkish",
+          "start_seconds": 0,
+          "end_seconds": 0.2
+        },
+        {
+          "word": "1",
+          "start_seconds": 0.26,
+          "end_seconds": 0.34
+        },
+        {
+          "word": "heavy,",
+          "start_seconds": 0.38,
+          "end_seconds": 0.5
+        },
+        {
+          "word": "turn",
+          "start_seconds": 0.58,
+          "end_seconds": 0.7000000000000001
+        },
+        {
+          "word": "left",
+          "start_seconds": 0.74,
+          "end_seconds": 0.86
+        },
+        {
+          "word": "250,",
+          "start_seconds": 0.88,
+          "end_seconds": 1.3800000000000001
+        },
+        {
+          "word": "intercept",
+          "start_seconds": 1.4000000000000001,
+          "end_seconds": 1.6400000000000001
+        },
+        {
+          "word": "localizer,",
+          "start_seconds": 1.7,
+          "end_seconds": 2.1
+        },
+        {
+          "word": "speed",
+          "start_seconds": 2.18,
+          "end_seconds": 2.38
+        },
+        {
+          "word": "170",
+          "start_seconds": 2.42,
+          "end_seconds": 3.1
+        }
+      ],
+      "duplicate_ids": []
+    },
+    {
+      "audio_sample_id": "aeaea2b9-f30c-4ea1-ac84-e8661007979f",
+      "start_utc": "2026-11-03T22:35:54.673Z",
+      "end_utc": "2026-11-03T22:35:59.415Z",
+      "duration_seconds": 4.741125,
+      "atc_channel_id": 504,
+      "channel": {
+        "facilityId": "a291a26a-b466-4622-9cac-7b0b4e76b442",
+        "facilityCode": "JFK",
+        "facilityType": "airport",
+        "facilityName": "John F. Kennedy",
+        "category": "Approach",
+        "name": "South",
+        "frequency": "125.7"
+      },
+      "role": "pilot",
+      "role_source": "api",
+      "speaker_label": "TURKISH 1 HEAVY",
+      "controller_label": "APPROACH",
+      "pilot_label": "TURKISH 1 HEAVY",
+      "frequency": "125.7",
+      "text": "Turn left 250, intercept localizer, speed 170, Turkish uh 1 heavy",
+      "callsigns": [
+        "THY1"
+      ],
+      "word_timestamps": [
+        {
+          "word": "turn",
+          "start_seconds": 0.46,
+          "end_seconds": 0.58
+        },
+        {
+          "word": "left",
+          "start_seconds": 0.66,
+          "end_seconds": 0.76
+        },
+        {
+          "word": "250,",
+          "start_seconds": 0.86,
+          "end_seconds": 1.5
+        },
+        {
+          "word": "intercept",
+          "start_seconds": 1.6400000000000001,
+          "end_seconds": 1.9000000000000001
+        },
+        {
+          "word": "localizer,",
+          "start_seconds": 1.92,
+          "end_seconds": 2.36
+        },
+        {
+          "word": "speed",
+          "start_seconds": 2.42,
+          "end_seconds": 2.6
+        },
+        {
+          "word": "170,",
+          "start_seconds": 2.7,
+          "end_seconds": 3.3000000000000003
+        },
+        {
+          "word": "turkish",
+          "start_seconds": 3.36,
+          "end_seconds": 3.7
+        },
+        {
+          "word": "uh",
+          "start_seconds": 4,
+          "end_seconds": 4.14
+        },
+        {
+          "word": "1",
+          "start_seconds": 4.3,
+          "end_seconds": 4.44
+        },
+        {
+          "word": "heavy",
+          "start_seconds": 4.48,
+          "end_seconds": 4.7
+        }
+      ],
+      "duplicate_ids": [
+        "8014d37b-86a3-4638-8ed7-7bcea76ec2e4",
+        "cd93b238-4164-4d7c-9f40-515ca1ac1747"
+      ]
+    },
+    {
+      "audio_sample_id": "c3510d0b-2379-47ad-900a-34fc534cf94a",
+      "start_utc": "2026-11-03T22:39:49.018Z",
+      "end_utc": "2026-11-03T22:39:50.210Z",
+      "duration_seconds": 1.191125,
+      "atc_channel_id": 66,
+      "channel": {
+        "facilityId": "a291a26a-b466-4622-9cac-7b0b4e76b442",
+        "facilityCode": "JFK",
+        "facilityType": "airport",
+        "facilityName": "John F. Kennedy",
+        "category": "Tower",
+        "name": "Rwy 04L-13R",
+        "frequency": "123.9"
+      },
+      "role": "pilot",
+      "role_source": "api",
+      "speaker_label": "TURKISH 1 HEAVY",
+      "controller_label": "JFK TOWER",
+      "pilot_label": "TURKISH 1 HEAVY",
+      "frequency": "123.9",
+      "text": "Say again, Turkish 1",
+      "callsigns": [
+        "THY1"
+      ],
+      "word_timestamps": [
+        {
+          "word": "say",
+          "start_seconds": 0.24,
+          "end_seconds": 0.32
+        },
+        {
+          "word": "again,",
+          "start_seconds": 0.36,
+          "end_seconds": 0.52
+        },
+        {
+          "word": "turkish",
+          "start_seconds": 0.54,
+          "end_seconds": 0.8
+        },
+        {
+          "word": "1",
+          "start_seconds": 0.8200000000000001,
+          "end_seconds": 1.06
+        }
+      ],
+      "duplicate_ids": []
+    },
+    {
+      "audio_sample_id": "1a564b48-e0e4-4de0-8746-11d9ed561845",
+      "start_utc": "2026-11-03T22:39:50.257Z",
+      "end_utc": "2026-11-03T22:39:52.359Z",
+      "duration_seconds": 2.101125,
+      "atc_channel_id": 66,
+      "channel": {
+        "facilityId": "a291a26a-b466-4622-9cac-7b0b4e76b442",
+        "facilityCode": "JFK",
+        "facilityType": "airport",
+        "facilityName": "John F. Kennedy",
+        "category": "Tower",
+        "name": "Rwy 04L-13R",
+        "frequency": "123.9"
+      },
+      "role": "controller",
+      "role_source": "api",
+      "speaker_label": "JFK TOWER",
+      "controller_label": "JFK TOWER",
+      "pilot_label": "TURKISH 1 HEAVY",
+      "frequency": "123.9",
+      "text": "Turkish 1, are you with me",
+      "callsigns": [
+        "THY1"
+      ],
+      "word_timestamps": [
+        {
+          "word": "turkish",
+          "start_seconds": 0.02,
+          "end_seconds": 0.44
+        },
+        {
+          "word": "1,",
+          "start_seconds": 0.56,
+          "end_seconds": 0.7000000000000001
+        },
+        {
+          "word": "are",
+          "start_seconds": 1.46,
+          "end_seconds": 1.54
+        },
+        {
+          "word": "you",
+          "start_seconds": 1.58,
+          "end_seconds": 1.6600000000000001
+        },
+        {
+          "word": "with",
+          "start_seconds": 1.7,
+          "end_seconds": 1.8
+        },
+        {
+          "word": "me",
+          "start_seconds": 1.86,
+          "end_seconds": 2
+        }
+      ],
+      "duplicate_ids": []
+    },
+    {
+      "audio_sample_id": "41cd9790-805b-4060-ae99-0ebc2ba1a229",
+      "start_utc": "2026-11-03T22:39:52.756Z",
+      "end_utc": "2026-11-03T22:39:56.538Z",
+      "duration_seconds": 3.781125,
+      "atc_channel_id": 66,
+      "channel": {
+        "facilityId": "a291a26a-b466-4622-9cac-7b0b4e76b442",
+        "facilityCode": "JFK",
+        "facilityType": "airport",
+        "facilityName": "John F. Kennedy",
+        "category": "Tower",
+        "name": "Rwy 04L-13R",
+        "frequency": "123.9"
+      },
+      "role": "pilot",
+      "role_source": "api",
+      "speaker_label": "TURKISH 1 HEAVY",
+      "controller_label": "JFK TOWER",
+      "pilot_label": "TURKISH 1 HEAVY",
+      "frequency": "123.9",
+      "text": "Uh of course uh we are with you 22R, Turkish 1",
+      "callsigns": [
+        "THY1"
+      ],
+      "word_timestamps": [
+        {
+          "word": "uh",
+          "start_seconds": 0.14,
+          "end_seconds": 0.28
+        },
+        {
+          "word": "of",
+          "start_seconds": 0.4,
+          "end_seconds": 0.46
+        },
+        {
+          "word": "course",
+          "start_seconds": 0.54,
+          "end_seconds": 0.72
+        },
+        {
+          "word": "uh",
+          "start_seconds": 0.86,
+          "end_seconds": 0.9
+        },
+        {
+          "word": "we",
+          "start_seconds": 1.3800000000000001,
+          "end_seconds": 1.44
+        },
+        {
+          "word": "are",
+          "start_seconds": 1.5,
+          "end_seconds": 1.62
+        },
+        {
+          "word": "with",
+          "start_seconds": 2.06,
+          "end_seconds": 2.22
+        },
+        {
+          "word": "you",
+          "start_seconds": 2.2600000000000002,
+          "end_seconds": 2.34
+        },
+        {
+          "word": "22r,",
+          "start_seconds": 2.7600000000000002,
+          "end_seconds": 3.12
+        },
+        {
+          "word": "turkish",
+          "start_seconds": 3.2800000000000002,
+          "end_seconds": 3.5
+        },
+        {
+          "word": "1",
+          "start_seconds": 3.54,
+          "end_seconds": 3.72
+        }
+      ],
+      "duplicate_ids": []
+    },
+    {
+      "audio_sample_id": "d4292bf3-d8d1-432d-96b8-5cf4e23fe710",
+      "start_utc": "2026-11-03T22:39:56.591Z",
+      "end_utc": "2026-11-03T22:40:04.803Z",
+      "duration_seconds": 8.211124999,
+      "atc_channel_id": 66,
+      "channel": {
+        "facilityId": "a291a26a-b466-4622-9cac-7b0b4e76b442",
+        "facilityCode": "JFK",
+        "facilityType": "airport",
+        "facilityName": "John F. Kennedy",
+        "category": "Tower",
+        "name": "Rwy 04L-13R",
+        "frequency": "123.9"
+      },
+      "role": "controller",
+      "role_source": "api",
+      "speaker_label": "JFK TOWER",
+      "controller_label": "JFK TOWER",
+      "pilot_label": "TURKISH 1 HEAVY",
+      "frequency": "123.9",
+      "text": "Turkish 1 Heavy, caution wake turbulence, last lander is a heavy triple 7, they're rolling out, they're landing assured, the wind 190 at 7, caution the wake, 22R cleared to land",
+      "callsigns": [
+        "THY1"
+      ],
+      "word_timestamps": [
+        {
+          "word": "turkish",
+          "start_seconds": 0.16,
+          "end_seconds": 0.48
+        },
+        {
+          "word": "1",
+          "start_seconds": 0.56,
+          "end_seconds": 0.68
+        },
+        {
+          "word": "heavy,",
+          "start_seconds": 0.76,
+          "end_seconds": 0.96
+        },
+        {
+          "word": "caution",
+          "start_seconds": 1.12,
+          "end_seconds": 1.42
+        },
+        {
+          "word": "wake",
+          "start_seconds": 1.46,
+          "end_seconds": 1.62
+        },
+        {
+          "word": "turbulence,",
+          "start_seconds": 1.6600000000000001,
+          "end_seconds": 2.02
+        },
+        {
+          "word": "last",
+          "start_seconds": 2.18,
+          "end_seconds": 2.34
+        },
+        {
+          "word": "lander",
+          "start_seconds": 2.48,
+          "end_seconds": 2.74
+        },
+        {
+          "word": "is",
+          "start_seconds": 2.7600000000000002,
+          "end_seconds": 2.82
+        },
+        {
+          "word": "a",
+          "start_seconds": 2.9,
+          "end_seconds": 2.92
+        },
+        {
+          "word": "heavy",
+          "start_seconds": 2.98,
+          "end_seconds": 3.16
+        },
+        {
+          "word": "triple",
+          "start_seconds": 3.24,
+          "end_seconds": 3.48
+        },
+        {
+          "word": "7,",
+          "start_seconds": 3.6,
+          "end_seconds": 3.86
+        },
+        {
+          "word": "they're",
+          "start_seconds": 3.92,
+          "end_seconds": 4.0600000000000005
+        },
+        {
+          "word": "rolling",
+          "start_seconds": 4.08,
+          "end_seconds": 4.34
+        },
+        {
+          "word": "out,",
+          "start_seconds": 4.46,
+          "end_seconds": 4.58
+        },
+        {
+          "word": "they're",
+          "start_seconds": 4.64,
+          "end_seconds": 4.8
+        },
+        {
+          "word": "landing",
+          "start_seconds": 4.82,
+          "end_seconds": 5.04
+        },
+        {
+          "word": "assured,",
+          "start_seconds": 5.1000000000000005,
+          "end_seconds": 5.4
+        },
+        {
+          "word": "the",
+          "start_seconds": 5.42,
+          "end_seconds": 5.48
+        },
+        {
+          "word": "wind",
+          "start_seconds": 5.54,
+          "end_seconds": 5.66
+        },
+        {
+          "word": "190",
+          "start_seconds": 5.72,
+          "end_seconds": 6.2
+        },
+        {
+          "word": "at",
+          "start_seconds": 6.22,
+          "end_seconds": 6.28
+        },
+        {
+          "word": "7,",
+          "start_seconds": 6.34,
+          "end_seconds": 6.5600000000000005
+        },
+        {
+          "word": "caution",
+          "start_seconds": 6.640000000000001,
+          "end_seconds": 6.88
+        },
+        {
+          "word": "the",
+          "start_seconds": 6.9,
+          "end_seconds": 6.96
+        },
+        {
+          "word": "wake,",
+          "start_seconds": 7.0200000000000005,
+          "end_seconds": 7.140000000000001
+        },
+        {
+          "word": "22r",
+          "start_seconds": 7.2,
+          "end_seconds": 7.58
+        },
+        {
+          "word": "cleared",
+          "start_seconds": 7.62,
+          "end_seconds": 7.84
+        },
+        {
+          "word": "to",
+          "start_seconds": 7.88,
+          "end_seconds": 7.94
+        },
+        {
+          "word": "land",
+          "start_seconds": 7.98,
+          "end_seconds": 8.1
+        }
+      ],
+      "duplicate_ids": []
+    },
+    {
+      "audio_sample_id": "863b9fbf-7120-4697-96df-d2d016c20b22",
+      "start_utc": "2026-11-03T22:40:05.039Z",
+      "end_utc": "2026-11-03T22:40:07.631Z",
+      "duration_seconds": 2.591125,
+      "atc_channel_id": 66,
+      "channel": {
+        "facilityId": "a291a26a-b466-4622-9cac-7b0b4e76b442",
+        "facilityCode": "JFK",
+        "facilityType": "airport",
+        "facilityName": "John F. Kennedy",
+        "category": "Tower",
+        "name": "Rwy 04L-13R",
+        "frequency": "123.9"
+      },
+      "role": "pilot",
+      "role_source": "api",
+      "speaker_label": "TURKISH 1 HEAVY",
+      "controller_label": "JFK TOWER",
+      "pilot_label": "TURKISH 1 HEAVY",
+      "frequency": "123.9",
+      "text": "Cleared to land runway 22R, Turkish 1 heavy",
+      "callsigns": [
+        "THY1"
+      ],
+      "word_timestamps": [
+        {
+          "word": "cleared",
+          "start_seconds": 0.28,
+          "end_seconds": 0.52
+        },
+        {
+          "word": "to",
+          "start_seconds": 0.54,
+          "end_seconds": 0.58
+        },
+        {
+          "word": "land",
+          "start_seconds": 0.6,
+          "end_seconds": 0.76
+        },
+        {
+          "word": "runway",
+          "start_seconds": 0.78,
+          "end_seconds": 1.02
+        },
+        {
+          "word": "22r,",
+          "start_seconds": 1.2,
+          "end_seconds": 1.54
+        },
+        {
+          "word": "turkish",
+          "start_seconds": 1.76,
+          "end_seconds": 2
+        },
+        {
+          "word": "1",
+          "start_seconds": 2.08,
+          "end_seconds": 2.24
+        },
+        {
+          "word": "heavy",
+          "start_seconds": 2.2800000000000002,
+          "end_seconds": 2.46
+        }
+      ],
+      "duplicate_ids": []
+    }
+  ]
+}

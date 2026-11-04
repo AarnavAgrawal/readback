@@ -1,0 +1,94 @@
+{
+  "title": "Turkish 1 Heavy goes around at JFK, lands on 22R",
+  "hook": "cancel your approach, go around",
+  "hook_audio_sample_id": "57c190ce-55e3-43f3-ae77-1260a605d401",
+  "airport_code": "JFK",
+  "active_runway": "22L",
+  "conditions": "Wind 190 at 8 knots",
+  "beats": [
+    {
+      "audio_sample_id": "e8fbb209-1132-4d91-9f86-a8514fdb0126",
+      "role": "controller",
+      "note": "CLEARED TO LAND",
+      "phase": "final",
+      "runway": "22L"
+    },
+    {
+      "audio_sample_id": "24addcb5-461b-4aae-9c46-1abf4d0ae8a6",
+      "role": "controller",
+      "note": null,
+      "phase": "final",
+      "runway": "22L"
+    },
+    {
+      "audio_sample_id": "8175260a-6f70-494b-85a5-9cca163ac73d",
+      "role": "controller",
+      "note": "SLOWEST SPEED",
+      "phase": "final",
+      "runway": "22L"
+    },
+    {
+      "audio_sample_id": "e5c8d61a-66b5-418c-ab0b-220f2b4b4f81",
+      "role": "pilot",
+      "note": null,
+      "phase": "final",
+      "runway": "22L"
+    },
+    {
+      "audio_sample_id": "57c190ce-55e3-43f3-ae77-1260a605d401",
+      "role": "controller",
+      "note": "GO AROUND",
+      "phase": "go-around",
+      "runway": "22L"
+    },
+    {
+      "audio_sample_id": "ed84e83a-2f69-4438-ae47-515f29dbdf64",
+      "role": "pilot",
+      "note": null,
+      "phase": "go-around",
+      "runway": "22L"
+    },
+    {
+      "audio_sample_id": "ed17bf42-37a7-415f-96be-47509463f424",
+      "role": "pilot",
+      "note": "NEW RUNWAY?",
+      "phase": "vectors",
+      "runway": "22R"
+    },
+    {
+      "audio_sample_id": "7b26f622-7277-4236-b593-b485417ba176",
+      "role": "controller",
+      "note": null,
+      "phase": "vectors",
+      "runway": "22R"
+    },
+    {
+      "audio_sample_id": "d4292bf3-d8d1-432d-96b8-5cf4e23fe710",
+      "role": "controller",
+      "note": "CAUTION WAKE",
+      "phase": "final",
+      "runway": "22R"
+    },
+    {
+      "audio_sample_id": "863b9fbf-7120-4697-96df-d2d016c20b22",
+      "role": "pilot",
+      "note": "CLEARED TO LAND",
+      "phase": "final",
+      "runway": "22R"
+    }
+  ],
+  "explainers": [
+    {
+      "after_beat_index": 5,
+      "heading": "What is a go-around?",
+      "body": "A go-around means abandoning a landing and climbing away to try again. It is a routine, trained procedure, and controllers can order one when spacing or the runway isn't ready."
+    },
+    {
+      "after_beat_index": 8,
+      "heading": "Wake turbulence",
+      "body": "Large aircraft leave swirling air behind them. Controllers warn following pilots, especially behind heavy jets like a Boeing 777, so they can plan their approach accordingly."
+    }
+  ],
+  "generated_by": "claude-opus-5-5",
+  "generated_at": "2026-11-04T17:47:27.357Z"
+}

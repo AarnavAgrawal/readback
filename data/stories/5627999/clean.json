@@ -1,0 +1,986 @@
+{
+  "event_id": 5627999,
+  "event_summary": "Go around, runway 28L inquiry, \"what was the reason for the go around\"",
+  "happened_at": "2026-11-04T06:01:30.242821197Z",
+  "airport_code": "SFO",
+  "callsigns": [
+    "UAL1274"
+  ],
+  "transmissions": [
+    {
+      "audio_sample_id": "9f35c5bc-a5c6-4359-b6e3-44221e3f72c7",
+      "start_utc": "2026-11-04T05:58:04.439Z",
+      "end_utc": "2026-11-04T05:58:11.301Z",
+      "duration_seconds": 6.861125,
+      "atc_channel_id": 4,
+      "channel": {
+        "facilityId": "3667d976-1566-4887-ae34-c024d92f46c7",
+        "facilityCode": "SFO",
+        "facilityType": "airport",
+        "facilityName": "San Francisco",
+        "category": "Tower",
+        "name": "Main",
+        "frequency": "120.5"
+      },
+      "role": "controller",
+      "role_source": "api",
+      "speaker_label": "SFO TOWER",
+      "controller_label": "SFO TOWER",
+      "pilot_label": "UNITED 1274",
+      "frequency": "120.5",
+      "text": "United 1274, it should work out but it might be close in the event of a go around plan a left turn heading 260",
+      "callsigns": [
+        "UAL1274"
+      ],
+      "word_timestamps": null,
+      "duplicate_ids": []
+    },
+    {
+      "audio_sample_id": "af7bfbcc-e7c1-422d-9545-716112fde509",
+      "start_utc": "2026-11-04T05:58:51.651Z",
+      "end_utc": "2026-11-04T05:58:54.963Z",
+      "duration_seconds": 3.311125,
+      "atc_channel_id": 4,
+      "channel": {
+        "facilityId": "3667d976-1566-4887-ae34-c024d92f46c7",
+        "facilityCode": "SFO",
+        "facilityType": "airport",
+        "facilityName": "San Francisco",
+        "category": "Tower",
+        "name": "Main",
+        "frequency": "120.5"
+      },
+      "role": "pilot",
+      "role_source": "api",
+      "speaker_label": "UNITED 1274",
+      "controller_label": "SFO TOWER",
+      "pilot_label": "UNITED 1274",
+      "frequency": "120.5",
+      "text": "United 1274 is going around wake turbulence",
+      "callsigns": [
+        "UAL1274"
+      ],
+      "word_timestamps": null,
+      "duplicate_ids": []
+    },
+    {
+      "audio_sample_id": "cf323faf-d4d3-46d3-ac9a-359bf6c08f8f",
+      "start_utc": "2026-11-04T05:59:21.531Z",
+      "end_utc": "2026-11-04T05:59:24.843Z",
+      "duration_seconds": 3.311125,
+      "atc_channel_id": 4,
+      "channel": {
+        "facilityId": "3667d976-1566-4887-ae34-c024d92f46c7",
+        "facilityCode": "SFO",
+        "facilityType": "airport",
+        "facilityName": "San Francisco",
+        "category": "Tower",
+        "name": "Main",
+        "frequency": "120.5"
+      },
+      "role": "pilot",
+      "role_source": "api",
+      "speaker_label": "UNITED 1274",
+      "controller_label": "SFO TOWER",
+      "pilot_label": "UNITED 1274",
+      "frequency": "120.5",
+      "text": "It was wake turbulence for the go around, United 1274",
+      "callsigns": [
+        "UAL1274"
+      ],
+      "word_timestamps": null,
+      "duplicate_ids": []
+    },
+    {
+      "audio_sample_id": "9c87e773-272b-41ae-8ce4-22d35124a81a",
+      "start_utc": "2026-11-04T06:00:41.691Z",
+      "end_utc": "2026-11-04T06:00:44.493Z",
+      "duration_seconds": 2.801125,
+      "atc_channel_id": 9,
+      "channel": {
+        "facilityId": "3667d976-1566-4887-ae34-c024d92f46c7",
+        "facilityCode": "SFO",
+        "facilityType": "airport",
+        "facilityName": "San Francisco",
+        "category": "Departure",
+        "name": "Northwest-East",
+        "frequency": "120.9"
+      },
+      "role": "controller",
+      "role_source": "api",
+      "speaker_label": "DEPARTURE",
+      "controller_label": "DEPARTURE",
+      "pilot_label": "UNITED 1274",
+      "frequency": "120.9",
+      "text": "United 1274, 28L and uh what was the reason for the go around",
+      "callsigns": [
+        "UAL1274"
+      ],
+      "word_timestamps": null,
+      "duplicate_ids": [
+        "7e0a7cf3-8516-4400-beb7-86c5015c7318",
+        "f5cf5490-7643-4b90-9a10-f725711d7d77"
+      ]
+    },
+    {
+      "audio_sample_id": "e07472ed-f484-4593-9453-af53607923e6",
+      "start_utc": "2026-11-04T06:01:41.498Z",
+      "end_utc": "2026-11-04T06:01:44.800Z",
+      "duration_seconds": 3.301125,
+      "atc_channel_id": 751,
+      "channel": {
+        "facilityId": "a979e1c3-d105-4e9d-b123-353d91b51845",
+        "facilityCode": "OAK",
+        "facilityType": "airport",
+        "facilityName": "Oakland",
+        "category": "Norcal Departure",
+        "name": "West",
+        "frequency": "135.1"
+      },
+      "role": "controller",
+      "role_source": "api",
+      "speaker_label": "WEST",
+      "controller_label": "WEST",
+      "pilot_label": "UNITED 1274",
+      "frequency": "135.1",
+      "text": "United 1274, contact Final 135.65",
+      "callsigns": [
+        "UAL1274"
+      ],
+      "word_timestamps": null,
+      "duplicate_ids": []
+    },
+    {
+      "audio_sample_id": "2177e8ec-c757-47fd-b51e-db77a1c66b27",
+      "start_utc": "2026-11-04T06:01:45.302Z",
+      "end_utc": "2026-11-04T06:01:47.894Z",
+      "duration_seconds": 2.591125,
+      "atc_channel_id": 8,
+      "channel": {
+        "facilityId": "3667d976-1566-4887-ae34-c024d92f46c7",
+        "facilityCode": "SFO",
+        "facilityType": "airport",
+        "facilityName": "San Francisco",
+        "category": "Departure",
+        "name": "Southeast-West",
+        "frequency": "135.1"
+      },
+      "role": "pilot",
+      "role_source": "api",
+      "speaker_label": "UNITED 1274",
+      "controller_label": "DEPARTURE",
+      "pilot_label": "UNITED 1274",
+      "frequency": "135.1",
+      "text": "135.65, United 1274",
+      "callsigns": [
+        "UAL1274"
+      ],
+      "word_timestamps": null,
+      "duplicate_ids": [
+        "2a2e9fbe-873a-43de-be97-c6d8a0e4927a"
+      ]
+    },
+    {
+      "audio_sample_id": "76f4abaa-eda1-45bc-971b-fea1e4081425",
+      "start_utc": "2026-11-04T06:02:19.170Z",
+      "end_utc": "2026-11-04T06:02:21.272Z",
+      "duration_seconds": 2.101125,
+      "atc_channel_id": 346,
+      "channel": {
+        "facilityId": "3667d976-1566-4887-ae34-c024d92f46c7",
+        "facilityCode": "SFO",
+        "facilityType": "airport",
+        "facilityName": "San Francisco",
+        "category": "Approach Final",
+        "name": "28L",
+        "frequency": "135.65"
+      },
+      "role": "pilot",
+      "role_source": "api",
+      "speaker_label": "UNITED 1274",
+      "controller_label": "FINAL APPROACH",
+      "pilot_label": "UNITED 1274",
+      "frequency": "135.65",
+      "text": "NorCal, United 1274 is with you",
+      "callsigns": [
+        "UAL1274"
+      ],
+      "word_timestamps": null,
+      "duplicate_ids": []
+    },
+    {
+      "audio_sample_id": "0c65a985-f07e-4ac9-9d28-cc1ff1076e51",
+      "start_utc": "2026-11-04T06:03:13.920Z",
+      "end_utc": "2026-11-04T06:03:18.612Z",
+      "duration_seconds": 4.6911249999999995,
+      "atc_channel_id": 346,
+      "channel": {
+        "facilityId": "3667d976-1566-4887-ae34-c024d92f46c7",
+        "facilityCode": "SFO",
+        "facilityType": "airport",
+        "facilityName": "San Francisco",
+        "category": "Approach Final",
+        "name": "28L",
+        "frequency": "135.65"
+      },
+      "role": "controller",
+      "role_source": "api",
+      "speaker_label": "FINAL APPROACH",
+      "controller_label": "FINAL APPROACH",
+      "pilot_label": "UNITED 1274",
+      "frequency": "135.65",
+      "text": "Uh United 1274, did you check in there I missed it just verify S the altimeter's 30.04",
+      "callsigns": [
+        "UAL1274"
+      ],
+      "word_timestamps": null,
+      "duplicate_ids": [
+        "4a28cd4c-1aab-4637-a7d2-bfafc045e89c"
+      ]
+    },
+    {
+      "audio_sample_id": "e1aa944f-ed99-4e2d-8409-b99171d62e2e",
+      "start_utc": "2026-11-04T06:03:22.921Z",
+      "end_utc": "2026-11-04T06:03:32.633Z",
+      "duration_seconds": 9.711125,
+      "atc_channel_id": 346,
+      "channel": {
+        "facilityId": "3667d976-1566-4887-ae34-c024d92f46c7",
+        "facilityCode": "SFO",
+        "facilityType": "airport",
+        "facilityName": "San Francisco",
+        "category": "Approach Final",
+        "name": "28L",
+        "frequency": "135.65"
+      },
+      "role": "controller",
+      "role_source": "api",
+      "speaker_label": "FINAL APPROACH",
+      "controller_label": "FINAL APPROACH",
+      "pilot_label": "UNITED 1274",
+      "frequency": "135.65",
+      "text": "United 1274, thank you, traffic 2 to 3 o'clock 6 miles northeastbound a 737 6,000 restricted above ya, reduce speed uh maintain 210 knots, expect ILS 28L",
+      "callsigns": [
+        "UAL1274"
+      ],
+      "word_timestamps": null,
+      "duplicate_ids": [
+        "bb72ee64-815b-4337-9df6-242a2bed04da"
+      ]
+    },
+    {
+      "audio_sample_id": "405bb28a-fd65-49de-8554-2c4dfaa9b570",
+      "start_utc": "2026-11-04T06:03:33.000Z",
+      "end_utc": "2026-11-04T06:03:37.482Z",
+      "duration_seconds": 4.4811250000000005,
+      "atc_channel_id": 346,
+      "channel": {
+        "facilityId": "3667d976-1566-4887-ae34-c024d92f46c7",
+        "facilityCode": "SFO",
+        "facilityType": "airport",
+        "facilityName": "San Francisco",
+        "category": "Approach Final",
+        "name": "28L",
+        "frequency": "135.65"
+      },
+      "role": "pilot",
+      "role_source": "api",
+      "speaker_label": "UNITED 1274",
+      "controller_label": "FINAL APPROACH",
+      "pilot_label": "UNITED 1274",
+      "frequency": "135.65",
+      "text": "Speed 210, expect ILS 28L, we're at IMC, United 1274",
+      "callsigns": [
+        "UAL1274"
+      ],
+      "word_timestamps": null,
+      "duplicate_ids": []
+    },
+    {
+      "audio_sample_id": "42c01ef5-8721-4737-8775-7a4b3eb895bf",
+      "start_utc": "2026-11-04T06:04:29.801Z",
+      "end_utc": "2026-11-04T06:04:32.383Z",
+      "duration_seconds": 2.581125,
+      "atc_channel_id": 346,
+      "channel": {
+        "facilityId": "3667d976-1566-4887-ae34-c024d92f46c7",
+        "facilityCode": "SFO",
+        "facilityType": "airport",
+        "facilityName": "San Francisco",
+        "category": "Approach Final",
+        "name": "28L",
+        "frequency": "135.65"
+      },
+      "role": "controller",
+      "role_source": "api",
+      "speaker_label": "FINAL APPROACH",
+      "controller_label": "FINAL APPROACH",
+      "pilot_label": "UNITED 1274",
+      "frequency": "135.65",
+      "text": "United 1274, descend and maintain 4,000",
+      "callsigns": [
+        "UAL1274"
+      ],
+      "word_timestamps": null,
+      "duplicate_ids": [
+        "6623440d-dbab-4bf6-b2a2-cdb75621d0d6"
+      ]
+    },
+    {
+      "audio_sample_id": "b93bf19b-af7e-4ca9-8f00-c81c9d8ce6b3",
+      "start_utc": "2026-11-04T06:04:32.743Z",
+      "end_utc": "2026-11-04T06:04:35.005Z",
+      "duration_seconds": 2.261125,
+      "atc_channel_id": 346,
+      "channel": {
+        "facilityId": "3667d976-1566-4887-ae34-c024d92f46c7",
+        "facilityCode": "SFO",
+        "facilityType": "airport",
+        "facilityName": "San Francisco",
+        "category": "Approach Final",
+        "name": "28L",
+        "frequency": "135.65"
+      },
+      "role": "pilot",
+      "role_source": "api",
+      "speaker_label": "UNITED 1274",
+      "controller_label": "FINAL APPROACH",
+      "pilot_label": "UNITED 1274",
+      "frequency": "135.65",
+      "text": "Descend maintain 4,000, United 1274",
+      "callsigns": [
+        "UAL1274"
+      ],
+      "word_timestamps": null,
+      "duplicate_ids": []
+    },
+    {
+      "audio_sample_id": "85d1baf4-3764-4f94-b01c-407f2d5e5716",
+      "start_utc": "2026-11-04T06:04:56.081Z",
+      "end_utc": "2026-11-04T06:04:58.253Z",
+      "duration_seconds": 2.171125,
+      "atc_channel_id": 346,
+      "channel": {
+        "facilityId": "3667d976-1566-4887-ae34-c024d92f46c7",
+        "facilityCode": "SFO",
+        "facilityType": "airport",
+        "facilityName": "San Francisco",
+        "category": "Approach Final",
+        "name": "28L",
+        "frequency": "135.65"
+      },
+      "role": "controller",
+      "role_source": "api",
+      "speaker_label": "FINAL APPROACH",
+      "controller_label": "FINAL APPROACH",
+      "pilot_label": "UNITED 1274",
+      "frequency": "135.65",
+      "text": "United 1274, turn 10 degrees right",
+      "callsigns": [
+        "UAL1274"
+      ],
+      "word_timestamps": null,
+      "duplicate_ids": [
+        "80ea4e8f-4bea-46d0-8a45-f4ac1fda37c8"
+      ]
+    },
+    {
+      "audio_sample_id": "561a166f-a4cb-47ad-9960-1bed2d3ac97b",
+      "start_utc": "2026-11-04T06:04:59.196Z",
+      "end_utc": "2026-11-04T06:05:02.088Z",
+      "duration_seconds": 2.8911249999999997,
+      "atc_channel_id": 346,
+      "channel": {
+        "facilityId": "3667d976-1566-4887-ae34-c024d92f46c7",
+        "facilityCode": "SFO",
+        "facilityType": "airport",
+        "facilityName": "San Francisco",
+        "category": "Approach Final",
+        "name": "28L",
+        "frequency": "135.65"
+      },
+      "role": "pilot",
+      "role_source": "api",
+      "speaker_label": "UNITED 1274",
+      "controller_label": "FINAL APPROACH",
+      "pilot_label": "UNITED 1274",
+      "frequency": "135.65",
+      "text": "10 degrees right, United 1274, heading 110",
+      "callsigns": [
+        "UAL1274"
+      ],
+      "word_timestamps": null,
+      "duplicate_ids": []
+    },
+    {
+      "audio_sample_id": "0e01e662-7c42-411a-be6a-7ec91c7a8e9d",
+      "start_utc": "2026-11-04T06:05:02.480Z",
+      "end_utc": "2026-11-04T06:05:02.992Z",
+      "duration_seconds": 0.511125,
+      "atc_channel_id": 346,
+      "channel": {
+        "facilityId": "3667d976-1566-4887-ae34-c024d92f46c7",
+        "facilityCode": "SFO",
+        "facilityType": "airport",
+        "facilityName": "San Francisco",
+        "category": "Approach Final",
+        "name": "28L",
+        "frequency": "135.65"
+      },
+      "role": "controller",
+      "role_source": "api",
+      "speaker_label": "FINAL APPROACH",
+      "controller_label": "FINAL APPROACH",
+      "pilot_label": "UNITED 1274",
+      "frequency": "135.65",
+      "text": "Thanks sir",
+      "callsigns": [
+        "UAL1274"
+      ],
+      "word_timestamps": null,
+      "duplicate_ids": [
+        "4ea2290d-bea2-4699-a240-3ed563512955"
+      ]
+    },
+    {
+      "audio_sample_id": "e987fcf5-e811-4889-9684-bdcdfe32f326",
+      "start_utc": "2026-11-04T06:05:53.257Z",
+      "end_utc": "2026-11-04T06:05:57.669Z",
+      "duration_seconds": 4.411125,
+      "atc_channel_id": 346,
+      "channel": {
+        "facilityId": "3667d976-1566-4887-ae34-c024d92f46c7",
+        "facilityCode": "SFO",
+        "facilityType": "airport",
+        "facilityName": "San Francisco",
+        "category": "Approach Final",
+        "name": "28L",
+        "frequency": "135.65"
+      },
+      "role": "controller",
+      "role_source": "api",
+      "speaker_label": "FINAL APPROACH",
+      "controller_label": "FINAL APPROACH",
+      "pilot_label": "UNITED 1274",
+      "frequency": "135.65",
+      "text": "United 1274, turn left heading 020, maintain 3,000",
+      "callsigns": [
+        "UAL1274"
+      ],
+      "word_timestamps": null,
+      "duplicate_ids": [
+        "600c567a-a1ff-43a9-bb39-84761f735b8e"
+      ]
+    },
+    {
+      "audio_sample_id": "8dc344f9-0b37-4a75-b9ee-61d15192a4f2",
+      "start_utc": "2026-11-04T06:05:57.829Z",
+      "end_utc": "2026-11-04T06:06:01.491Z",
+      "duration_seconds": 3.661125,
+      "atc_channel_id": 346,
+      "channel": {
+        "facilityId": "3667d976-1566-4887-ae34-c024d92f46c7",
+        "facilityCode": "SFO",
+        "facilityType": "airport",
+        "facilityName": "San Francisco",
+        "category": "Approach Final",
+        "name": "28L",
+        "frequency": "135.65"
+      },
+      "role": "pilot",
+      "role_source": "api",
+      "speaker_label": "UNITED 1274",
+      "controller_label": "FINAL APPROACH",
+      "pilot_label": "UNITED 1274",
+      "frequency": "135.65",
+      "text": "Left 020, descend maintain 3,000, United 1274",
+      "callsigns": [
+        "UAL1274"
+      ],
+      "word_timestamps": null,
+      "duplicate_ids": []
+    },
+    {
+      "audio_sample_id": "70d54e39-381e-41d5-a606-e439326d7ac6",
+      "start_utc": "2026-11-04T06:06:07.948Z",
+      "end_utc": "2026-11-04T06:06:10.940Z",
+      "duration_seconds": 2.9911250000000003,
+      "atc_channel_id": 346,
+      "channel": {
+        "facilityId": "3667d976-1566-4887-ae34-c024d92f46c7",
+        "facilityCode": "SFO",
+        "facilityType": "airport",
+        "facilityName": "San Francisco",
+        "category": "Approach Final",
+        "name": "28L",
+        "frequency": "135.65"
+      },
+      "role": "controller",
+      "role_source": "api",
+      "speaker_label": "FINAL APPROACH",
+      "controller_label": "FINAL APPROACH",
+      "pilot_label": "UNITED 1274",
+      "frequency": "135.65",
+      "text": "United 1274, reduce speed to 180",
+      "callsigns": [
+        "UAL1274"
+      ],
+      "word_timestamps": null,
+      "duplicate_ids": [
+        "afe89986-e17f-4671-8731-d284cf78003a"
+      ]
+    },
+    {
+      "audio_sample_id": "ed2b540c-ee9f-4d52-b396-5712b834f1c9",
+      "start_utc": "2026-11-04T06:06:11.220Z",
+      "end_utc": "2026-11-04T06:06:13.502Z",
+      "duration_seconds": 2.281125,
+      "atc_channel_id": 346,
+      "channel": {
+        "facilityId": "3667d976-1566-4887-ae34-c024d92f46c7",
+        "facilityCode": "SFO",
+        "facilityType": "airport",
+        "facilityName": "San Francisco",
+        "category": "Approach Final",
+        "name": "28L",
+        "frequency": "135.65"
+      },
+      "role": "pilot",
+      "role_source": "api",
+      "speaker_label": "UNITED 1274",
+      "controller_label": "FINAL APPROACH",
+      "pilot_label": "UNITED 1274",
+      "frequency": "135.65",
+      "text": "Reduce speed 180, United 1274",
+      "callsigns": [
+        "UAL1274"
+      ],
+      "word_timestamps": null,
+      "duplicate_ids": []
+    },
+    {
+      "audio_sample_id": "a87bd8ce-f7c3-48f6-8ac2-98ec019cb47a",
+      "start_utc": "2026-11-04T06:06:53.568Z",
+      "end_utc": "2026-11-04T06:07:00.200Z",
+      "duration_seconds": 6.631125,
+      "atc_channel_id": 346,
+      "channel": {
+        "facilityId": "3667d976-1566-4887-ae34-c024d92f46c7",
+        "facilityCode": "SFO",
+        "facilityType": "airport",
+        "facilityName": "San Francisco",
+        "category": "Approach Final",
+        "name": "28L",
+        "frequency": "135.65"
+      },
+      "role": "controller",
+      "role_source": "api",
+      "speaker_label": "FINAL APPROACH",
+      "controller_label": "FINAL APPROACH",
+      "pilot_label": "UNITED 1274",
+      "frequency": "135.65",
+      "text": "United 1274, 5 miles from DUYET heading 310 maintain 2,600 till established cleared ILS 28L approach",
+      "callsigns": [
+        "UAL1274"
+      ],
+      "word_timestamps": null,
+      "duplicate_ids": [
+        "a0de755b-d114-4a36-8406-d579a2737f74"
+      ]
+    },
+    {
+      "audio_sample_id": "d807255a-d91d-42aa-a467-9064e6b13d9c",
+      "start_utc": "2026-11-04T06:07:00.449Z",
+      "end_utc": "2026-11-04T06:07:06.101Z",
+      "duration_seconds": 5.651125,
+      "atc_channel_id": 346,
+      "channel": {
+        "facilityId": "3667d976-1566-4887-ae34-c024d92f46c7",
+        "facilityCode": "SFO",
+        "facilityType": "airport",
+        "facilityName": "San Francisco",
+        "category": "Approach Final",
+        "name": "28L",
+        "frequency": "135.65"
+      },
+      "role": "pilot",
+      "role_source": "api",
+      "speaker_label": "UNITED 1274",
+      "controller_label": "FINAL APPROACH",
+      "pilot_label": "UNITED 1274",
+      "frequency": "135.65",
+      "text": "Left 310, 2,600 till established, cleared ILS 28L approach, United 1274",
+      "callsigns": [
+        "UAL1274"
+      ],
+      "word_timestamps": null,
+      "duplicate_ids": []
+    },
+    {
+      "audio_sample_id": "0cc3ddda-2bc1-4967-9022-7e66850b1abf",
+      "start_utc": "2026-11-04T06:07:30.595Z",
+      "end_utc": "2026-11-04T06:07:35.447Z",
+      "duration_seconds": 4.851125,
+      "atc_channel_id": 346,
+      "channel": {
+        "facilityId": "3667d976-1566-4887-ae34-c024d92f46c7",
+        "facilityCode": "SFO",
+        "facilityType": "airport",
+        "facilityName": "San Francisco",
+        "category": "Approach Final",
+        "name": "28L",
+        "frequency": "135.65"
+      },
+      "role": "controller",
+      "role_source": "api",
+      "speaker_label": "FINAL APPROACH",
+      "controller_label": "FINAL APPROACH",
+      "pilot_label": "UNITED 1274",
+      "frequency": "135.65",
+      "text": "United 1274, reduce speed to 160 to DUYET, contact San Francisco Tower, good night",
+      "callsigns": [
+        "UAL1274"
+      ],
+      "word_timestamps": null,
+      "duplicate_ids": [
+        "b1dbb0ba-2a63-4daa-87b6-326be0d8a830"
+      ]
+    },
+    {
+      "audio_sample_id": "c4f3092d-003c-47b2-b181-cec760e7480a",
+      "start_utc": "2026-11-04T06:07:35.703Z",
+      "end_utc": "2026-11-04T06:07:38.475Z",
+      "duration_seconds": 2.771125,
+      "atc_channel_id": 346,
+      "channel": {
+        "facilityId": "3667d976-1566-4887-ae34-c024d92f46c7",
+        "facilityCode": "SFO",
+        "facilityType": "airport",
+        "facilityName": "San Francisco",
+        "category": "Approach Final",
+        "name": "28L",
+        "frequency": "135.65"
+      },
+      "role": "pilot",
+      "role_source": "api",
+      "speaker_label": "UNITED 1274",
+      "controller_label": "FINAL APPROACH",
+      "pilot_label": "UNITED 1274",
+      "frequency": "135.65",
+      "text": "160 DUYET over to Tower, United 1274",
+      "callsigns": [
+        "UAL1274"
+      ],
+      "word_timestamps": null,
+      "duplicate_ids": []
+    },
+    {
+      "audio_sample_id": "91a3eaec-3c6f-4b6d-9a24-eaab916ad062",
+      "start_utc": "2026-11-04T06:08:35.396Z",
+      "end_utc": "2026-11-04T06:08:41.278Z",
+      "duration_seconds": 5.881125,
+      "atc_channel_id": 4,
+      "channel": {
+        "facilityId": "3667d976-1566-4887-ae34-c024d92f46c7",
+        "facilityCode": "SFO",
+        "facilityType": "airport",
+        "facilityName": "San Francisco",
+        "category": "Tower",
+        "name": "Main",
+        "frequency": "120.5"
+      },
+      "role": "controller",
+      "role_source": "api",
+      "speaker_label": "SFO TOWER",
+      "controller_label": "SFO TOWER",
+      "pilot_label": "UNITED 1274",
+      "frequency": "120.5",
+      "text": "United 1274, San Francisco Tower, welcome back, runway 28L cleared to land, wind 080 at 8, traffic departing north",
+      "callsigns": [
+        "UAL1274"
+      ],
+      "word_timestamps": null,
+      "duplicate_ids": []
+    },
+    {
+      "audio_sample_id": "6fddcbd5-dadf-47b7-8bea-456e22886916",
+      "start_utc": "2026-11-04T06:08:41.621Z",
+      "end_utc": "2026-11-04T06:08:43.573Z",
+      "duration_seconds": 1.951125,
+      "atc_channel_id": 4,
+      "channel": {
+        "facilityId": "3667d976-1566-4887-ae34-c024d92f46c7",
+        "facilityCode": "SFO",
+        "facilityType": "airport",
+        "facilityName": "San Francisco",
+        "category": "Tower",
+        "name": "Main",
+        "frequency": "120.5"
+      },
+      "role": "pilot",
+      "role_source": "api",
+      "speaker_label": "UNITED 1274",
+      "controller_label": "SFO TOWER",
+      "pilot_label": "UNITED 1274",
+      "frequency": "120.5",
+      "text": "Cleared to land 28L, United 1274",
+      "callsigns": [
+        "UAL1274"
+      ],
+      "word_timestamps": null,
+      "duplicate_ids": []
+    },
+    {
+      "audio_sample_id": "3066706f-e551-426e-86e7-4c8e39029a93",
+      "start_utc": "2026-11-04T06:11:52.086Z",
+      "end_utc": "2026-11-04T06:11:54.178Z",
+      "duration_seconds": 2.091125,
+      "atc_channel_id": 4,
+      "channel": {
+        "facilityId": "3667d976-1566-4887-ae34-c024d92f46c7",
+        "facilityCode": "SFO",
+        "facilityType": "airport",
+        "facilityName": "San Francisco",
+        "category": "Tower",
+        "name": "Main",
+        "frequency": "120.5"
+      },
+      "role": "controller",
+      "role_source": "api",
+      "speaker_label": "SFO TOWER",
+      "controller_label": "SFO TOWER",
+      "pilot_label": "UNITED 1274",
+      "frequency": "120.5",
+      "text": "United 1274, Ground point 8",
+      "callsigns": [
+        "UAL1274"
+      ],
+      "word_timestamps": null,
+      "duplicate_ids": []
+    },
+    {
+      "audio_sample_id": "1942ee4c-2f0c-407d-bd06-41db0182e7e9",
+      "start_utc": "2026-11-04T06:12:04.382Z",
+      "end_utc": "2026-11-04T06:12:07.894Z",
+      "duration_seconds": 3.511125,
+      "atc_channel_id": 7,
+      "channel": {
+        "facilityId": "3667d976-1566-4887-ae34-c024d92f46c7",
+        "facilityCode": "SFO",
+        "facilityType": "airport",
+        "facilityName": "San Francisco",
+        "category": "Ground",
+        "name": "Main",
+        "frequency": "121.8"
+      },
+      "role": "pilot",
+      "role_source": "api",
+      "speaker_label": "UNITED 1274",
+      "controller_label": "SFO GROUND",
+      "pilot_label": "UNITED 1274",
+      "frequency": "121.8",
+      "text": "Ground, United 1274, D for gate E3",
+      "callsigns": [
+        "UAL1274"
+      ],
+      "word_timestamps": null,
+      "duplicate_ids": []
+    },
+    {
+      "audio_sample_id": "80fc2a2a-4698-48b1-920a-acb3ea50f6e9",
+      "start_utc": "2026-11-04T06:12:09.836Z",
+      "end_utc": "2026-11-04T06:12:11.978Z",
+      "duration_seconds": 2.141125,
+      "atc_channel_id": 7,
+      "channel": {
+        "facilityId": "3667d976-1566-4887-ae34-c024d92f46c7",
+        "facilityCode": "SFO",
+        "facilityType": "airport",
+        "facilityName": "San Francisco",
+        "category": "Ground",
+        "name": "Main",
+        "frequency": "121.8"
+      },
+      "role": "controller",
+      "role_source": "api",
+      "speaker_label": "SFO GROUND",
+      "controller_label": "SFO GROUND",
+      "pilot_label": "UNITED 1274",
+      "frequency": "121.8",
+      "text": "United 1274, San Francisco Ground, taxi via A",
+      "callsigns": [
+        "UAL1274"
+      ],
+      "word_timestamps": null,
+      "duplicate_ids": []
+    },
+    {
+      "audio_sample_id": "7535cf53-128a-4dee-9d0b-af6ff471a3a0",
+      "start_utc": "2026-11-04T06:12:13.497Z",
+      "end_utc": "2026-11-04T06:12:15.359Z",
+      "duration_seconds": 1.861125,
+      "atc_channel_id": 7,
+      "channel": {
+        "facilityId": "3667d976-1566-4887-ae34-c024d92f46c7",
+        "facilityCode": "SFO",
+        "facilityType": "airport",
+        "facilityName": "San Francisco",
+        "category": "Ground",
+        "name": "Main",
+        "frequency": "121.8"
+      },
+      "role": "pilot",
+      "role_source": "api",
+      "speaker_label": "UNITED 1274",
+      "controller_label": "SFO GROUND",
+      "pilot_label": "UNITED 1274",
+      "frequency": "121.8",
+      "text": "Taxi via A, United 1274",
+      "callsigns": [
+        "UAL1274"
+      ],
+      "word_timestamps": null,
+      "duplicate_ids": []
+    },
+    {
+      "audio_sample_id": "bf3874c4-f902-41b9-9c21-ed66ec50a23d",
+      "start_utc": "2026-11-04T06:12:27.697Z",
+      "end_utc": "2026-11-04T06:12:29.689Z",
+      "duration_seconds": 1.991125,
+      "atc_channel_id": 359,
+      "channel": {
+        "facilityId": "3667d976-1566-4887-ae34-c024d92f46c7",
+        "facilityCode": "SFO",
+        "facilityType": "airport",
+        "facilityName": "San Francisco",
+        "category": "Ramp",
+        "name": "Ramp Secondary",
+        "frequency": "131"
+      },
+      "role": "pilot",
+      "role_source": "api",
+      "speaker_label": "UNITED 1274",
+      "controller_label": "SFO RAMP",
+      "pilot_label": "UNITED 1274",
+      "frequency": "131",
+      "text": "Ramp, United 1274",
+      "callsigns": [
+        "UAL1274"
+      ],
+      "word_timestamps": null,
+      "duplicate_ids": []
+    },
+    {
+      "audio_sample_id": "a6280c5f-8f2a-4b29-8f3c-809fcc7cca29",
+      "start_utc": "2026-11-04T06:12:32.197Z",
+      "end_utc": "2026-11-04T06:12:36.939Z",
+      "duration_seconds": 4.741125,
+      "atc_channel_id": 359,
+      "channel": {
+        "facilityId": "3667d976-1566-4887-ae34-c024d92f46c7",
+        "facilityCode": "SFO",
+        "facilityType": "airport",
+        "facilityName": "San Francisco",
+        "category": "Ramp",
+        "name": "Ramp Secondary",
+        "frequency": "131"
+      },
+      "role": "controller",
+      "role_source": "api",
+      "speaker_label": "SFO RAMP",
+      "controller_label": "SFO RAMP",
+      "pilot_label": "UNITED 1274",
+      "frequency": "131",
+      "text": "United 1274, Ramp, enter on the westline, hold abeam Fox 7 for just a moment",
+      "callsigns": [
+        "UAL1274"
+      ],
+      "word_timestamps": null,
+      "duplicate_ids": []
+    },
+    {
+      "audio_sample_id": "7664df45-843c-41e7-8289-b0444ebbc690",
+      "start_utc": "2026-11-04T06:12:37.365Z",
+      "end_utc": "2026-11-04T06:12:40.257Z",
+      "duration_seconds": 2.8911249999999997,
+      "atc_channel_id": 359,
+      "channel": {
+        "facilityId": "3667d976-1566-4887-ae34-c024d92f46c7",
+        "facilityCode": "SFO",
+        "facilityType": "airport",
+        "facilityName": "San Francisco",
+        "category": "Ramp",
+        "name": "Ramp Secondary",
+        "frequency": "131"
+      },
+      "role": "pilot",
+      "role_source": "api",
+      "speaker_label": "UNITED 1274",
+      "controller_label": "SFO RAMP",
+      "pilot_label": "UNITED 1274",
+      "frequency": "131",
+      "text": "Westline, hold abeam Fox 7, United 1274",
+      "callsigns": [
+        "UAL1274"
+      ],
+      "word_timestamps": null,
+      "duplicate_ids": []
+    },
+    {
+      "audio_sample_id": "25b180f0-93c0-4c08-826c-845d119c365b",
+      "start_utc": "2026-11-04T06:14:00.363Z",
+      "end_utc": "2026-11-04T06:14:03.775Z",
+      "duration_seconds": 3.411125,
+      "atc_channel_id": 359,
+      "channel": {
+        "facilityId": "3667d976-1566-4887-ae34-c024d92f46c7",
+        "facilityCode": "SFO",
+        "facilityType": "airport",
+        "facilityName": "San Francisco",
+        "category": "Ramp",
+        "name": "Ramp Secondary",
+        "frequency": "131"
+      },
+      "role": "controller",
+      "role_source": "api",
+      "speaker_label": "SFO RAMP",
+      "controller_label": "SFO RAMP",
+      "pilot_label": "UNITED 1274",
+      "frequency": "131",
+      "text": "United 1274, once company pulls forward you can continue to E3",
+      "callsigns": [
+        "UAL1274"
+      ],
+      "word_timestamps": null,
+      "duplicate_ids": []
+    },
+    {
+      "audio_sample_id": "18f64427-0afd-493e-844a-58c3c1935427",
+      "start_utc": "2026-11-04T06:14:04.574Z",
+      "end_utc": "2026-11-04T06:14:08.296Z",
+      "duration_seconds": 3.721125,
+      "atc_channel_id": 359,
+      "channel": {
+        "facilityId": "3667d976-1566-4887-ae34-c024d92f46c7",
+        "facilityCode": "SFO",
+        "facilityType": "airport",
+        "facilityName": "San Francisco",
+        "category": "Ramp",
+        "name": "Ramp Secondary",
+        "frequency": "131"
+      },
+      "role": "pilot",
+      "role_source": "api",
+      "speaker_label": "UNITED 1274",
+      "controller_label": "SFO RAMP",
+      "pilot_label": "UNITED 1274",
+      "frequency": "131",
+      "text": "Okay once the company is out of B8 continue to E3, United 1274",
+      "callsigns": [
+        "UAL1274"
+      ],
+      "word_timestamps": null,
+      "duplicate_ids": []
+    }
+  ]
+}

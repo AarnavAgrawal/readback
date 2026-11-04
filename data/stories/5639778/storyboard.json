@@ -1,0 +1,87 @@
+{
+  "title": "United 1449 Descends for TCAS Alert on Approach to Newark",
+  "hook": "we had a uh RA, we're descending",
+  "hook_audio_sample_id": "5b249fc7-827c-4ad8-bc85-afa47c7ab621",
+  "airport_code": "EWR",
+  "active_runway": "22L",
+  "conditions": "Wind 240 at 12 gusting 15, altimeter 30.15",
+  "beats": [
+    {
+      "audio_sample_id": "e2af9fbb-e550-4acc-953b-75abbaf22bc8",
+      "role": "controller",
+      "note": null,
+      "phase": "vectors",
+      "runway": "22L"
+    },
+    {
+      "audio_sample_id": "550be119-d7d1-44c6-bf48-ac41a36cda64",
+      "role": "controller",
+      "note": "TRAFFIC",
+      "phase": "vectors",
+      "runway": "22L"
+    },
+    {
+      "audio_sample_id": "5b249fc7-827c-4ad8-bc85-afa47c7ab621",
+      "role": "pilot",
+      "note": "TCAS RA",
+      "phase": "vectors",
+      "runway": "22L"
+    },
+    {
+      "audio_sample_id": "697874b1-580f-4599-98b3-6b10fcc256c5",
+      "role": "pilot",
+      "note": "CLEAR OF CONFLICT",
+      "phase": "vectors",
+      "runway": "22L"
+    },
+    {
+      "audio_sample_id": "98470339-a5b3-4746-b1ae-1ff9c6bd62de",
+      "role": "controller",
+      "note": null,
+      "phase": "vectors",
+      "runway": "22L"
+    },
+    {
+      "audio_sample_id": "e92eea44-a146-421c-98c4-be121273805d",
+      "role": "controller",
+      "note": "CLEARED ILS",
+      "phase": "final",
+      "runway": "22L"
+    },
+    {
+      "audio_sample_id": "b34d7066-f792-400b-a468-7f0d33ad3d75",
+      "role": "controller",
+      "note": "CLEARED TO LAND",
+      "phase": "final",
+      "runway": "22L"
+    },
+    {
+      "audio_sample_id": "39805079-c199-4c0b-b07a-03304bd9679e",
+      "role": "pilot",
+      "note": "AUTOLAND",
+      "phase": "final",
+      "runway": "22L"
+    },
+    {
+      "audio_sample_id": "50215453-5bf7-493d-87ad-c1ddf17a0f8b",
+      "role": "controller",
+      "note": null,
+      "phase": "final",
+      "runway": "22L"
+    }
+  ],
+  "explainers": [
+    {
+      "after_beat_index": 2,
+      "heading": "What is a TCAS RA?",
+      "body": "TCAS is an onboard collision-avoidance system. A Resolution Advisory (RA) tells pilots to climb or descend to keep separation from nearby traffic, and they follow it promptly."
+    },
+    {
+      "after_beat_index": 8,
+      "heading": "Autoland and critical areas",
+      "body": "Autoland lets the aircraft land itself using ILS signals. Protected critical areas keep those signals clean; when not protected, crews know signals may be disturbed."
+    }
+  ],
+  "generated_by": "claude-opus-5-5",
+  "generated_at": "2026-11-04T18:19:18.807Z"
+}

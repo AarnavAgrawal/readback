@@ -1,0 +1,892 @@
+{
+  "introSec": 2.8,
+  "totalSec": 69.732,
+  "segments": [
+    {
+      "audioSampleId": "e8fbb209-1132-4d91-9f86-a8514fdb0126",
+      "startSec": 2.8,
+      "endSec": 6.16,
+      "role": "controller",
+      "speakerLabel": "JFK TOWER",
+      "frequency": "119.1",
+      "text": "Turkish 1 Heavy, Kennedy Tower, wind 190 at 8, runway 22L cleared to land",
+      "words": [
+        {
+          "text": "Turkish",
+          "startSec": 2.86,
+          "endSec": 3.1
+        },
+        {
+          "text": "1",
+          "startSec": 3.18,
+          "endSec": 3.28
+        },
+        {
+          "text": "Heavy,",
+          "startSec": 3.34,
+          "endSec": 3.5
+        },
+        {
+          "text": "Kennedy",
+          "startSec": 3.58,
+          "endSec": 3.82
+        },
+        {
+          "text": "Tower,",
+          "startSec": 3.9,
+          "endSec": 4.06
+        },
+        {
+          "text": "wind",
+          "startSec": 4.08,
+          "endSec": 4.2
+        },
+        {
+          "text": "190",
+          "startSec": 4.26,
+          "endSec": 4.68
+        },
+        {
+          "text": "at",
+          "startSec": 4.7,
+          "endSec": 4.74
+        },
+        {
+          "text": "8,",
+          "startSec": 4.76,
+          "endSec": 4.86
+        },
+        {
+          "text": "runway",
+          "startSec": 4.9,
+          "endSec": 5.08
+        },
+        {
+          "text": "22L",
+          "startSec": 5.1,
+          "endSec": 5.46
+        },
+        {
+          "text": "cleared",
+          "startSec": 5.52,
+          "endSec": 5.68
+        },
+        {
+          "text": "to",
+          "startSec": 5.7,
+          "endSec": 5.76
+        },
+        {
+          "text": "land",
+          "startSec": 5.8,
+          "endSec": 5.96
+        }
+      ],
+      "note": "CLEARED TO LAND",
+      "phase": "final",
+      "runway": "22L",
+      "realTimeUtc": "2026-11-03T22:24:52.018Z"
+    },
+    {
+      "audioSampleId": "24addcb5-461b-4aae-9c46-1abf4d0ae8a6",
+      "startSec": 6.963,
+      "endSec": 9.954,
+      "role": "controller",
+      "speakerLabel": "JFK TOWER",
+      "frequency": "119.1",
+      "text": "Turkish 1 Heavy, if you can please reduce 10 to 20 knots",
+      "words": [
+        {
+          "text": "Turkish",
+          "startSec": 7.023,
+          "endSec": 7.284
+        },
+        {
+          "text": "1",
+          "startSec": 7.343,
+          "endSec": 7.444
+        },
+        {
+          "text": "Heavy,",
+          "startSec": 7.503,
+          "endSec": 7.603
+        },
+        {
+          "text": "if",
+          "startSec": 7.663,
+          "endSec": 7.744
+        },
+        {
+          "text": "you",
+          "startSec": 7.803,
+          "endSec": 7.883
+        },
+        {
+          "text": "can",
+          "startSec": 7.983,
+          "endSec": 8.123
+        },
+        {
+          "text": "please",
+          "startSec": 8.223,
+          "endSec": 8.424
+        },
+        {
+          "text": "reduce",
+          "startSec": 8.483,
+          "endSec": 8.784
+        },
+        {
+          "text": "10",
+          "startSec": 8.903,
+          "endSec": 9.003
+        },
+        {
+          "text": "to",
+          "startSec": 9.084,
+          "endSec": 9.123
+        },
+        {
+          "text": "20",
+          "startSec": 9.204,
+          "endSec": 9.403
+        },
+        {
+          "text": "knots",
+          "startSec": 9.463,
+          "endSec": 9.684
+        }
+      ],
+      "note": null,
+      "phase": "final",
+      "runway": "22L",
+      "realTimeUtc": "2026-11-03T22:25:13.056Z"
+    },
+    {
+      "audioSampleId": "8175260a-6f70-494b-85a5-9cca163ac73d",
+      "startSec": 10.954,
+      "endSec": 15.503,
+      "role": "controller",
+      "speakerLabel": "JFK TOWER",
+      "frequency": "119.1",
+      "text": "And Turkish 1 Heavy, if able maintain slowest practical speed slowest please",
+      "words": [
+        {
+          "text": "And",
+          "startSec": 11.133,
+          "endSec": 11.213
+        },
+        {
+          "text": "Turkish",
+          "startSec": 11.313,
+          "endSec": 11.553
+        },
+        {
+          "text": "1",
+          "startSec": 11.633,
+          "endSec": 11.733
+        },
+        {
+          "text": "Heavy,",
+          "startSec": 11.793,
+          "endSec": 11.973
+        },
+        {
+          "text": "if",
+          "startSec": 12.014,
+          "endSec": 12.053
+        },
+        {
+          "text": "able",
+          "startSec": 12.133,
+          "endSec": 12.354
+        },
+        {
+          "text": "maintain",
+          "startSec": 12.413,
+          "endSec": 12.733
+        },
+        {
+          "text": "slowest",
+          "startSec": 13.053,
+          "endSec": 13.534
+        },
+        {
+          "text": "practical",
+          "startSec": 13.654,
+          "endSec": 14.073
+        },
+        {
+          "text": "speed",
+          "startSec": 14.194,
+          "endSec": 14.393
+        },
+        {
+          "text": "slowest",
+          "startSec": 14.553,
+          "endSec": 14.893
+        },
+        {
+          "text": "please",
+          "startSec": 14.994,
+          "endSec": 15.334
+        }
+      ],
+      "note": "SLOWEST SPEED",
+      "phase": "final",
+      "runway": "22L",
+      "realTimeUtc": "2026-11-03T22:25:50.806Z"
+    },
+    {
+      "audioSampleId": "e5c8d61a-66b5-418c-ab0b-220f2b4b4f81",
+      "startSec": 15.959,
+      "endSec": 19.859,
+      "role": "pilot",
+      "speakerLabel": "TURKISH 1 HEAVY",
+      "frequency": "119.1",
+      "text": "Roger, we we are keeping minimum approach speed, Turkish 1 heavy",
+      "words": [
+        {
+          "text": "Roger,",
+          "startSec": 16.299,
+          "endSec": 16.579
+        },
+        {
+          "text": "we",
+          "startSec": 16.679,
+          "endSec": 16.739
+        },
+        {
+          "text": "we",
+          "startSec": 17.119,
+          "endSec": 17.159
+        },
+        {
+          "text": "are",
+          "startSec": 17.219,
+          "endSec": 17.299
+        },
+        {
+          "text": "keeping",
+          "startSec": 17.359,
+          "endSec": 17.619
+        },
+        {
+          "text": "minimum",
+          "startSec": 17.719,
+          "endSec": 18.039
+        },
+        {
+          "text": "approach",
+          "startSec": 18.199,
+          "endSec": 18.519
+        },
+        {
+          "text": "speed,",
+          "startSec": 18.559,
+          "endSec": 18.739
+        },
+        {
+          "text": "Turkish",
+          "startSec": 18.819,
+          "endSec": 19.179
+        },
+        {
+          "text": "1",
+          "startSec": 19.339,
+          "endSec": 19.439
+        },
+        {
+          "text": "heavy",
+          "startSec": 19.479,
+          "endSec": 19.759
+        }
+      ],
+      "note": null,
+      "phase": "final",
+      "runway": "22L",
+      "realTimeUtc": "2026-11-03T22:25:55.656Z"
+    },
+    {
+      "audioSampleId": "57c190ce-55e3-43f3-ae77-1260a605d401",
+      "startSec": 20.859,
+      "endSec": 26.439,
+      "role": "controller",
+      "speakerLabel": "JFK TOWER",
+      "frequency": "119.1",
+      "text": "And Turkish 1 Heavy, cancel your approach, go around, maintain 2,000, fly runway heading",
+      "words": [
+        {
+          "text": "And",
+          "startSec": 21.019,
+          "endSec": 21.139
+        },
+        {
+          "text": "Turkish",
+          "startSec": 21.259,
+          "endSec": 21.559
+        },
+        {
+          "text": "1",
+          "startSec": 21.719,
+          "endSec": 21.859
+        },
+        {
+          "text": "Heavy,",
+          "startSec": 21.959,
+          "endSec": 22.159
+        },
+        {
+          "text": "cancel",
+          "startSec": 22.299,
+          "endSec": 22.619
+        },
+        {
+          "text": "your",
+          "startSec": 22.699,
+          "endSec": 22.819
+        },
+        {
+          "text": "approach,",
+          "startSec": 22.899,
+          "endSec": 23.319
+        },
+        {
+          "text": "go",
+          "startSec": 23.619,
+          "endSec": 23.679
+        },
+        {
+          "text": "around,",
+          "startSec": 23.799,
+          "endSec": 24.099
+        },
+        {
+          "text": "maintain",
+          "startSec": 24.219,
+          "endSec": 24.559
+        },
+        {
+          "text": "2,000,",
+          "startSec": 24.659,
+          "endSec": 25.159
+        },
+        {
+          "text": "fly",
+          "startSec": 25.299,
+          "endSec": 25.419
+        },
+        {
+          "text": "runway",
+          "startSec": 25.519,
+          "endSec": 25.839
+        },
+        {
+          "text": "heading",
+          "startSec": 25.919,
+          "endSec": 26.139
+        }
+      ],
+      "note": "GO AROUND",
+      "phase": "go-around",
+      "runway": "22L",
+      "realTimeUtc": "2026-11-03T22:26:46.631Z"
+    },
+    {
+      "audioSampleId": "ed84e83a-2f69-4438-ae47-515f29dbdf64",
+      "startSec": 26.897,
+      "endSec": 31.277,
+      "role": "pilot",
+      "speakerLabel": "TURKISH 1 HEAVY",
+      "frequency": "119.1",
+      "text": "Go around maintain uh runway heading climb 2,000, Turkish 1",
+      "words": [
+        {
+          "text": "Go",
+          "startSec": 27.217,
+          "endSec": 27.277
+        },
+        {
+          "text": "around",
+          "startSec": 27.377,
+          "endSec": 27.657
+        },
+        {
+          "text": "maintain",
+          "startSec": 27.897,
+          "endSec": 28.317
+        },
+        {
+          "text": "uh",
+          "startSec": 28.757,
+          "endSec": 28.977
+        },
+        {
+          "text": "runway",
+          "startSec": 29.097,
+          "endSec": 29.337
+        },
+        {
+          "text": "heading",
+          "startSec": 29.357,
+          "endSec": 29.677
+        },
+        {
+          "text": "climb",
+          "startSec": 29.877,
+          "endSec": 30.077
+        },
+        {
+          "text": "2,000,",
+          "startSec": 30.157,
+          "endSec": 30.557
+        },
+        {
+          "text": "Turkish",
+          "startSec": 30.717,
+          "endSec": 30.977
+        },
+        {
+          "text": "1",
+          "startSec": 31.057,
+          "endSec": 31.217
+        }
+      ],
+      "note": null,
+      "phase": "go-around",
+      "runway": "22L",
+      "realTimeUtc": "2026-11-03T22:26:52.592Z"
+    },
+    {
+      "audioSampleId": "ed17bf42-37a7-415f-96be-47509463f424",
+      "startSec": 37.227,
+      "endSec": 42.537,
+      "role": "pilot",
+      "speakerLabel": "TURKISH 1 HEAVY",
+      "frequency": "135.9",
+      "text": "Left turn heading 080 climb uh 3,000 will be 22R confirm Turkish 1",
+      "words": [
+        {
+          "text": "Left",
+          "startSec": 37.447,
+          "endSec": 37.627
+        },
+        {
+          "text": "turn",
+          "startSec": 37.647,
+          "endSec": 37.747
+        },
+        {
+          "text": "heading",
+          "startSec": 37.827,
+          "endSec": 38.027
+        },
+        {
+          "text": "080",
+          "startSec": 38.207,
+          "endSec": 38.547
+        },
+        {
+          "text": "climb",
+          "startSec": 38.747,
+          "endSec": 39.007
+        },
+        {
+          "text": "uh",
+          "startSec": 39.207,
+          "endSec": 39.367
+        },
+        {
+          "text": "3,000",
+          "startSec": 39.587,
+          "endSec": 40.167
+        },
+        {
+          "text": "will",
+          "startSec": 40.327,
+          "endSec": 40.487
+        },
+        {
+          "text": "be",
+          "startSec": 40.527,
+          "endSec": 40.567
+        },
+        {
+          "text": "22R",
+          "startSec": 40.767,
+          "endSec": 41.287
+        },
+        {
+          "text": "confirm",
+          "startSec": 41.447,
+          "endSec": 41.727
+        },
+        {
+          "text": "Turkish",
+          "startSec": 41.827,
+          "endSec": 42.047
+        },
+        {
+          "text": "1",
+          "startSec": 42.107,
+          "endSec": 42.267
+        }
+      ],
+      "note": "NEW RUNWAY?",
+      "phase": "vectors",
+      "runway": "22R",
+      "realTimeUtc": "2026-11-03T22:28:18.758Z"
+    },
+    {
+      "audioSampleId": "7b26f622-7277-4236-b593-b485417ba176",
+      "startSec": 42.987,
+      "endSec": 47.727,
+      "role": "controller",
+      "speakerLabel": "DEPARTURE",
+      "frequency": "135.9",
+      "text": "Turkish 1 Heavy, that is correct heading 080 up to 3,000 please for the right side ILS 22R",
+      "words": [
+        {
+          "text": "Turkish",
+          "startSec": 42.987,
+          "endSec": 43.207
+        },
+        {
+          "text": "1",
+          "startSec": 43.247,
+          "endSec": 43.307
+        },
+        {
+          "text": "Heavy,",
+          "startSec": 43.327,
+          "endSec": 43.487
+        },
+        {
+          "text": "that",
+          "startSec": 43.547,
+          "endSec": 43.647
+        },
+        {
+          "text": "is",
+          "startSec": 43.707,
+          "endSec": 43.787
+        },
+        {
+          "text": "correct",
+          "startSec": 43.847,
+          "endSec": 44.107
+        },
+        {
+          "text": "heading",
+          "startSec": 44.147,
+          "endSec": 44.327
+        },
+        {
+          "text": "080",
+          "startSec": 44.647,
+          "endSec": 44.867
+        },
+        {
+          "text": "up",
+          "startSec": 45.047,
+          "endSec": 45.107
+        },
+        {
+          "text": "to",
+          "startSec": 45.147,
+          "endSec": 45.187
+        },
+        {
+          "text": "3,000",
+          "startSec": 45.267,
+          "endSec": 45.787
+        },
+        {
+          "text": "please",
+          "startSec": 45.847,
+          "endSec": 46.067
+        },
+        {
+          "text": "for",
+          "startSec": 46.107,
+          "endSec": 46.167
+        },
+        {
+          "text": "the",
+          "startSec": 46.207,
+          "endSec": 46.267
+        },
+        {
+          "text": "right",
+          "startSec": 46.307,
+          "endSec": 46.467
+        },
+        {
+          "text": "side",
+          "startSec": 46.527,
+          "endSec": 46.727
+        },
+        {
+          "text": "ILS",
+          "startSec": 46.787,
+          "endSec": 47.027
+        },
+        {
+          "text": "22R",
+          "startSec": 47.067,
+          "endSec": 47.547
+        }
+      ],
+      "note": null,
+      "phase": "vectors",
+      "runway": "22R",
+      "realTimeUtc": "2026-11-03T22:28:23.883Z"
+    },
+    {
+      "audioSampleId": "d4292bf3-d8d1-432d-96b8-5cf4e23fe710",
+      "startSec": 49.927,
+      "endSec": 58.137,
+      "role": "controller",
+      "speakerLabel": "JFK TOWER",
+      "frequency": "123.9",
+      "text": "Turkish 1 Heavy, caution wake turbulence, last lander is a heavy triple 7, they're rolling out, they're landing assured, the wind 190 at 7, caution the wake, 22R cleared to land",
+      "words": [
+        {
+          "text": "Turkish",
+          "startSec": 50.087,
+          "endSec": 50.407
+        },
+        {
+          "text": "1",
+          "startSec": 50.487,
+          "endSec": 50.607
+        },
+        {
+          "text": "Heavy,",
+          "startSec": 50.687,
+          "endSec": 50.887
+        },
+        {
+          "text": "caution",
+          "startSec": 51.047,
+          "endSec": 51.347
+        },
+        {
+          "text": "wake",
+          "startSec": 51.387,
+          "endSec": 51.547
+        },
+        {
+          "text": "turbulence,",
+          "startSec": 51.587,
+          "endSec": 51.947
+        },
+        {
+          "text": "last",
+          "startSec": 52.107,
+          "endSec": 52.267
+        },
+        {
+          "text": "lander",
+          "startSec": 52.407,
+          "endSec": 52.667
+        },
+        {
+          "text": "is",
+          "startSec": 52.687,
+          "endSec": 52.747
+        },
+        {
+          "text": "a",
+          "startSec": 52.827,
+          "endSec": 52.847
+        },
+        {
+          "text": "heavy",
+          "startSec": 52.907,
+          "endSec": 53.087
+        },
+        {
+          "text": "triple",
+          "startSec": 53.167,
+          "endSec": 53.407
+        },
+        {
+          "text": "7,",
+          "startSec": 53.527,
+          "endSec": 53.787
+        },
+        {
+          "text": "they're",
+          "startSec": 53.847,
+          "endSec": 53.987
+        },
+        {
+          "text": "rolling",
+          "startSec": 54.007,
+          "endSec": 54.267
+        },
+        {
+          "text": "out,",
+          "startSec": 54.387,
+          "endSec": 54.507
+        },
+        {
+          "text": "they're",
+          "startSec": 54.567,
+          "endSec": 54.727
+        },
+        {
+          "text": "landing",
+          "startSec": 54.747,
+          "endSec": 54.967
+        },
+        {
+          "text": "assured,",
+          "startSec": 55.027,
+          "endSec": 55.327
+        },
+        {
+          "text": "the",
+          "startSec": 55.347,
+          "endSec": 55.407
+        },
+        {
+          "text": "wind",
+          "startSec": 55.467,
+          "endSec": 55.587
+        },
+        {
+          "text": "190",
+          "startSec": 55.647,
+          "endSec": 56.127
+        },
+        {
+          "text": "at",
+          "startSec": 56.147,
+          "endSec": 56.207
+        },
+        {
+          "text": "7,",
+          "startSec": 56.267,
+          "endSec": 56.487
+        },
+        {
+          "text": "caution",
+          "startSec": 56.567,
+          "endSec": 56.807
+        },
+        {
+          "text": "the",
+          "startSec": 56.827,
+          "endSec": 56.887
+        },
+        {
+          "text": "wake,",
+          "startSec": 56.947,
+          "endSec": 57.067
+        },
+        {
+          "text": "22R",
+          "startSec": 57.127,
+          "endSec": 57.507
+        },
+        {
+          "text": "cleared",
+          "startSec": 57.547,
+          "endSec": 57.767
+        },
+        {
+          "text": "to",
+          "startSec": 57.807,
+          "endSec": 57.867
+        },
+        {
+          "text": "land",
+          "startSec": 57.907,
+          "endSec": 58.027
+        }
+      ],
+      "note": "CAUTION WAKE",
+      "phase": "final",
+      "runway": "22R",
+      "realTimeUtc": "2026-11-03T22:39:56.591Z"
+    },
+    {
+      "audioSampleId": "863b9fbf-7120-4697-96df-d2d016c20b22",
+      "startSec": 63.542,
+      "endSec": 66.132,
+      "role": "pilot",
+      "speakerLabel": "TURKISH 1 HEAVY",
+      "frequency": "123.9",
+      "text": "Cleared to land runway 22R, Turkish 1 heavy",
+      "words": [
+        {
+          "text": "Cleared",
+          "startSec": 63.822,
+          "endSec": 64.062
+        },
+        {
+          "text": "to",
+          "startSec": 64.082,
+          "endSec": 64.122
+        },
+        {
+          "text": "land",
+          "startSec": 64.142,
+          "endSec": 64.302
+        },
+        {
+          "text": "runway",
+          "startSec": 64.322,
+          "endSec": 64.562
+        },
+        {
+          "text": "22R,",
+          "startSec": 64.742,
+          "endSec": 65.082
+        },
+        {
+          "text": "Turkish",
+          "startSec": 65.302,
+          "endSec": 65.542
+        },
+        {
+          "text": "1",
+          "startSec": 65.622,
+          "endSec": 65.782
+        },
+        {
+          "text": "heavy",
+          "startSec": 65.822,
+          "endSec": 66.002
+        }
+      ],
+      "note": "CLEARED TO LAND",
+      "phase": "final",
+      "runway": "22R",
+      "realTimeUtc": "2026-11-03T22:40:05.039Z"
+    }
+  ],
+  "explainers": [
+    {
+      "startSec": 31.627,
+      "endSec": 36.227,
+      "heading": "What is a go-around?",
+      "body": "A go-around means abandoning a landing and climbing away to try again. It is a routine, trained procedure, and controllers can order one when spacing or the runway isn't ready."
+    },
+    {
+      "startSec": 58.487,
+      "endSec": 63.087,
+      "heading": "Wake turbulence",
+      "body": "Large aircraft leave swirling air behind them. Controllers warn following pilots, especially behind heavy jets like a Boeing 777, so they can plan their approach accordingly."
+    }
+  ],
+  "timeJumps": [
+    {
+      "startSec": 47.727,
+      "endSec": 49.927,
+      "label": "11 minutes later"
+    }
+  ]
+}

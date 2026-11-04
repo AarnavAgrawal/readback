@@ -1,0 +1,37 @@
+{
+  "event_id": 5614577,
+  "atc_channel_id": 65,
+  "facility_ids": [
+    "a291a26a-b466-4622-9cac-7b0b4e76b442"
+  ],
+  "happened_at": "2026-11-03T22:26:56.97420521Z",
+  "summary": "Heading instruction, approach cancellation, go around, \"cancel your approach, go around\"",
+  "callsigns": [
+    "THY1"
+  ],
+  "evidence_audio_sample_ids": [
+    "57c190ce-55e3-43f3-ae77-1260a605d401",
+    "c02b4441-9d7a-4444-b92a-358b9b9be90a",
+    "ed84e83a-2f69-4438-ae47-515f29dbdf64"
+  ],
+  "updates": [
+    {
+      "event_update_id": 5614673,
+      "update_to_event_id": 5614577,
+      "happened_at": "2026-11-03T22:27:52.393751865Z",
+      "summary": "Approach cancellation, altitude instructions, aircraft go around, \"cancel your approach, go around\"",
+      "callsigns": [
+        "THY1"
+      ],
+      "evidence_audio_sample_ids": [
+        "0a4e5b2e-2ab3-41af-b142-3665c93a5e79",
+        "39ffe71a-79ff-4c0c-b3dd-7c2494b14133",
+        "57c190ce-55e3-43f3-ae77-1260a605d401",
+        "ab357907-345b-472d-8f47-1b2c0031dcc8",
+        "bca5879e-ae5d-4194-b060-072481a9a7c5",
+        "c02b4441-9d7a-4444-b92a-358b9b9be90a",
+        "ed84e83a-2f69-4438-ae47-515f29dbdf64"
+      ]
+    }
+  ]
+}

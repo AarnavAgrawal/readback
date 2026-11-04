@@ -1,0 +1,33 @@
+{
+  "title": "Wake turbulence forces a go-around at SFO",
+  "hook": "it should work out but it might be close",
+  "hook_audio_sample_id": "9f35c5bc-a5c6-4359-b6e3-44221e3f72c7",
+  "airport_code": "SFO",
+  "active_runway": "28L",
+  "conditions": "IMC · light rain · overcast 2,300 ft",
+  "beats": [
+    { "audio_sample_id": "9f35c5bc-a5c6-4359-b6e3-44221e3f72c7", "role": "controller", "note": null, "phase": "final" },
+    { "audio_sample_id": "af7bfbcc-e7c1-422d-9545-716112fde509", "role": "pilot", "note": "GO AROUND", "phase": "go-around" },
+    { "audio_sample_id": "cf323faf-d4d3-46d3-ac9a-359bf6c08f8f", "role": "pilot", "note": "WAKE TURBULENCE", "phase": "go-around" },
+    { "audio_sample_id": "7e0a7cf3-8516-4400-beb7-86c5015c7318", "role": "controller", "note": null, "phase": "vectors" },
+    { "audio_sample_id": "a87bd8ce-f7c3-48f6-8ac2-98ec019cb47a", "role": "controller", "note": null, "phase": "final" },
+    { "audio_sample_id": "d807255a-d91d-42aa-a467-9064e6b13d9c", "role": "pilot", "note": null, "phase": "final" },
+    { "audio_sample_id": "91a3eaec-3c6f-4b6d-9a24-eaab916ad062", "role": "controller", "note": "WELCOME BACK", "phase": "landing" },
+    { "audio_sample_id": "6fddcbd5-dadf-47b7-8bea-456e22886916", "role": "pilot", "note": null, "phase": "landing" },
+    { "audio_sample_id": "25b180f0-93c0-4c08-826c-845d119c365b", "role": "controller", "note": "AT THE GATE", "phase": "taxi" }
+  ],
+  "explainers": [
+    {
+      "after_beat_index": 1,
+      "heading": "What's a go-around?",
+      "body": "The crew stops the landing, climbs away and lines up to try again. It's a routine safety maneuver, not an emergency."
+    },
+    {
+      "after_beat_index": 3,
+      "heading": "Wake turbulence",
+      "body": "Wings leave invisible, swirling air behind them. Get too close behind another jet on final and you can fly into it, so the crew went around."
+    }
+  ],
+  "generated_by": "manual-seed (written in Claude Code; no ANTHROPIC_API_KEY yet)",
+  "generated_at": "2026-11-04T08:45:00Z"
+}

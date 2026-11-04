@@ -1,0 +1,867 @@
+{
+  "introSec": 2.8,
+  "totalSec": 74.66,
+  "segments": [
+    {
+      "audioSampleId": "e2af9fbb-e550-4acc-953b-75abbaf22bc8",
+      "startSec": 2.8,
+      "endSec": 7.95,
+      "role": "controller",
+      "speakerLabel": "APPROACH",
+      "frequency": "128.55",
+      "text": "United 1449, Newark Approach, altimeter 30.15, expect ILS runway 22L, descend maintain 6,000",
+      "words": [
+        {
+          "text": "United",
+          "startSec": 2.84,
+          "endSec": 2.98
+        },
+        {
+          "text": "1449,",
+          "startSec": 3.02,
+          "endSec": 3.88
+        },
+        {
+          "text": "Newark",
+          "startSec": 3.9,
+          "endSec": 4.02
+        },
+        {
+          "text": "Approach,",
+          "startSec": 4.04,
+          "endSec": 4.22
+        },
+        {
+          "text": "altimeter",
+          "startSec": 4.24,
+          "endSec": 4.44
+        },
+        {
+          "text": "30.15,",
+          "startSec": 4.48,
+          "endSec": 5.28
+        },
+        {
+          "text": "expect",
+          "startSec": 5.34,
+          "endSec": 5.58
+        },
+        {
+          "text": "ILS",
+          "startSec": 5.66,
+          "endSec": 5.8
+        },
+        {
+          "text": "runway",
+          "startSec": 5.82,
+          "endSec": 5.98
+        },
+        {
+          "text": "22L,",
+          "startSec": 6.06,
+          "endSec": 6.36
+        },
+        {
+          "text": "descend",
+          "startSec": 6.6,
+          "endSec": 6.78
+        },
+        {
+          "text": "maintain",
+          "startSec": 6.8,
+          "endSec": 7.04
+        },
+        {
+          "text": "6,000",
+          "startSec": 7.14,
+          "endSec": 7.74
+        }
+      ],
+      "note": null,
+      "phase": "vectors",
+      "runway": "22L",
+      "realTimeUtc": "2026-11-04T16:28:22.889Z"
+    },
+    {
+      "audioSampleId": "550be119-d7d1-44c6-bf48-ac41a36cda64",
+      "startSec": 10.15,
+      "endSec": 18.34,
+      "role": "controller",
+      "speakerLabel": "APPROACH",
+      "frequency": "128.55",
+      "text": "United 1449, turn right heading 100, traffic 11 o'clock 1 mile southwestbound altitude indicates 5,900 climbing",
+      "words": [
+        {
+          "text": "United",
+          "startSec": 10.17,
+          "endSec": 10.29
+        },
+        {
+          "text": "1449,",
+          "startSec": 10.33,
+          "endSec": 11.87
+        },
+        {
+          "text": "turn",
+          "startSec": 11.95,
+          "endSec": 12.19
+        },
+        {
+          "text": "right",
+          "startSec": 12.29,
+          "endSec": 12.39
+        },
+        {
+          "text": "heading",
+          "startSec": 12.55,
+          "endSec": 12.75
+        },
+        {
+          "text": "100,",
+          "startSec": 12.77,
+          "endSec": 13.09
+        },
+        {
+          "text": "traffic",
+          "startSec": 13.13,
+          "endSec": 13.35
+        },
+        {
+          "text": "11",
+          "startSec": 13.45,
+          "endSec": 13.67
+        },
+        {
+          "text": "o'clock",
+          "startSec": 13.75,
+          "endSec": 14.07
+        },
+        {
+          "text": "1",
+          "startSec": 14.95,
+          "endSec": 15.05
+        },
+        {
+          "text": "mile",
+          "startSec": 15.17,
+          "endSec": 15.35
+        },
+        {
+          "text": "southwestbound",
+          "startSec": 15.51,
+          "endSec": 16.09
+        },
+        {
+          "text": "altitude",
+          "startSec": 16.13,
+          "endSec": 16.43
+        },
+        {
+          "text": "indicates",
+          "startSec": 16.45,
+          "endSec": 16.83
+        },
+        {
+          "text": "5,900",
+          "startSec": 16.87,
+          "endSec": 17.85
+        },
+        {
+          "text": "climbing",
+          "startSec": 17.91,
+          "endSec": 18.25
+        }
+      ],
+      "note": "TRAFFIC",
+      "phase": "vectors",
+      "runway": "22L",
+      "realTimeUtc": "2026-11-04T16:30:23.296Z"
+    },
+    {
+      "audioSampleId": "5b249fc7-827c-4ad8-bc85-afa47c7ab621",
+      "startSec": 18.795,
+      "endSec": 22.505,
+      "role": "pilot",
+      "speakerLabel": "UNITED 1449",
+      "frequency": "128.55",
+      "text": "Roger, we're turning 100, we had a uh RA, we're descending",
+      "words": [
+        {
+          "text": "Roger,",
+          "startSec": 18.875,
+          "endSec": 19.155
+        },
+        {
+          "text": "we're",
+          "startSec": 19.235,
+          "endSec": 19.355
+        },
+        {
+          "text": "turning",
+          "startSec": 19.415,
+          "endSec": 19.615
+        },
+        {
+          "text": "100,",
+          "startSec": 19.675,
+          "endSec": 20.475
+        },
+        {
+          "text": "we",
+          "startSec": 20.515,
+          "endSec": 20.555
+        },
+        {
+          "text": "had",
+          "startSec": 20.675,
+          "endSec": 20.815
+        },
+        {
+          "text": "a",
+          "startSec": 20.895,
+          "endSec": 20.915
+        },
+        {
+          "text": "uh",
+          "startSec": 21.135,
+          "endSec": 21.195
+        },
+        {
+          "text": "RA,",
+          "startSec": 21.435,
+          "endSec": 21.575
+        },
+        {
+          "text": "we're",
+          "startSec": 21.655,
+          "endSec": 21.755
+        },
+        {
+          "text": "descending",
+          "startSec": 21.775,
+          "endSec": 22.135
+        }
+      ],
+      "note": "TCAS RA",
+      "phase": "vectors",
+      "runway": "22L",
+      "realTimeUtc": "2026-11-04T16:30:31.754Z"
+    },
+    {
+      "audioSampleId": "697874b1-580f-4599-98b3-6b10fcc256c5",
+      "startSec": 28.195,
+      "endSec": 35.315,
+      "role": "pilot",
+      "speakerLabel": "UNITED 1449",
+      "frequency": "128.55",
+      "text": "And uh United 1449, were clear of conflict uh lets climb back up to 6,000 you still want us on a 100",
+      "words": [
+        {
+          "text": "And",
+          "startSec": 28.635,
+          "endSec": 28.775
+        },
+        {
+          "text": "uh",
+          "startSec": 28.815,
+          "endSec": 28.855
+        },
+        {
+          "text": "United",
+          "startSec": 28.875,
+          "endSec": 29.355
+        },
+        {
+          "text": "1449,",
+          "startSec": 29.535,
+          "endSec": 30.535
+        },
+        {
+          "text": "were",
+          "startSec": 30.595,
+          "endSec": 30.735
+        },
+        {
+          "text": "clear",
+          "startSec": 30.775,
+          "endSec": 30.915
+        },
+        {
+          "text": "of",
+          "startSec": 30.955,
+          "endSec": 30.995
+        },
+        {
+          "text": "conflict",
+          "startSec": 31.055,
+          "endSec": 31.575
+        },
+        {
+          "text": "uh",
+          "startSec": 31.755,
+          "endSec": 31.875
+        },
+        {
+          "text": "lets",
+          "startSec": 31.915,
+          "endSec": 32.075
+        },
+        {
+          "text": "climb",
+          "startSec": 32.155,
+          "endSec": 32.275
+        },
+        {
+          "text": "back",
+          "startSec": 32.335,
+          "endSec": 32.455
+        },
+        {
+          "text": "up",
+          "startSec": 32.535,
+          "endSec": 32.595
+        },
+        {
+          "text": "to",
+          "startSec": 32.695,
+          "endSec": 32.775
+        },
+        {
+          "text": "6,000",
+          "startSec": 33.535,
+          "endSec": 33.935
+        },
+        {
+          "text": "you",
+          "startSec": 33.955,
+          "endSec": 34.055
+        },
+        {
+          "text": "still",
+          "startSec": 34.115,
+          "endSec": 34.235
+        },
+        {
+          "text": "want",
+          "startSec": 34.255,
+          "endSec": 34.335
+        },
+        {
+          "text": "us",
+          "startSec": 34.375,
+          "endSec": 34.415
+        },
+        {
+          "text": "on",
+          "startSec": 34.475,
+          "endSec": 34.515
+        },
+        {
+          "text": "a",
+          "startSec": 34.575,
+          "endSec": 34.595
+        },
+        {
+          "text": "100",
+          "startSec": 34.675,
+          "endSec": 35.195
+        }
+      ],
+      "note": "CLEAR OF CONFLICT",
+      "phase": "vectors",
+      "runway": "22L",
+      "realTimeUtc": "2026-11-04T16:30:49.973Z"
+    },
+    {
+      "audioSampleId": "98470339-a5b3-4746-b1ae-1ff9c6bd62de",
+      "startSec": 35.77,
+      "endSec": 41.2,
+      "role": "controller",
+      "speakerLabel": "APPROACH",
+      "frequency": "128.55",
+      "text": "United 1449, you can turn back to the left to a 010 heading and maintain 6,000, thank you",
+      "words": [
+        {
+          "text": "United",
+          "startSec": 35.77,
+          "endSec": 35.89
+        },
+        {
+          "text": "1449,",
+          "startSec": 35.93,
+          "endSec": 36.75
+        },
+        {
+          "text": "you",
+          "startSec": 36.81,
+          "endSec": 36.87
+        },
+        {
+          "text": "can",
+          "startSec": 36.91,
+          "endSec": 36.99
+        },
+        {
+          "text": "turn",
+          "startSec": 37.05,
+          "endSec": 37.17
+        },
+        {
+          "text": "back",
+          "startSec": 37.25,
+          "endSec": 37.35
+        },
+        {
+          "text": "to",
+          "startSec": 37.41,
+          "endSec": 37.45
+        },
+        {
+          "text": "the",
+          "startSec": 37.53,
+          "endSec": 37.59
+        },
+        {
+          "text": "left",
+          "startSec": 37.65,
+          "endSec": 37.79
+        },
+        {
+          "text": "to",
+          "startSec": 37.85,
+          "endSec": 37.91
+        },
+        {
+          "text": "a",
+          "startSec": 38.03,
+          "endSec": 38.05
+        },
+        {
+          "text": "010",
+          "startSec": 38.27,
+          "endSec": 38.79
+        },
+        {
+          "text": "heading",
+          "startSec": 39.23,
+          "endSec": 39.47
+        },
+        {
+          "text": "and",
+          "startSec": 39.51,
+          "endSec": 39.59
+        },
+        {
+          "text": "maintain",
+          "startSec": 39.63,
+          "endSec": 39.95
+        },
+        {
+          "text": "6,000,",
+          "startSec": 40.13,
+          "endSec": 40.69
+        },
+        {
+          "text": "thank",
+          "startSec": 40.79,
+          "endSec": 40.95
+        },
+        {
+          "text": "you",
+          "startSec": 41.03,
+          "endSec": 41.15
+        }
+      ],
+      "note": null,
+      "phase": "vectors",
+      "runway": "22L",
+      "realTimeUtc": "2026-11-04T16:30:57.317Z"
+    },
+    {
+      "audioSampleId": "e92eea44-a146-421c-98c4-be121273805d",
+      "startSec": 43.4,
+      "endSec": 48.49,
+      "role": "controller",
+      "speakerLabel": "APPROACH",
+      "frequency": "120.15",
+      "text": "United 1449, right heading 190, 2,500 till established, cleared ILS runway 22L approach",
+      "words": [
+        {
+          "text": "United",
+          "startSec": 43.4,
+          "endSec": 43.52
+        },
+        {
+          "text": "1449,",
+          "startSec": 43.54,
+          "endSec": 44.4
+        },
+        {
+          "text": "right",
+          "startSec": 44.46,
+          "endSec": 44.6
+        },
+        {
+          "text": "heading",
+          "startSec": 44.62,
+          "endSec": 44.8
+        },
+        {
+          "text": "190,",
+          "startSec": 44.88,
+          "endSec": 45.44
+        },
+        {
+          "text": "2,500",
+          "startSec": 45.56,
+          "endSec": 46.32
+        },
+        {
+          "text": "till",
+          "startSec": 46.34,
+          "endSec": 46.46
+        },
+        {
+          "text": "established,",
+          "startSec": 46.5,
+          "endSec": 46.86
+        },
+        {
+          "text": "cleared",
+          "startSec": 46.88,
+          "endSec": 47.04
+        },
+        {
+          "text": "ILS",
+          "startSec": 47.06,
+          "endSec": 47.12
+        },
+        {
+          "text": "runway",
+          "startSec": 47.14,
+          "endSec": 47.32
+        },
+        {
+          "text": "22L",
+          "startSec": 47.34,
+          "endSec": 47.76
+        },
+        {
+          "text": "approach",
+          "startSec": 47.78,
+          "endSec": 48.18
+        }
+      ],
+      "note": "CLEARED ILS",
+      "phase": "final",
+      "runway": "22L",
+      "realTimeUtc": "2026-11-04T16:41:09.298Z"
+    },
+    {
+      "audioSampleId": "b34d7066-f792-400b-a468-7f0d33ad3d75",
+      "startSec": 49.49,
+      "endSec": 54.72,
+      "role": "controller",
+      "speakerLabel": "EWR TOWER",
+      "frequency": "118.3",
+      "text": "United 1449, Newark Tower, wind 240 12 gusts 15, runway 22L cleared to land",
+      "words": [
+        {
+          "text": "United",
+          "startSec": 49.49,
+          "endSec": 49.63
+        },
+        {
+          "text": "1449,",
+          "startSec": 49.65,
+          "endSec": 50.73
+        },
+        {
+          "text": "Newark",
+          "startSec": 50.75,
+          "endSec": 50.89
+        },
+        {
+          "text": "Tower,",
+          "startSec": 50.91,
+          "endSec": 51.03
+        },
+        {
+          "text": "wind",
+          "startSec": 51.05,
+          "endSec": 51.19
+        },
+        {
+          "text": "240",
+          "startSec": 51.25,
+          "endSec": 51.99
+        },
+        {
+          "text": "12",
+          "startSec": 52.11,
+          "endSec": 52.29
+        },
+        {
+          "text": "gusts",
+          "startSec": 52.33,
+          "endSec": 52.53
+        },
+        {
+          "text": "15,",
+          "startSec": 52.85,
+          "endSec": 53.17
+        },
+        {
+          "text": "runway",
+          "startSec": 53.23,
+          "endSec": 53.35
+        },
+        {
+          "text": "22L",
+          "startSec": 53.41,
+          "endSec": 53.79
+        },
+        {
+          "text": "cleared",
+          "startSec": 53.81,
+          "endSec": 54.11
+        },
+        {
+          "text": "to",
+          "startSec": 54.13,
+          "endSec": 54.19
+        },
+        {
+          "text": "land",
+          "startSec": 54.21,
+          "endSec": 54.43
+        }
+      ],
+      "note": "CLEARED TO LAND",
+      "phase": "final",
+      "runway": "22L",
+      "realTimeUtc": "2026-11-04T16:42:18.815Z"
+    },
+    {
+      "audioSampleId": "39805079-c199-4c0b-b07a-03304bd9679e",
+      "startSec": 55.177,
+      "endSec": 61.437,
+      "role": "pilot",
+      "speakerLabel": "UNITED 1449",
+      "frequency": "118.3",
+      "text": "All right 22L cleared to land, United 1449, just be advised were doing a uh auto land for aircraft currency sir",
+      "words": [
+        {
+          "text": "All",
+          "startSec": 55.277,
+          "endSec": 55.357
+        },
+        {
+          "text": "right",
+          "startSec": 55.377,
+          "endSec": 55.517
+        },
+        {
+          "text": "22L",
+          "startSec": 55.557,
+          "endSec": 55.817
+        },
+        {
+          "text": "cleared",
+          "startSec": 55.837,
+          "endSec": 56.017
+        },
+        {
+          "text": "to",
+          "startSec": 56.037,
+          "endSec": 56.077
+        },
+        {
+          "text": "land,",
+          "startSec": 56.097,
+          "endSec": 56.197
+        },
+        {
+          "text": "United",
+          "startSec": 56.217,
+          "endSec": 56.377
+        },
+        {
+          "text": "1449,",
+          "startSec": 56.397,
+          "endSec": 57.597
+        },
+        {
+          "text": "just",
+          "startSec": 57.617,
+          "endSec": 57.737
+        },
+        {
+          "text": "be",
+          "startSec": 57.797,
+          "endSec": 57.837
+        },
+        {
+          "text": "advised",
+          "startSec": 57.857,
+          "endSec": 58.097
+        },
+        {
+          "text": "were",
+          "startSec": 58.117,
+          "endSec": 58.217
+        },
+        {
+          "text": "doing",
+          "startSec": 58.257,
+          "endSec": 58.437
+        },
+        {
+          "text": "a",
+          "startSec": 58.497,
+          "endSec": 58.517
+        },
+        {
+          "text": "uh",
+          "startSec": 58.737,
+          "endSec": 58.817
+        },
+        {
+          "text": "auto",
+          "startSec": 59.457,
+          "endSec": 59.637
+        },
+        {
+          "text": "land",
+          "startSec": 59.897,
+          "endSec": 60.097
+        },
+        {
+          "text": "for",
+          "startSec": 60.177,
+          "endSec": 60.257
+        },
+        {
+          "text": "aircraft",
+          "startSec": 60.337,
+          "endSec": 60.677
+        },
+        {
+          "text": "currency",
+          "startSec": 60.717,
+          "endSec": 61.017
+        },
+        {
+          "text": "sir",
+          "startSec": 61.077,
+          "endSec": 61.257
+        }
+      ],
+      "note": "AUTOLAND",
+      "phase": "final",
+      "runway": "22L",
+      "realTimeUtc": "2026-11-04T16:42:24.406Z"
+    },
+    {
+      "audioSampleId": "50215453-5bf7-493d-87ad-c1ddf17a0f8b",
+      "startSec": 61.89,
+      "endSec": 66.11,
+      "role": "controller",
+      "speakerLabel": "EWR TOWER",
+      "frequency": "118.3",
+      "text": "United 1449, roger, ILS uh critical area not protected, roger sir, thanks",
+      "words": [
+        {
+          "text": "United",
+          "startSec": 61.89,
+          "endSec": 62.05
+        },
+        {
+          "text": "1449,",
+          "startSec": 62.07,
+          "endSec": 62.85
+        },
+        {
+          "text": "roger,",
+          "startSec": 62.89,
+          "endSec": 63.09
+        },
+        {
+          "text": "ILS",
+          "startSec": 63.21,
+          "endSec": 63.53
+        },
+        {
+          "text": "uh",
+          "startSec": 63.73,
+          "endSec": 63.83
+        },
+        {
+          "text": "critical",
+          "startSec": 63.87,
+          "endSec": 64.09
+        },
+        {
+          "text": "area",
+          "startSec": 64.11,
+          "endSec": 64.29
+        },
+        {
+          "text": "not",
+          "startSec": 64.39,
+          "endSec": 64.49
+        },
+        {
+          "text": "protected,",
+          "startSec": 64.53,
+          "endSec": 64.91
+        },
+        {
+          "text": "roger",
+          "startSec": 65.35,
+          "endSec": 65.55
+        },
+        {
+          "text": "sir,",
+          "startSec": 65.61,
+          "endSec": 65.71
+        },
+        {
+          "text": "thanks",
+          "startSec": 65.75,
+          "endSec": 65.93
+        }
+      ],
+      "note": null,
+      "phase": "final",
+      "runway": "22L",
+      "realTimeUtc": "2026-11-04T16:42:30.824Z"
+    }
+  ],
+  "explainers": [
+    {
+      "startSec": 22.855,
+      "endSec": 27.455,
+      "heading": "What is a TCAS RA?",
+      "body": "TCAS is an onboard collision-avoidance system. A Resolution Advisory (RA) tells pilots to climb or descend to keep separation from nearby traffic, and they follow it promptly."
+    },
+    {
+      "startSec": 66.46,
+      "endSec": 71.06,
+      "heading": "Autoland and critical areas",
+      "body": "Autoland lets the aircraft land itself using ILS signals. Protected critical areas keep those signals clean; when not protected, crews know signals may be disturbed."
+    }
+  ],
+  "timeJumps": [
+    {
+      "startSec": 7.95,
+      "endSec": 10.15,
+      "label": "2 minutes later"
+    },
+    {
+      "startSec": 41.2,
+      "endSec": 43.4,
+      "label": "10 minutes later"
+    }
+  ]
+}

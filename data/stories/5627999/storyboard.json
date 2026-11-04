@@ -1,0 +1,78 @@
+{
+  "title": "United 1274 goes around for wake turbulence at SFO 28L",
+  "hook": "going around wake turbulence",
+  "hook_audio_sample_id": "af7bfbcc-e7c1-422d-9545-716112fde509",
+  "airport_code": "SFO",
+  "active_runway": "28L",
+  "conditions": "Night, IMC reported by crew; wind 080 at 8, altimeter 30.04",
+  "beats": [
+    {
+      "audio_sample_id": "9f35c5bc-a5c6-4359-b6e3-44221e3f72c7",
+      "role": "controller",
+      "note": "MIGHT BE CLOSE",
+      "phase": "final"
+    },
+    {
+      "audio_sample_id": "af7bfbcc-e7c1-422d-9545-716112fde509",
+      "role": "pilot",
+      "note": "GO AROUND",
+      "phase": "go-around"
+    },
+    {
+      "audio_sample_id": "cf323faf-d4d3-46d3-ac9a-359bf6c08f8f",
+      "role": "pilot",
+      "note": "WAKE TURBULENCE",
+      "phase": "go-around"
+    },
+    {
+      "audio_sample_id": "9c87e773-272b-41ae-8ce4-22d35124a81a",
+      "role": "controller",
+      "note": "THE REASON?",
+      "phase": "vectors"
+    },
+    {
+      "audio_sample_id": "e1aa944f-ed99-4e2d-8409-b99171d62e2e",
+      "role": "controller",
+      "note": null,
+      "phase": "vectors"
+    },
+    {
+      "audio_sample_id": "405bb28a-fd65-49de-8554-2c4dfaa9b570",
+      "role": "pilot",
+      "note": "IN THE CLOUDS",
+      "phase": "vectors"
+    },
+    {
+      "audio_sample_id": "a87bd8ce-f7c3-48f6-8ac2-98ec019cb47a",
+      "role": "controller",
+      "note": "SECOND APPROACH",
+      "phase": "vectors"
+    },
+    {
+      "audio_sample_id": "91a3eaec-3c6f-4b6d-9a24-eaab916ad062",
+      "role": "controller",
+      "note": "WELCOME BACK",
+      "phase": "final"
+    },
+    {
+      "audio_sample_id": "80fc2a2a-4698-48b1-920a-acb3ea50f6e9",
+      "role": "controller",
+      "note": "SAFE ON GROUND",
+      "phase": "taxi"
+    }
+  ],
+  "explainers": [
+    {
+      "after_beat_index": 1,
+      "heading": "What is a go-around?",
+      "body": "A routine, trained maneuver: the pilot discontinues the landing, climbs away, and controllers guide the aircraft back around for another approach."
+    },
+    {
+      "after_beat_index": 2,
+      "heading": "Wake turbulence",
+      "body": "Wings leave swirling air behind them. A following aircraft that encounters it can be jolted or rolled, so pilots may abandon the approach and try again."
+    }
+  ],
+  "generated_by": "claude-opus-5-5",
+  "generated_at": "2026-11-04T17:40:36.179Z"
+}

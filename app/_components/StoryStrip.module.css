@@ -1,0 +1,143 @@
+/* Flight progress strips: a holder with a colored edge, ruled columns, data in mono. */
+
+.item {
+  list-style: none;
+}
+
+.strip {
+  --edge: var(--pilot);
+  display: grid;
+  grid-template-columns: 8.5rem minmax(0, 1fr) 13.5rem;
+  min-height: 7.5rem;
+  border: 1px solid var(--grid);
+  border-left: 6px solid var(--edge);
+  border-radius: var(--radius-strip);
+  background: linear-gradient(180deg, var(--panel-hi), var(--panel));
+  color: var(--text);
+  text-decoration: none;
+  transition: border-color 140ms ease, background-color 140ms ease;
+}
+
+.strip[data-featured] {
+  --edge: var(--atc);
+}
+
+.strip:hover {
+  border-color: var(--grid-bright);
+  border-left-color: var(--edge);
+  background: var(--panel-hi);
+}
+
+.strip:hover .title {
+  text-decoration: underline;
+  text-decoration-color: var(--faint);
+  text-underline-offset: 0.2em;
+}
+
+.strip:focus-visible {
+  outline: 2px solid var(--atc);
+  outline-offset: 3px;
+}
+
+.callsign {
+  display: flex;
+  align-items: flex-start;
+  padding: 1rem 0.875rem;
+  border-right: 1px dashed var(--grid);
+  font-family: var(--mono);
+  font-weight: 700;
+  font-size: var(--step-1);
+  color: var(--pilot);
+  letter-spacing: 0.04em;
+  overflow-wrap: anywhere;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.375rem;
+  padding: 0.9375rem 1.125rem 1rem;
+  min-width: 0;
+}
+
+.title {
+  font-weight: 700;
+  font-size: var(--step-1);
+  line-height: 1.25;
+}
+
+.hook {
+  color: var(--atc);
+  font-size: var(--step-0);
+  max-width: 60ch;
+}
+
+.stats {
+  margin-top: auto;
+  padding-top: 0.25rem;
+  font-family: var(--mono);
+  font-size: 0.75rem;
+  color: var(--dim);
+}
+
+.meta {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  gap: 0.25rem;
+  padding: 1rem 0.875rem;
+  border-left: 1px dashed var(--grid);
+  font-family: var(--mono);
+  text-align: right;
+}
+
+.airport {
+  font-weight: 700;
+  font-size: var(--step-2);
+  line-height: 1;
+  letter-spacing: 0.04em;
+}
+
+.date {
+  font-size: 0.75rem;
+  color: var(--dim);
+  white-space: nowrap;
+}
+
+.duration {
+  font-size: var(--step--1);
+  color: var(--text);
+}
+
+@media (max-width: 720px) {
+  .strip {
+    grid-template-columns: minmax(0, 1fr) auto;
+    grid-template-areas:
+      "callsign meta"
+      "body body";
+  }
+  .callsign {
+    grid-area: callsign;
+    border-right: 0;
+    padding-bottom: 0;
+  }
+  .meta {
+    grid-area: meta;
+    border-left: 0;
+    padding-bottom: 0;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto;
+    align-items: baseline;
+    column-gap: 0.75rem;
+  }
+  .airport {
+    font-size: var(--step-1);
+  }
+  .date {
+    grid-column: 1 / -1;
+    grid-row: 2;
+  }
+  .body {
+    grid-area: body;
+    padding-top: 0.625rem;
+  }
+}

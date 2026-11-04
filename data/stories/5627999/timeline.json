@@ -1,0 +1,833 @@
+{
+  "introSec": 2.8,
+  "totalSec": 72.459,
+  "segments": [
+    {
+      "audioSampleId": "9f35c5bc-a5c6-4359-b6e3-44221e3f72c7",
+      "startSec": 2.8,
+      "endSec": 9.66,
+      "role": "controller",
+      "speakerLabel": "SFO TOWER",
+      "frequency": "120.5",
+      "text": "United 1274, it should work out but it might be close in the event of a go around plan a left turn heading 260",
+      "words": [
+        {
+          "text": "United",
+          "startSec": 2.95,
+          "endSec": 3.355
+        },
+        {
+          "text": "1274,",
+          "startSec": 3.355,
+          "endSec": 3.652
+        },
+        {
+          "text": "it",
+          "startSec": 3.652,
+          "endSec": 3.841
+        },
+        {
+          "text": "should",
+          "startSec": 3.841,
+          "endSec": 4.246
+        },
+        {
+          "text": "work",
+          "startSec": 4.246,
+          "endSec": 4.543
+        },
+        {
+          "text": "out",
+          "startSec": 4.543,
+          "endSec": 4.787
+        },
+        {
+          "text": "but",
+          "startSec": 4.787,
+          "endSec": 5.03
+        },
+        {
+          "text": "it",
+          "startSec": 5.03,
+          "endSec": 5.219
+        },
+        {
+          "text": "might",
+          "startSec": 5.219,
+          "endSec": 5.57
+        },
+        {
+          "text": "be",
+          "startSec": 5.57,
+          "endSec": 5.759
+        },
+        {
+          "text": "close",
+          "startSec": 5.759,
+          "endSec": 6.11
+        },
+        {
+          "text": "in",
+          "startSec": 6.11,
+          "endSec": 6.299
+        },
+        {
+          "text": "the",
+          "startSec": 6.299,
+          "endSec": 6.542
+        },
+        {
+          "text": "event",
+          "startSec": 6.542,
+          "endSec": 6.893
+        },
+        {
+          "text": "of",
+          "startSec": 6.893,
+          "endSec": 7.082
+        },
+        {
+          "text": "a",
+          "startSec": 7.082,
+          "endSec": 7.217
+        },
+        {
+          "text": "go",
+          "startSec": 7.217,
+          "endSec": 7.406
+        },
+        {
+          "text": "around",
+          "startSec": 7.406,
+          "endSec": 7.811
+        },
+        {
+          "text": "plan",
+          "startSec": 7.811,
+          "endSec": 8.109
+        },
+        {
+          "text": "a",
+          "startSec": 8.109,
+          "endSec": 8.244
+        },
+        {
+          "text": "left",
+          "startSec": 8.244,
+          "endSec": 8.541
+        },
+        {
+          "text": "turn",
+          "startSec": 8.541,
+          "endSec": 8.838
+        },
+        {
+          "text": "heading",
+          "startSec": 8.838,
+          "endSec": 9.297
+        },
+        {
+          "text": "260",
+          "startSec": 9.297,
+          "endSec": 9.54
+        }
+      ],
+      "note": "MIGHT BE CLOSE",
+      "phase": "final",
+      "realTimeUtc": "2026-11-04T05:58:04.439Z"
+    },
+    {
+      "audioSampleId": "af7bfbcc-e7c1-422d-9545-716112fde509",
+      "startSec": 10.66,
+      "endSec": 13.97,
+      "role": "pilot",
+      "speakerLabel": "UNITED 1274",
+      "frequency": "120.5",
+      "text": "United 1274 is going around wake turbulence",
+      "words": [
+        {
+          "text": "United",
+          "startSec": 10.81,
+          "endSec": 11.29
+        },
+        {
+          "text": "1274",
+          "startSec": 11.29,
+          "endSec": 11.642
+        },
+        {
+          "text": "is",
+          "startSec": 11.642,
+          "endSec": 11.866
+        },
+        {
+          "text": "going",
+          "startSec": 11.866,
+          "endSec": 12.282
+        },
+        {
+          "text": "around",
+          "startSec": 12.282,
+          "endSec": 12.762
+        },
+        {
+          "text": "wake",
+          "startSec": 12.762,
+          "endSec": 13.114
+        },
+        {
+          "text": "turbulence",
+          "startSec": 13.114,
+          "endSec": 13.85
+        }
+      ],
+      "note": "GO AROUND",
+      "phase": "go-around",
+      "realTimeUtc": "2026-11-04T05:58:51.651Z"
+    },
+    {
+      "audioSampleId": "cf323faf-d4d3-46d3-ac9a-359bf6c08f8f",
+      "startSec": 19.901,
+      "endSec": 23.211,
+      "role": "pilot",
+      "speakerLabel": "UNITED 1274",
+      "frequency": "120.5",
+      "text": "It was wake turbulence for the go around, United 1274",
+      "words": [
+        {
+          "text": "It",
+          "startSec": 20.051,
+          "endSec": 20.235
+        },
+        {
+          "text": "was",
+          "startSec": 20.235,
+          "endSec": 20.471
+        },
+        {
+          "text": "wake",
+          "startSec": 20.471,
+          "endSec": 20.759
+        },
+        {
+          "text": "turbulence",
+          "startSec": 20.759,
+          "endSec": 21.362
+        },
+        {
+          "text": "for",
+          "startSec": 21.362,
+          "endSec": 21.598
+        },
+        {
+          "text": "the",
+          "startSec": 21.598,
+          "endSec": 21.833
+        },
+        {
+          "text": "go",
+          "startSec": 21.833,
+          "endSec": 22.017
+        },
+        {
+          "text": "around,",
+          "startSec": 22.017,
+          "endSec": 22.41
+        },
+        {
+          "text": "United",
+          "startSec": 22.41,
+          "endSec": 22.803
+        },
+        {
+          "text": "1274",
+          "startSec": 22.803,
+          "endSec": 23.091
+        }
+      ],
+      "note": "WAKE TURBULENCE",
+      "phase": "go-around",
+      "realTimeUtc": "2026-11-04T05:59:21.531Z"
+    },
+    {
+      "audioSampleId": "9c87e773-272b-41ae-8ce4-22d35124a81a",
+      "startSec": 29.161,
+      "endSec": 31.961,
+      "role": "controller",
+      "speakerLabel": "DEPARTURE",
+      "frequency": "120.9",
+      "text": "United 1274, 28L and uh what was the reason for the go around",
+      "words": [
+        {
+          "text": "United",
+          "startSec": 29.301,
+          "endSec": 29.584
+        },
+        {
+          "text": "1274,",
+          "startSec": 29.584,
+          "endSec": 29.791
+        },
+        {
+          "text": "28L",
+          "startSec": 29.791,
+          "endSec": 29.96
+        },
+        {
+          "text": "and",
+          "startSec": 29.96,
+          "endSec": 30.129
+        },
+        {
+          "text": "uh",
+          "startSec": 30.129,
+          "endSec": 30.261
+        },
+        {
+          "text": "what",
+          "startSec": 30.261,
+          "endSec": 30.468
+        },
+        {
+          "text": "was",
+          "startSec": 30.468,
+          "endSec": 30.637
+        },
+        {
+          "text": "the",
+          "startSec": 30.637,
+          "endSec": 30.807
+        },
+        {
+          "text": "reason",
+          "startSec": 30.807,
+          "endSec": 31.089
+        },
+        {
+          "text": "for",
+          "startSec": 31.089,
+          "endSec": 31.258
+        },
+        {
+          "text": "the",
+          "startSec": 31.258,
+          "endSec": 31.427
+        },
+        {
+          "text": "go",
+          "startSec": 31.427,
+          "endSec": 31.559
+        },
+        {
+          "text": "around",
+          "startSec": 31.559,
+          "endSec": 31.841
+        }
+      ],
+      "note": "THE REASON?",
+      "phase": "vectors",
+      "realTimeUtc": "2026-11-04T06:00:41.691Z"
+    },
+    {
+      "audioSampleId": "e1aa944f-ed99-4e2d-8409-b99171d62e2e",
+      "startSec": 34.161,
+      "endSec": 43.871,
+      "role": "controller",
+      "speakerLabel": "FINAL APPROACH",
+      "frequency": "135.65",
+      "text": "United 1274, thank you, traffic 2 to 3 o'clock 6 miles northeastbound a 737 6,000 restricted above ya, reduce speed uh maintain 210 knots, expect ILS 28L",
+      "words": [
+        {
+          "text": "United",
+          "startSec": 34.311,
+          "endSec": 34.75
+        },
+        {
+          "text": "1274,",
+          "startSec": 34.75,
+          "endSec": 35.071
+        },
+        {
+          "text": "thank",
+          "startSec": 35.071,
+          "endSec": 35.451
+        },
+        {
+          "text": "you,",
+          "startSec": 35.451,
+          "endSec": 35.714
+        },
+        {
+          "text": "traffic",
+          "startSec": 35.714,
+          "endSec": 36.211
+        },
+        {
+          "text": "2",
+          "startSec": 36.211,
+          "endSec": 36.357
+        },
+        {
+          "text": "to",
+          "startSec": 36.357,
+          "endSec": 36.562
+        },
+        {
+          "text": "3",
+          "startSec": 36.562,
+          "endSec": 36.708
+        },
+        {
+          "text": "o'clock",
+          "startSec": 36.708,
+          "endSec": 37.146
+        },
+        {
+          "text": "6",
+          "startSec": 37.146,
+          "endSec": 37.292
+        },
+        {
+          "text": "miles",
+          "startSec": 37.292,
+          "endSec": 37.672
+        },
+        {
+          "text": "northeastbound",
+          "startSec": 37.672,
+          "endSec": 38.578
+        },
+        {
+          "text": "a",
+          "startSec": 38.578,
+          "endSec": 38.725
+        },
+        {
+          "text": "737",
+          "startSec": 38.725,
+          "endSec": 38.988
+        },
+        {
+          "text": "6,000",
+          "startSec": 38.988,
+          "endSec": 39.309
+        },
+        {
+          "text": "restricted",
+          "startSec": 39.309,
+          "endSec": 39.981
+        },
+        {
+          "text": "above",
+          "startSec": 39.981,
+          "endSec": 40.361
+        },
+        {
+          "text": "ya,",
+          "startSec": 40.361,
+          "endSec": 40.566
+        },
+        {
+          "text": "reduce",
+          "startSec": 40.566,
+          "endSec": 41.004
+        },
+        {
+          "text": "speed",
+          "startSec": 41.004,
+          "endSec": 41.384
+        },
+        {
+          "text": "uh",
+          "startSec": 41.384,
+          "endSec": 41.589
+        },
+        {
+          "text": "maintain",
+          "startSec": 41.589,
+          "endSec": 42.144
+        },
+        {
+          "text": "210",
+          "startSec": 42.144,
+          "endSec": 42.407
+        },
+        {
+          "text": "knots,",
+          "startSec": 42.407,
+          "endSec": 42.787
+        },
+        {
+          "text": "expect",
+          "startSec": 42.787,
+          "endSec": 43.225
+        },
+        {
+          "text": "ILS",
+          "startSec": 43.225,
+          "endSec": 43.488
+        },
+        {
+          "text": "28L",
+          "startSec": 43.488,
+          "endSec": 43.751
+        }
+      ],
+      "note": null,
+      "phase": "vectors",
+      "realTimeUtc": "2026-11-04T06:03:22.921Z"
+    },
+    {
+      "audioSampleId": "405bb28a-fd65-49de-8554-2c4dfaa9b570",
+      "startSec": 44.329,
+      "endSec": 48.809,
+      "role": "pilot",
+      "speakerLabel": "UNITED 1274",
+      "frequency": "135.65",
+      "text": "Speed 210, expect ILS 28L, we're at IMC, United 1274",
+      "words": [
+        {
+          "text": "Speed",
+          "startSec": 44.479,
+          "endSec": 44.985
+        },
+        {
+          "text": "210,",
+          "startSec": 44.985,
+          "endSec": 45.336
+        },
+        {
+          "text": "expect",
+          "startSec": 45.336,
+          "endSec": 45.921
+        },
+        {
+          "text": "ILS",
+          "startSec": 45.921,
+          "endSec": 46.272
+        },
+        {
+          "text": "28L,",
+          "startSec": 46.272,
+          "endSec": 46.623
+        },
+        {
+          "text": "we're",
+          "startSec": 46.623,
+          "endSec": 47.051
+        },
+        {
+          "text": "at",
+          "startSec": 47.051,
+          "endSec": 47.324
+        },
+        {
+          "text": "IMC,",
+          "startSec": 47.324,
+          "endSec": 47.675
+        },
+        {
+          "text": "United",
+          "startSec": 47.675,
+          "endSec": 48.26
+        },
+        {
+          "text": "1274",
+          "startSec": 48.26,
+          "endSec": 48.689
+        }
+      ],
+      "note": "IN THE CLOUDS",
+      "phase": "vectors",
+      "realTimeUtc": "2026-11-04T06:03:33.000Z"
+    },
+    {
+      "audioSampleId": "a87bd8ce-f7c3-48f6-8ac2-98ec019cb47a",
+      "startSec": 51.009,
+      "endSec": 57.639,
+      "role": "controller",
+      "speakerLabel": "FINAL APPROACH",
+      "frequency": "135.65",
+      "text": "United 1274, 5 miles from DUYET heading 310 maintain 2,600 till established cleared ILS 28L approach",
+      "words": [
+        {
+          "text": "United",
+          "startSec": 51.159,
+          "endSec": 51.605
+        },
+        {
+          "text": "1274,",
+          "startSec": 51.605,
+          "endSec": 51.931
+        },
+        {
+          "text": "5",
+          "startSec": 51.931,
+          "endSec": 52.08
+        },
+        {
+          "text": "miles",
+          "startSec": 52.08,
+          "endSec": 52.466
+        },
+        {
+          "text": "from",
+          "startSec": 52.466,
+          "endSec": 52.793
+        },
+        {
+          "text": "DUYET",
+          "startSec": 52.793,
+          "endSec": 53.18
+        },
+        {
+          "text": "heading",
+          "startSec": 53.18,
+          "endSec": 53.685
+        },
+        {
+          "text": "310",
+          "startSec": 53.685,
+          "endSec": 53.952
+        },
+        {
+          "text": "maintain",
+          "startSec": 53.952,
+          "endSec": 54.517
+        },
+        {
+          "text": "2,600",
+          "startSec": 54.517,
+          "endSec": 54.844
+        },
+        {
+          "text": "till",
+          "startSec": 54.844,
+          "endSec": 55.171
+        },
+        {
+          "text": "established",
+          "startSec": 55.171,
+          "endSec": 55.914
+        },
+        {
+          "text": "cleared",
+          "startSec": 55.914,
+          "endSec": 56.419
+        },
+        {
+          "text": "ILS",
+          "startSec": 56.419,
+          "endSec": 56.687
+        },
+        {
+          "text": "28L",
+          "startSec": 56.687,
+          "endSec": 56.954
+        },
+        {
+          "text": "approach",
+          "startSec": 56.954,
+          "endSec": 57.519
+        }
+      ],
+      "note": "SECOND APPROACH",
+      "phase": "vectors",
+      "realTimeUtc": "2026-11-04T06:06:53.568Z"
+    },
+    {
+      "audioSampleId": "91a3eaec-3c6f-4b6d-9a24-eaab916ad062",
+      "startSec": 58.639,
+      "endSec": 64.519,
+      "role": "controller",
+      "speakerLabel": "SFO TOWER",
+      "frequency": "120.5",
+      "text": "United 1274, San Francisco Tower, welcome back, runway 28L cleared to land, wind 080 at 8, traffic departing north",
+      "words": [
+        {
+          "text": "United",
+          "startSec": 58.789,
+          "endSec": 59.141
+        },
+        {
+          "text": "1274,",
+          "startSec": 59.141,
+          "endSec": 59.399
+        },
+        {
+          "text": "San",
+          "startSec": 59.399,
+          "endSec": 59.61
+        },
+        {
+          "text": "Francisco",
+          "startSec": 59.61,
+          "endSec": 60.103
+        },
+        {
+          "text": "Tower,",
+          "startSec": 60.103,
+          "endSec": 60.408
+        },
+        {
+          "text": "welcome",
+          "startSec": 60.408,
+          "endSec": 60.807
+        },
+        {
+          "text": "back,",
+          "startSec": 60.807,
+          "endSec": 61.066
+        },
+        {
+          "text": "runway",
+          "startSec": 61.066,
+          "endSec": 61.418
+        },
+        {
+          "text": "28L",
+          "startSec": 61.418,
+          "endSec": 61.629
+        },
+        {
+          "text": "cleared",
+          "startSec": 61.629,
+          "endSec": 62.028
+        },
+        {
+          "text": "to",
+          "startSec": 62.028,
+          "endSec": 62.192
+        },
+        {
+          "text": "land,",
+          "startSec": 62.192,
+          "endSec": 62.45
+        },
+        {
+          "text": "wind",
+          "startSec": 62.45,
+          "endSec": 62.709
+        },
+        {
+          "text": "080",
+          "startSec": 62.709,
+          "endSec": 62.92
+        },
+        {
+          "text": "at",
+          "startSec": 62.92,
+          "endSec": 63.084
+        },
+        {
+          "text": "8,",
+          "startSec": 63.084,
+          "endSec": 63.202
+        },
+        {
+          "text": "traffic",
+          "startSec": 63.202,
+          "endSec": 63.601
+        },
+        {
+          "text": "departing",
+          "startSec": 63.601,
+          "endSec": 64.094
+        },
+        {
+          "text": "north",
+          "startSec": 64.094,
+          "endSec": 64.399
+        }
+      ],
+      "note": "WELCOME BACK",
+      "phase": "final",
+      "realTimeUtc": "2026-11-04T06:08:35.396Z"
+    },
+    {
+      "audioSampleId": "80fc2a2a-4698-48b1-920a-acb3ea50f6e9",
+      "startSec": 66.719,
+      "endSec": 68.859,
+      "role": "controller",
+      "speakerLabel": "SFO GROUND",
+      "frequency": "121.8",
+      "text": "United 1274, San Francisco Ground, taxi via A",
+      "words": [
+        {
+          "text": "United",
+          "startSec": 66.826,
+          "endSec": 67.127
+        },
+        {
+          "text": "1274,",
+          "startSec": 67.127,
+          "endSec": 67.347
+        },
+        {
+          "text": "San",
+          "startSec": 67.347,
+          "endSec": 67.528
+        },
+        {
+          "text": "Francisco",
+          "startSec": 67.528,
+          "endSec": 67.949
+        },
+        {
+          "text": "Ground,",
+          "startSec": 67.949,
+          "endSec": 68.25
+        },
+        {
+          "text": "taxi",
+          "startSec": 68.25,
+          "endSec": 68.471
+        },
+        {
+          "text": "via",
+          "startSec": 68.471,
+          "endSec": 68.651
+        },
+        {
+          "text": "A",
+          "startSec": 68.651,
+          "endSec": 68.752
+        }
+      ],
+      "note": "SAFE ON GROUND",
+      "phase": "taxi",
+      "realTimeUtc": "2026-11-04T06:12:09.836Z"
+    }
+  ],
+  "explainers": [
+    {
+      "startSec": 14.32,
+      "endSec": 18.92,
+      "heading": "What is a go-around?",
+      "body": "A routine, trained maneuver: the pilot discontinues the landing, climbs away, and controllers guide the aircraft back around for another approach."
+    },
+    {
+      "startSec": 23.561,
+      "endSec": 28.161,
+      "heading": "Wake turbulence",
+      "body": "Wings leave swirling air behind them. A following aircraft that encounters it can be jolted or rolled, so pilots may abandon the approach and try again."
+    }
+  ],
+  "timeJumps": [
+    {
+      "startSec": 31.961,
+      "endSec": 34.161,
+      "label": "3 minutes later"
+    },
+    {
+      "startSec": 48.809,
+      "endSec": 51.009,
+      "label": "3 minutes later"
+    },
+    {
+      "startSec": 64.519,
+      "endSec": 66.719,
+      "label": "3 minutes later"
+    }
+  ]
+}

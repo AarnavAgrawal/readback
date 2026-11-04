@@ -1,0 +1,3277 @@
+{
+  "event_id": 5639778,
+  "event_summary": "TCAS resolution advisory, aircraft descent, \"we had a uh RA, we're descending\"",
+  "happened_at": "2026-11-04T16:31:07.28025716Z",
+  "airport_code": "EWR",
+  "callsigns": [
+    "UAL1449"
+  ],
+  "transmissions": [
+    {
+      "audio_sample_id": "1c0abbe8-e6c6-4252-bae9-c6d0639ae5a6",
+      "start_utc": "2026-11-04T16:28:18.052Z",
+      "end_utc": "2026-11-04T16:28:22.414Z",
+      "duration_seconds": 4.361125,
+      "atc_channel_id": 632,
+      "channel": {
+        "facilityId": "20319ca9-41e9-4bbb-a891-570af8b49d56",
+        "facilityCode": "LGA",
+        "facilityType": "airport",
+        "facilityName": "LaGuardia",
+        "category": "Class B",
+        "name": "Southwest",
+        "frequency": "128.55"
+      },
+      "role": "pilot",
+      "role_source": "api",
+      "speaker_label": "UNITED 1449",
+      "controller_label": "APPROACH",
+      "pilot_label": "UNITED 1449",
+      "frequency": "128.55",
+      "text": "Hey Approach, United 1440 nines 8,000 C",
+      "callsigns": [
+        "UAL1449"
+      ],
+      "word_timestamps": [
+        {
+          "word": "hey",
+          "start_seconds": 0.12,
+          "end_seconds": 0.18
+        },
+        {
+          "word": "approach,",
+          "start_seconds": 0.28,
+          "end_seconds": 0.56
+        },
+        {
+          "word": "united",
+          "start_seconds": 0.76,
+          "end_seconds": 1
+        },
+        {
+          "word": "1440",
+          "start_seconds": 1.06,
+          "end_seconds": 2.04
+        },
+        {
+          "word": "nines",
+          "start_seconds": 2.14,
+          "end_seconds": 2.36
+        },
+        {
+          "word": "8,000",
+          "start_seconds": 2.48,
+          "end_seconds": 3.34
+        },
+        {
+          "word": "c",
+          "start_seconds": 3.58,
+          "end_seconds": 3.6
+        }
+      ],
+      "duplicate_ids": [
+        "c4585e45-ff61-4b83-89ce-7e6b45e4d7e9"
+      ]
+    },
+    {
+      "audio_sample_id": "e2af9fbb-e550-4acc-953b-75abbaf22bc8",
+      "start_utc": "2026-11-04T16:28:22.889Z",
+      "end_utc": "2026-11-04T16:28:28.041Z",
+      "duration_seconds": 5.151125,
+      "atc_channel_id": 687,
+      "channel": {
+        "facilityId": "d7992d47-bef6-4243-9791-65afb94418cf",
+        "facilityCode": "EWR",
+        "facilityType": "airport",
+        "facilityName": "Newark",
+        "category": "Approach",
+        "name": "South / East",
+        "frequency": "128.55"
+      },
+      "role": "controller",
+      "role_source": "api",
+      "speaker_label": "APPROACH",
+      "controller_label": "APPROACH",
+      "pilot_label": "UNITED 1449",
+      "frequency": "128.55",
+      "text": "United 1449, Newark Approach, altimeter 30.15, expect ILS runway 22L, descend maintain 6,000",
+      "callsigns": [
+        "UAL1449"
+      ],
+      "word_timestamps": [
+        {
+          "word": "united",
+          "start_seconds": 0.04,
+          "end_seconds": 0.18
+        },
+        {
+          "word": "1449,",
+          "start_seconds": 0.22,
+          "end_seconds": 1.08
+        },
+        {
+          "word": "newark",
+          "start_seconds": 1.1,
+          "end_seconds": 1.22
+        },
+        {
+          "word": "approach,",
+          "start_seconds": 1.24,
+          "end_seconds": 1.42
+        },
+        {
+          "word": "altimeter",
+          "start_seconds": 1.44,
+          "end_seconds": 1.6400000000000001
+        },
+        {
+          "word": "30.15,",
+          "start_seconds": 1.68,
+          "end_seconds": 2.48
+        },
+        {
+          "word": "expect",
+          "start_seconds": 2.54,
+          "end_seconds": 2.7800000000000002
+        },
+        {
+          "word": "ils",
+          "start_seconds": 2.86,
+          "end_seconds": 3
+        },
+        {
+          "word": "runway",
+          "start_seconds": 3.02,
+          "end_seconds": 3.18
+        },
+        {
+          "word": "22l,",
+          "start_seconds": 3.2600000000000002,
+          "end_seconds": 3.56
+        },
+        {
+          "word": "descend",
+          "start_seconds": 3.8000000000000003,
+          "end_seconds": 3.98
+        },
+        {
+          "word": "maintain",
+          "start_seconds": 4,
+          "end_seconds": 4.24
+        },
+        {
+          "word": "6,000",
+          "start_seconds": 4.34,
+          "end_seconds": 4.94
+        }
+      ],
+      "duplicate_ids": []
+    },
+    {
+      "audio_sample_id": "c8397f24-9e80-4b4a-b948-a1b4e629690d",
+      "start_utc": "2026-11-04T16:28:28.297Z",
+      "end_utc": "2026-11-04T16:28:35.609Z",
+      "duration_seconds": 7.311125,
+      "atc_channel_id": 687,
+      "channel": {
+        "facilityId": "d7992d47-bef6-4243-9791-65afb94418cf",
+        "facilityCode": "EWR",
+        "facilityType": "airport",
+        "facilityName": "Newark",
+        "category": "Approach",
+        "name": "South / East",
+        "frequency": "128.55"
+      },
+      "role": "pilot",
+      "role_source": "api",
+      "speaker_label": "UNITED 1449",
+      "controller_label": "APPROACH",
+      "pilot_label": "UNITED 1449",
+      "frequency": "128.55",
+      "text": "Descend 6,000 for the ILS 22L, I don't know if you could pass it off, but just for uh aircraft currency we're gonna do an auto land today",
+      "callsigns": [
+        "UAL1449"
+      ],
+      "word_timestamps": [
+        {
+          "word": "descend",
+          "start_seconds": 0.18,
+          "end_seconds": 0.48
+        },
+        {
+          "word": "6,000",
+          "start_seconds": 0.66,
+          "end_seconds": 1.28
+        },
+        {
+          "word": "for",
+          "start_seconds": 1.34,
+          "end_seconds": 1.4000000000000001
+        },
+        {
+          "word": "the",
+          "start_seconds": 1.46,
+          "end_seconds": 1.52
+        },
+        {
+          "word": "ils",
+          "start_seconds": 1.6,
+          "end_seconds": 1.74
+        },
+        {
+          "word": "22l,",
+          "start_seconds": 1.8,
+          "end_seconds": 2.92
+        },
+        {
+          "word": "i",
+          "start_seconds": 2.96,
+          "end_seconds": 2.98
+        },
+        {
+          "word": "don't",
+          "start_seconds": 3,
+          "end_seconds": 3.12
+        },
+        {
+          "word": "know",
+          "start_seconds": 3.18,
+          "end_seconds": 3.3000000000000003
+        },
+        {
+          "word": "if",
+          "start_seconds": 3.42,
+          "end_seconds": 3.46
+        },
+        {
+          "word": "you",
+          "start_seconds": 3.48,
+          "end_seconds": 3.54
+        },
+        {
+          "word": "could",
+          "start_seconds": 3.58,
+          "end_seconds": 3.72
+        },
+        {
+          "word": "pass",
+          "start_seconds": 3.84,
+          "end_seconds": 4
+        },
+        {
+          "word": "it",
+          "start_seconds": 4.08,
+          "end_seconds": 4.12
+        },
+        {
+          "word": "off,",
+          "start_seconds": 4.18,
+          "end_seconds": 4.3
+        },
+        {
+          "word": "but",
+          "start_seconds": 4.36,
+          "end_seconds": 4.48
+        },
+        {
+          "word": "just",
+          "start_seconds": 4.62,
+          "end_seconds": 4.76
+        },
+        {
+          "word": "for",
+          "start_seconds": 4.8,
+          "end_seconds": 4.92
+        },
+        {
+          "word": "uh",
+          "start_seconds": 5.1000000000000005,
+          "end_seconds": 5.2
+        },
+        {
+          "word": "aircraft",
+          "start_seconds": 5.42,
+          "end_seconds": 5.72
+        },
+        {
+          "word": "currency",
+          "start_seconds": 5.76,
+          "end_seconds": 6.04
+        },
+        {
+          "word": "we're",
+          "start_seconds": 6.08,
+          "end_seconds": 6.2
+        },
+        {
+          "word": "gonna",
+          "start_seconds": 6.22,
+          "end_seconds": 6.34
+        },
+        {
+          "word": "do",
+          "start_seconds": 6.36,
+          "end_seconds": 6.4
+        },
+        {
+          "word": "an",
+          "start_seconds": 6.44,
+          "end_seconds": 6.48
+        },
+        {
+          "word": "auto",
+          "start_seconds": 6.5200000000000005,
+          "end_seconds": 6.66
+        },
+        {
+          "word": "land",
+          "start_seconds": 6.72,
+          "end_seconds": 6.88
+        },
+        {
+          "word": "today",
+          "start_seconds": 6.96,
+          "end_seconds": 7.18
+        }
+      ],
+      "duplicate_ids": []
+    },
+    {
+      "audio_sample_id": "dd307083-b21e-4344-909f-8525152bdba8",
+      "start_utc": "2026-11-04T16:28:37.249Z",
+      "end_utc": "2026-11-04T16:28:37.971Z",
+      "duration_seconds": 0.721125,
+      "atc_channel_id": 687,
+      "channel": {
+        "facilityId": "d7992d47-bef6-4243-9791-65afb94418cf",
+        "facilityCode": "EWR",
+        "facilityType": "airport",
+        "facilityName": "Newark",
+        "category": "Approach",
+        "name": "South / East",
+        "frequency": "128.55"
+      },
+      "role": "pilot",
+      "role_source": "api",
+      "speaker_label": "UNITED 1449",
+      "controller_label": "APPROACH",
+      "pilot_label": "UNITED 1449",
+      "frequency": "128.55",
+      "text": "Roger",
+      "callsigns": [
+        "UAL1449"
+      ],
+      "word_timestamps": [
+        {
+          "word": "roger",
+          "start_seconds": 0.16,
+          "end_seconds": 0.4
+        }
+      ],
+      "duplicate_ids": []
+    },
+    {
+      "audio_sample_id": "550be119-d7d1-44c6-bf48-ac41a36cda64",
+      "start_utc": "2026-11-04T16:30:23.296Z",
+      "end_utc": "2026-11-04T16:30:31.488Z",
+      "duration_seconds": 8.191125,
+      "atc_channel_id": 687,
+      "channel": {
+        "facilityId": "d7992d47-bef6-4243-9791-65afb94418cf",
+        "facilityCode": "EWR",
+        "facilityType": "airport",
+        "facilityName": "Newark",
+        "category": "Approach",
+        "name": "South / East",
+        "frequency": "128.55"
+      },
+      "role": "controller",
+      "role_source": "api",
+      "speaker_label": "APPROACH",
+      "controller_label": "APPROACH",
+      "pilot_label": "UNITED 1449",
+      "frequency": "128.55",
+      "text": "United 1449, turn right heading 100, traffic 11 o'clock 1 mile southwestbound altitude indicates 5,900 climbing",
+      "callsigns": [
+        "UAL1449"
+      ],
+      "word_timestamps": [
+        {
+          "word": "united",
+          "start_seconds": 0.02,
+          "end_seconds": 0.14
+        },
+        {
+          "word": "1449,",
+          "start_seconds": 0.18,
+          "end_seconds": 1.72
+        },
+        {
+          "word": "turn",
+          "start_seconds": 1.8,
+          "end_seconds": 2.04
+        },
+        {
+          "word": "right",
+          "start_seconds": 2.14,
+          "end_seconds": 2.24
+        },
+        {
+          "word": "heading",
+          "start_seconds": 2.4,
+          "end_seconds": 2.6
+        },
+        {
+          "word": "100,",
+          "start_seconds": 2.62,
+          "end_seconds": 2.94
+        },
+        {
+          "word": "traffic",
+          "start_seconds": 2.98,
+          "end_seconds": 3.2
+        },
+        {
+          "word": "11",
+          "start_seconds": 3.3000000000000003,
+          "end_seconds": 3.52
+        },
+        {
+          "word": "o'clock",
+          "start_seconds": 3.6,
+          "end_seconds": 3.92
+        },
+        {
+          "word": "1",
+          "start_seconds": 4.8,
+          "end_seconds": 4.9
+        },
+        {
+          "word": "mile",
+          "start_seconds": 5.0200000000000005,
+          "end_seconds": 5.2
+        },
+        {
+          "word": "southwestbound",
+          "start_seconds": 5.36,
+          "end_seconds": 5.94
+        },
+        {
+          "word": "altitude",
+          "start_seconds": 5.98,
+          "end_seconds": 6.28
+        },
+        {
+          "word": "indicates",
+          "start_seconds": 6.3,
+          "end_seconds": 6.68
+        },
+        {
+          "word": "5,900",
+          "start_seconds": 6.72,
+          "end_seconds": 7.7
+        },
+        {
+          "word": "climbing",
+          "start_seconds": 7.76,
+          "end_seconds": 8.1
+        }
+      ],
+      "duplicate_ids": []
+    },
+    {
+      "audio_sample_id": "5b249fc7-827c-4ad8-bc85-afa47c7ab621",
+      "start_utc": "2026-11-04T16:30:31.754Z",
+      "end_utc": "2026-11-04T16:30:35.466Z",
+      "duration_seconds": 3.711125,
+      "atc_channel_id": 687,
+      "channel": {
+        "facilityId": "d7992d47-bef6-4243-9791-65afb94418cf",
+        "facilityCode": "EWR",
+        "facilityType": "airport",
+        "facilityName": "Newark",
+        "category": "Approach",
+        "name": "South / East",
+        "frequency": "128.55"
+      },
+      "role": "pilot",
+      "role_source": "api",
+      "speaker_label": "UNITED 1449",
+      "controller_label": "APPROACH",
+      "pilot_label": "UNITED 1449",
+      "frequency": "128.55",
+      "text": "Roger, we're turning 100, we had a uh RA, we're descending",
+      "callsigns": [
+        "UAL1449"
+      ],
+      "word_timestamps": [
+        {
+          "word": "roger,",
+          "start_seconds": 0.08,
+          "end_seconds": 0.36
+        },
+        {
+          "word": "we're",
+          "start_seconds": 0.44,
+          "end_seconds": 0.56
+        },
+        {
+          "word": "turning",
+          "start_seconds": 0.62,
+          "end_seconds": 0.8200000000000001
+        },
+        {
+          "word": "100,",
+          "start_seconds": 0.88,
+          "end_seconds": 1.68
+        },
+        {
+          "word": "we",
+          "start_seconds": 1.72,
+          "end_seconds": 1.76
+        },
+        {
+          "word": "had",
+          "start_seconds": 1.8800000000000001,
+          "end_seconds": 2.02
+        },
+        {
+          "word": "a",
+          "start_seconds": 2.1,
+          "end_seconds": 2.12
+        },
+        {
+          "word": "uh",
+          "start_seconds": 2.34,
+          "end_seconds": 2.4
+        },
+        {
+          "word": "ra,",
+          "start_seconds": 2.64,
+          "end_seconds": 2.7800000000000002
+        },
+        {
+          "word": "we're",
+          "start_seconds": 2.86,
+          "end_seconds": 2.96
+        },
+        {
+          "word": "descending",
+          "start_seconds": 2.98,
+          "end_seconds": 3.34
+        }
+      ],
+      "duplicate_ids": []
+    },
+    {
+      "audio_sample_id": "0c41dbce-909e-4dd9-b3ae-aad529bd8662",
+      "start_utc": "2026-11-04T16:30:35.641Z",
+      "end_utc": "2026-11-04T16:30:37.243Z",
+      "duration_seconds": 1.6011250000000001,
+      "atc_channel_id": 687,
+      "channel": {
+        "facilityId": "d7992d47-bef6-4243-9791-65afb94418cf",
+        "facilityCode": "EWR",
+        "facilityType": "airport",
+        "facilityName": "Newark",
+        "category": "Approach",
+        "name": "South / East",
+        "frequency": "128.55"
+      },
+      "role": "controller",
+      "role_source": "api",
+      "speaker_label": "APPROACH",
+      "controller_label": "APPROACH",
+      "pilot_label": "UNITED 1449",
+      "frequency": "128.55",
+      "text": "United 1449, roger",
+      "callsigns": [
+        "UAL1449"
+      ],
+      "word_timestamps": [
+        {
+          "word": "united",
+          "start_seconds": 0.02,
+          "end_seconds": 0.14
+        },
+        {
+          "word": "1449,",
+          "start_seconds": 0.18,
+          "end_seconds": 1.4000000000000001
+        },
+        {
+          "word": "roger",
+          "start_seconds": 1.42,
+          "end_seconds": 1.56
+        }
+      ],
+      "duplicate_ids": []
+    },
+    {
+      "audio_sample_id": "697874b1-580f-4599-98b3-6b10fcc256c5",
+      "start_utc": "2026-11-04T16:30:49.973Z",
+      "end_utc": "2026-11-04T16:30:57.095Z",
+      "duration_seconds": 7.121125,
+      "atc_channel_id": 598,
+      "channel": {
+        "facilityId": "a291a26a-b466-4622-9cac-7b0b4e76b442",
+        "facilityCode": "JFK",
+        "facilityType": "airport",
+        "facilityName": "John F. Kennedy",
+        "category": "Class B",
+        "name": "Southwest",
+        "frequency": "128.55"
+      },
+      "role": "pilot",
+      "role_source": "api",
+      "speaker_label": "UNITED 1449",
+      "controller_label": "APPROACH",
+      "pilot_label": "UNITED 1449",
+      "frequency": "128.55",
+      "text": "And uh United 1449, were clear of conflict uh lets climb back up to 6,000 you still want us on a 100",
+      "callsigns": [
+        "UAL1449"
+      ],
+      "word_timestamps": [
+        {
+          "word": "and",
+          "start_seconds": 0.44,
+          "end_seconds": 0.58
+        },
+        {
+          "word": "uh",
+          "start_seconds": 0.62,
+          "end_seconds": 0.66
+        },
+        {
+          "word": "united",
+          "start_seconds": 0.68,
+          "end_seconds": 1.16
+        },
+        {
+          "word": "1449,",
+          "start_seconds": 1.34,
+          "end_seconds": 2.34
+        },
+        {
+          "word": "were",
+          "start_seconds": 2.4,
+          "end_seconds": 2.54
+        },
+        {
+          "word": "clear",
+          "start_seconds": 2.58,
+          "end_seconds": 2.72
+        },
+        {
+          "word": "of",
+          "start_seconds": 2.7600000000000002,
+          "end_seconds": 2.8000000000000003
+        },
+        {
+          "word": "conflict",
+          "start_seconds": 2.86,
+          "end_seconds": 3.38
+        },
+        {
+          "word": "uh",
+          "start_seconds": 3.56,
+          "end_seconds": 3.68
+        },
+        {
+          "word": "lets",
+          "start_seconds": 3.72,
+          "end_seconds": 3.88
+        },
+        {
+          "word": "climb",
+          "start_seconds": 3.96,
+          "end_seconds": 4.08
+        },
+        {
+          "word": "back",
+          "start_seconds": 4.14,
+          "end_seconds": 4.26
+        },
+        {
+          "word": "up",
+          "start_seconds": 4.34,
+          "end_seconds": 4.4
+        },
+        {
+          "word": "to",
+          "start_seconds": 4.5,
+          "end_seconds": 4.58
+        },
+        {
+          "word": "6,000",
+          "start_seconds": 5.34,
+          "end_seconds": 5.74
+        },
+        {
+          "word": "you",
+          "start_seconds": 5.76,
+          "end_seconds": 5.86
+        },
+        {
+          "word": "still",
+          "start_seconds": 5.92,
+          "end_seconds": 6.04
+        },
+        {
+          "word": "want",
+          "start_seconds": 6.0600000000000005,
+          "end_seconds": 6.140000000000001
+        },
+        {
+          "word": "us",
+          "start_seconds": 6.18,
+          "end_seconds": 6.22
+        },
+        {
+          "word": "on",
+          "start_seconds": 6.28,
+          "end_seconds": 6.32
+        },
+        {
+          "word": "a",
+          "start_seconds": 6.38,
+          "end_seconds": 6.4
+        },
+        {
+          "word": "100",
+          "start_seconds": 6.48,
+          "end_seconds": 7
+        }
+      ],
+      "duplicate_ids": [
+        "080b5989-6024-4311-847d-b12931018fe9",
+        "caf4722c-5d67-4221-9df7-fb5e874e04c7"
+      ]
+    },
+    {
+      "audio_sample_id": "98470339-a5b3-4746-b1ae-1ff9c6bd62de",
+      "start_utc": "2026-11-04T16:30:57.317Z",
+      "end_utc": "2026-11-04T16:31:02.749Z",
+      "duration_seconds": 5.431125,
+      "atc_channel_id": 687,
+      "channel": {
+        "facilityId": "d7992d47-bef6-4243-9791-65afb94418cf",
+        "facilityCode": "EWR",
+        "facilityType": "airport",
+        "facilityName": "Newark",
+        "category": "Approach",
+        "name": "South / East",
+        "frequency": "128.55"
+      },
+      "role": "controller",
+      "role_source": "api",
+      "speaker_label": "APPROACH",
+      "controller_label": "APPROACH",
+      "pilot_label": "UNITED 1449",
+      "frequency": "128.55",
+      "text": "United 1449, you can turn back to the left to a 010 heading and maintain 6,000, thank you",
+      "callsigns": [
+        "UAL1449"
+      ],
+      "word_timestamps": [
+        {
+          "word": "united",
+          "start_seconds": 0,
+          "end_seconds": 0.12
+        },
+        {
+          "word": "1449,",
+          "start_seconds": 0.16,
+          "end_seconds": 0.98
+        },
+        {
+          "word": "you",
+          "start_seconds": 1.04,
+          "end_seconds": 1.1
+        },
+        {
+          "word": "can",
+          "start_seconds": 1.1400000000000001,
+          "end_seconds": 1.22
+        },
+        {
+          "word": "turn",
+          "start_seconds": 1.28,
+          "end_seconds": 1.4000000000000001
+        },
+        {
+          "word": "back",
+          "start_seconds": 1.48,
+          "end_seconds": 1.58
+        },
+        {
+          "word": "to",
+          "start_seconds": 1.6400000000000001,
+          "end_seconds": 1.68
+        },
+        {
+          "word": "the",
+          "start_seconds": 1.76,
+          "end_seconds": 1.82
+        },
+        {
+          "word": "left",
+          "start_seconds": 1.8800000000000001,
+          "end_seconds": 2.02
+        },
+        {
+          "word": "to",
+          "start_seconds": 2.08,
+          "end_seconds": 2.14
+        },
+        {
+          "word": "a",
+          "start_seconds": 2.2600000000000002,
+          "end_seconds": 2.2800000000000002
+        },
+        {
+          "word": "010",
+          "start_seconds": 2.5,
+          "end_seconds": 3.02
+        },
+        {
+          "word": "heading",
+          "start_seconds": 3.46,
+          "end_seconds": 3.7
+        },
+        {
+          "word": "and",
+          "start_seconds": 3.74,
+          "end_seconds": 3.8200000000000003
+        },
+        {
+          "word": "maintain",
+          "start_seconds": 3.86,
+          "end_seconds": 4.18
+        },
+        {
+          "word": "6,000,",
+          "start_seconds": 4.36,
+          "end_seconds": 4.92
+        },
+        {
+          "word": "thank",
+          "start_seconds": 5.0200000000000005,
+          "end_seconds": 5.18
+        },
+        {
+          "word": "you",
+          "start_seconds": 5.26,
+          "end_seconds": 5.38
+        }
+      ],
+      "duplicate_ids": []
+    },
+    {
+      "audio_sample_id": "fe914add-4ee7-4586-92dc-b760fd4640e3",
+      "start_utc": "2026-11-04T16:31:03.228Z",
+      "end_utc": "2026-11-04T16:31:07.280Z",
+      "duration_seconds": 4.051125,
+      "atc_channel_id": 598,
+      "channel": {
+        "facilityId": "a291a26a-b466-4622-9cac-7b0b4e76b442",
+        "facilityCode": "JFK",
+        "facilityType": "airport",
+        "facilityName": "John F. Kennedy",
+        "category": "Class B",
+        "name": "Southwest",
+        "frequency": "128.55"
+      },
+      "role": "pilot",
+      "role_source": "api",
+      "speaker_label": "UNITED 1449",
+      "controller_label": "APPROACH",
+      "pilot_label": "UNITED 1449",
+      "frequency": "128.55",
+      "text": "Roger that, left turn back to 010, well climb back up to 6, United 1449",
+      "callsigns": [
+        "UAL1449"
+      ],
+      "word_timestamps": [
+        {
+          "word": "roger",
+          "start_seconds": 0.08,
+          "end_seconds": 0.28
+        },
+        {
+          "word": "that,",
+          "start_seconds": 0.32,
+          "end_seconds": 0.42
+        },
+        {
+          "word": "left",
+          "start_seconds": 0.48,
+          "end_seconds": 0.62
+        },
+        {
+          "word": "turn",
+          "start_seconds": 0.66,
+          "end_seconds": 0.76
+        },
+        {
+          "word": "back",
+          "start_seconds": 0.8200000000000001,
+          "end_seconds": 0.92
+        },
+        {
+          "word": "to",
+          "start_seconds": 0.96,
+          "end_seconds": 1
+        },
+        {
+          "word": "010,",
+          "start_seconds": 1.08,
+          "end_seconds": 1.4000000000000001
+        },
+        {
+          "word": "well",
+          "start_seconds": 1.52,
+          "end_seconds": 1.7
+        },
+        {
+          "word": "climb",
+          "start_seconds": 1.78,
+          "end_seconds": 1.92
+        },
+        {
+          "word": "back",
+          "start_seconds": 1.98,
+          "end_seconds": 2.1
+        },
+        {
+          "word": "up",
+          "start_seconds": 2.18,
+          "end_seconds": 2.2600000000000002
+        },
+        {
+          "word": "to",
+          "start_seconds": 2.2800000000000002,
+          "end_seconds": 2.32
+        },
+        {
+          "word": "6,",
+          "start_seconds": 2.38,
+          "end_seconds": 2.5
+        },
+        {
+          "word": "united",
+          "start_seconds": 2.92,
+          "end_seconds": 3.12
+        },
+        {
+          "word": "1449",
+          "start_seconds": 3.14,
+          "end_seconds": 4
+        }
+      ],
+      "duplicate_ids": [
+        "eea597a7-deff-4865-95fc-d34665798b2d",
+        "6cdde12d-54f6-437c-a190-5800962d1591"
+      ]
+    },
+    {
+      "audio_sample_id": "86a48170-ffb7-48d7-9b26-a300836ee1e5",
+      "start_utc": "2026-11-04T16:33:57.558Z",
+      "end_utc": "2026-11-04T16:33:59.930Z",
+      "duration_seconds": 2.371125,
+      "atc_channel_id": 885,
+      "channel": {
+        "facilityId": "d7992d47-bef6-4243-9791-65afb94418cf",
+        "facilityCode": "EWR",
+        "facilityType": "airport",
+        "facilityName": "Newark",
+        "category": "Approach",
+        "name": "North",
+        "frequency": "120.15"
+      },
+      "role": "controller",
+      "role_source": "api",
+      "speaker_label": "APPROACH",
+      "controller_label": "APPROACH",
+      "pilot_label": "UNITED 1449",
+      "frequency": "120.15",
+      "text": "United 1449, heading 040",
+      "callsigns": [
+        "UAL1449"
+      ],
+      "word_timestamps": [
+        {
+          "word": "united",
+          "start_seconds": 0.02,
+          "end_seconds": 0.18
+        },
+        {
+          "word": "1449,",
+          "start_seconds": 0.22,
+          "end_seconds": 1.1400000000000001
+        },
+        {
+          "word": "heading",
+          "start_seconds": 1.2,
+          "end_seconds": 1.42
+        },
+        {
+          "word": "040",
+          "start_seconds": 1.76,
+          "end_seconds": 2.2
+        }
+      ],
+      "duplicate_ids": []
+    },
+    {
+      "audio_sample_id": "04c95e8f-d2c7-4512-b8e4-1af3fd37305d",
+      "start_utc": "2026-11-04T16:33:57.943Z",
+      "end_utc": "2026-11-04T16:34:03.385Z",
+      "duration_seconds": 5.4411249999999995,
+      "atc_channel_id": 687,
+      "channel": {
+        "facilityId": "d7992d47-bef6-4243-9791-65afb94418cf",
+        "facilityCode": "EWR",
+        "facilityType": "airport",
+        "facilityName": "Newark",
+        "category": "Approach",
+        "name": "South / East",
+        "frequency": "128.55"
+      },
+      "role": "controller",
+      "role_source": "api",
+      "speaker_label": "APPROACH",
+      "controller_label": "APPROACH",
+      "pilot_label": "UNITED 1449",
+      "frequency": "128.55",
+      "text": "United 1449, turn right heading 040, descend contact Approach 120.15",
+      "callsigns": [
+        "UAL1449"
+      ],
+      "word_timestamps": [
+        {
+          "word": "united",
+          "start_seconds": 0,
+          "end_seconds": 0.12
+        },
+        {
+          "word": "1449,",
+          "start_seconds": 0.14,
+          "end_seconds": 1.24
+        },
+        {
+          "word": "turn",
+          "start_seconds": 1.34,
+          "end_seconds": 1.48
+        },
+        {
+          "word": "right",
+          "start_seconds": 1.56,
+          "end_seconds": 1.72
+        },
+        {
+          "word": "heading",
+          "start_seconds": 1.76,
+          "end_seconds": 1.94
+        },
+        {
+          "word": "040,",
+          "start_seconds": 2.32,
+          "end_seconds": 2.72
+        },
+        {
+          "word": "descend",
+          "start_seconds": 2.7800000000000002,
+          "end_seconds": 3.08
+        },
+        {
+          "word": "contact",
+          "start_seconds": 3.2600000000000002,
+          "end_seconds": 3.56
+        },
+        {
+          "word": "approach",
+          "start_seconds": 3.58,
+          "end_seconds": 3.8000000000000003
+        },
+        {
+          "word": "120.15",
+          "start_seconds": 3.88,
+          "end_seconds": 5.0600000000000005
+        }
+      ],
+      "duplicate_ids": []
+    },
+    {
+      "audio_sample_id": "0d63a0d9-14cb-47f1-951e-db03149c31f2",
+      "start_utc": "2026-11-04T16:34:03.571Z",
+      "end_utc": "2026-11-04T16:34:07.273Z",
+      "duration_seconds": 3.701125,
+      "atc_channel_id": 598,
+      "channel": {
+        "facilityId": "a291a26a-b466-4622-9cac-7b0b4e76b442",
+        "facilityCode": "JFK",
+        "facilityType": "airport",
+        "facilityName": "John F. Kennedy",
+        "category": "Class B",
+        "name": "Southwest",
+        "frequency": "128.55"
+      },
+      "role": "pilot",
+      "role_source": "api",
+      "speaker_label": "UNITED 1449",
+      "controller_label": "APPROACH",
+      "pilot_label": "UNITED 1449",
+      "frequency": "128.55",
+      "text": "Right turn 040 and 120.15, United 1449, good day",
+      "callsigns": [
+        "UAL1449"
+      ],
+      "word_timestamps": [
+        {
+          "word": "right",
+          "start_seconds": 0.24,
+          "end_seconds": 0.38
+        },
+        {
+          "word": "turn",
+          "start_seconds": 0.44,
+          "end_seconds": 0.56
+        },
+        {
+          "word": "040",
+          "start_seconds": 0.58,
+          "end_seconds": 0.68
+        },
+        {
+          "word": "and",
+          "start_seconds": 0.7000000000000001,
+          "end_seconds": 0.78
+        },
+        {
+          "word": "120.15,",
+          "start_seconds": 0.86,
+          "end_seconds": 1.82
+        },
+        {
+          "word": "united",
+          "start_seconds": 1.9000000000000001,
+          "end_seconds": 2.04
+        },
+        {
+          "word": "1449,",
+          "start_seconds": 2.1,
+          "end_seconds": 3.3000000000000003
+        },
+        {
+          "word": "good",
+          "start_seconds": 3.3200000000000003,
+          "end_seconds": 3.5
+        },
+        {
+          "word": "day",
+          "start_seconds": 3.54,
+          "end_seconds": 3.6
+        }
+      ],
+      "duplicate_ids": [
+        "c6c7318f-a416-4be5-ad10-877aaa5b3986",
+        "1733a83c-3707-46b2-b162-1d1f33e633a5"
+      ]
+    },
+    {
+      "audio_sample_id": "00e66d7f-360f-4caa-afa8-9b57a52d3c05",
+      "start_utc": "2026-11-04T16:34:11.614Z",
+      "end_utc": "2026-11-04T16:34:16.296Z",
+      "duration_seconds": 4.681125,
+      "atc_channel_id": 885,
+      "channel": {
+        "facilityId": "d7992d47-bef6-4243-9791-65afb94418cf",
+        "facilityCode": "EWR",
+        "facilityType": "airport",
+        "facilityName": "Newark",
+        "category": "Approach",
+        "name": "North",
+        "frequency": "120.15"
+      },
+      "role": "pilot",
+      "role_source": "api",
+      "speaker_label": "UNITED 1449",
+      "controller_label": "APPROACH",
+      "pilot_label": "UNITED 1449",
+      "frequency": "120.15",
+      "text": "Hey Approach, United 1449, 6,000, uh turning to a 040 heading",
+      "callsigns": [
+        "UAL1449"
+      ],
+      "word_timestamps": [
+        {
+          "word": "hey",
+          "start_seconds": 0.16,
+          "end_seconds": 0.28
+        },
+        {
+          "word": "approach,",
+          "start_seconds": 0.32,
+          "end_seconds": 0.52
+        },
+        {
+          "word": "united",
+          "start_seconds": 0.54,
+          "end_seconds": 0.66
+        },
+        {
+          "word": "1449,",
+          "start_seconds": 0.68,
+          "end_seconds": 1.68
+        },
+        {
+          "word": "6,000,",
+          "start_seconds": 1.86,
+          "end_seconds": 2.6
+        },
+        {
+          "word": "uh",
+          "start_seconds": 2.7800000000000002,
+          "end_seconds": 2.88
+        },
+        {
+          "word": "turning",
+          "start_seconds": 3,
+          "end_seconds": 3.2
+        },
+        {
+          "word": "to",
+          "start_seconds": 3.22,
+          "end_seconds": 3.2600000000000002
+        },
+        {
+          "word": "a",
+          "start_seconds": 3.4,
+          "end_seconds": 3.42
+        },
+        {
+          "word": "040",
+          "start_seconds": 3.86,
+          "end_seconds": 4.12
+        },
+        {
+          "word": "heading",
+          "start_seconds": 4.26,
+          "end_seconds": 4.5
+        }
+      ],
+      "duplicate_ids": []
+    },
+    {
+      "audio_sample_id": "35df9536-9b86-4fd8-a972-db93f565fc58",
+      "start_utc": "2026-11-04T16:34:16.490Z",
+      "end_utc": "2026-11-04T16:34:19.262Z",
+      "duration_seconds": 2.771125,
+      "atc_channel_id": 885,
+      "channel": {
+        "facilityId": "d7992d47-bef6-4243-9791-65afb94418cf",
+        "facilityCode": "EWR",
+        "facilityType": "airport",
+        "facilityName": "Newark",
+        "category": "Approach",
+        "name": "North",
+        "frequency": "120.15"
+      },
+      "role": "controller",
+      "role_source": "api",
+      "speaker_label": "APPROACH",
+      "controller_label": "APPROACH",
+      "pilot_label": "UNITED 1449",
+      "frequency": "120.15",
+      "text": "United 1449, New York Approach, descend and maintain 5,000",
+      "callsigns": [
+        "UAL1449"
+      ],
+      "word_timestamps": [
+        {
+          "word": "united",
+          "start_seconds": 0.04,
+          "end_seconds": 0.16
+        },
+        {
+          "word": "1449,",
+          "start_seconds": 0.18,
+          "end_seconds": 0.9
+        },
+        {
+          "word": "new",
+          "start_seconds": 0.9400000000000001,
+          "end_seconds": 1
+        },
+        {
+          "word": "york",
+          "start_seconds": 1.02,
+          "end_seconds": 1.1
+        },
+        {
+          "word": "approach,",
+          "start_seconds": 1.12,
+          "end_seconds": 1.34
+        },
+        {
+          "word": "descend",
+          "start_seconds": 1.36,
+          "end_seconds": 1.52
+        },
+        {
+          "word": "and",
+          "start_seconds": 1.54,
+          "end_seconds": 1.6
+        },
+        {
+          "word": "maintain",
+          "start_seconds": 1.62,
+          "end_seconds": 1.86
+        },
+        {
+          "word": "5,000",
+          "start_seconds": 2,
+          "end_seconds": 2.54
+        }
+      ],
+      "duplicate_ids": []
+    },
+    {
+      "audio_sample_id": "c4dcf5f7-0e26-4f18-aae8-50c97955edc5",
+      "start_utc": "2026-11-04T16:34:19.610Z",
+      "end_utc": "2026-11-04T16:34:27.902Z",
+      "duration_seconds": 8.291124999,
+      "atc_channel_id": 885,
+      "channel": {
+        "facilityId": "d7992d47-bef6-4243-9791-65afb94418cf",
+        "facilityCode": "EWR",
+        "facilityType": "airport",
+        "facilityName": "Newark",
+        "category": "Approach",
+        "name": "North",
+        "frequency": "120.15"
+      },
+      "role": "pilot",
+      "role_source": "api",
+      "speaker_label": "UNITED 1449",
+      "controller_label": "APPROACH",
+      "pilot_label": "UNITED 1449",
+      "frequency": "120.15",
+      "text": "At 5,000 for United 1449, and just for aircraft uh currency we are looking to do an auto land today just uh let you know",
+      "callsigns": [
+        "UAL1449"
+      ],
+      "word_timestamps": [
+        {
+          "word": "at",
+          "start_seconds": 0.34,
+          "end_seconds": 0.42
+        },
+        {
+          "word": "5,000",
+          "start_seconds": 0.54,
+          "end_seconds": 1.06
+        },
+        {
+          "word": "for",
+          "start_seconds": 1.08,
+          "end_seconds": 1.16
+        },
+        {
+          "word": "united",
+          "start_seconds": 1.22,
+          "end_seconds": 1.4000000000000001
+        },
+        {
+          "word": "1449,",
+          "start_seconds": 1.44,
+          "end_seconds": 3.22
+        },
+        {
+          "word": "and",
+          "start_seconds": 3.2800000000000002,
+          "end_seconds": 3.34
+        },
+        {
+          "word": "just",
+          "start_seconds": 3.38,
+          "end_seconds": 3.5
+        },
+        {
+          "word": "for",
+          "start_seconds": 3.54,
+          "end_seconds": 3.6
+        },
+        {
+          "word": "aircraft",
+          "start_seconds": 3.66,
+          "end_seconds": 4.0200000000000005
+        },
+        {
+          "word": "uh",
+          "start_seconds": 4.2,
+          "end_seconds": 4.32
+        },
+        {
+          "word": "currency",
+          "start_seconds": 5.48,
+          "end_seconds": 5.86
+        },
+        {
+          "word": "we",
+          "start_seconds": 5.98,
+          "end_seconds": 6.04
+        },
+        {
+          "word": "are",
+          "start_seconds": 6.12,
+          "end_seconds": 6.2
+        },
+        {
+          "word": "looking",
+          "start_seconds": 6.3,
+          "end_seconds": 6.48
+        },
+        {
+          "word": "to",
+          "start_seconds": 6.5,
+          "end_seconds": 6.54
+        },
+        {
+          "word": "do",
+          "start_seconds": 6.5600000000000005,
+          "end_seconds": 6.6000000000000005
+        },
+        {
+          "word": "an",
+          "start_seconds": 6.66,
+          "end_seconds": 6.7
+        },
+        {
+          "word": "auto",
+          "start_seconds": 6.74,
+          "end_seconds": 6.88
+        },
+        {
+          "word": "land",
+          "start_seconds": 6.92,
+          "end_seconds": 7.0200000000000005
+        },
+        {
+          "word": "today",
+          "start_seconds": 7.04,
+          "end_seconds": 7.24
+        },
+        {
+          "word": "just",
+          "start_seconds": 7.28,
+          "end_seconds": 7.44
+        },
+        {
+          "word": "uh",
+          "start_seconds": 7.5,
+          "end_seconds": 7.5600000000000005
+        },
+        {
+          "word": "let",
+          "start_seconds": 7.78,
+          "end_seconds": 7.86
+        },
+        {
+          "word": "you",
+          "start_seconds": 7.9,
+          "end_seconds": 7.96
+        },
+        {
+          "word": "know",
+          "start_seconds": 7.98,
+          "end_seconds": 8.1
+        }
+      ],
+      "duplicate_ids": []
+    },
+    {
+      "audio_sample_id": "062d98ee-be52-49ee-98ab-05ce60add0da",
+      "start_utc": "2026-11-04T16:34:28.317Z",
+      "end_utc": "2026-11-04T16:34:29.759Z",
+      "duration_seconds": 1.441125,
+      "atc_channel_id": 885,
+      "channel": {
+        "facilityId": "d7992d47-bef6-4243-9791-65afb94418cf",
+        "facilityCode": "EWR",
+        "facilityType": "airport",
+        "facilityName": "Newark",
+        "category": "Approach",
+        "name": "North",
+        "frequency": "120.15"
+      },
+      "role": "controller",
+      "role_source": "api",
+      "speaker_label": "APPROACH",
+      "controller_label": "APPROACH",
+      "pilot_label": "UNITED 1449",
+      "frequency": "120.15",
+      "text": "I'm, I'm sorry, say that again",
+      "callsigns": [
+        "UAL1449"
+      ],
+      "word_timestamps": [
+        {
+          "word": "i'm,",
+          "start_seconds": 0.14,
+          "end_seconds": 0.22
+        },
+        {
+          "word": "i'm",
+          "start_seconds": 0.38,
+          "end_seconds": 0.44
+        },
+        {
+          "word": "sorry,",
+          "start_seconds": 0.5,
+          "end_seconds": 0.7000000000000001
+        },
+        {
+          "word": "say",
+          "start_seconds": 0.72,
+          "end_seconds": 0.8
+        },
+        {
+          "word": "that",
+          "start_seconds": 0.8200000000000001,
+          "end_seconds": 0.9400000000000001
+        },
+        {
+          "word": "again",
+          "start_seconds": 0.96,
+          "end_seconds": 1.22
+        }
+      ],
+      "duplicate_ids": []
+    },
+    {
+      "audio_sample_id": "1d5dd4da-6861-4d91-9739-de03656df399",
+      "start_utc": "2026-11-04T16:34:30.108Z",
+      "end_utc": "2026-11-04T16:34:33.840Z",
+      "duration_seconds": 3.731125,
+      "atc_channel_id": 885,
+      "channel": {
+        "facilityId": "d7992d47-bef6-4243-9791-65afb94418cf",
+        "facilityCode": "EWR",
+        "facilityType": "airport",
+        "facilityName": "Newark",
+        "category": "Approach",
+        "name": "North",
+        "frequency": "120.15"
+      },
+      "role": "pilot",
+      "role_source": "api",
+      "speaker_label": "UNITED 1449",
+      "controller_label": "APPROACH",
+      "pilot_label": "UNITED 1449",
+      "frequency": "120.15",
+      "text": "Yeah just for aircraft currency we're gonna practice a uh auto land with the plane today",
+      "callsigns": [
+        "UAL1449"
+      ],
+      "word_timestamps": [
+        {
+          "word": "yeah",
+          "start_seconds": 0.08,
+          "end_seconds": 0.26
+        },
+        {
+          "word": "just",
+          "start_seconds": 0.28,
+          "end_seconds": 0.38
+        },
+        {
+          "word": "for",
+          "start_seconds": 0.4,
+          "end_seconds": 0.46
+        },
+        {
+          "word": "aircraft",
+          "start_seconds": 0.48,
+          "end_seconds": 0.8200000000000001
+        },
+        {
+          "word": "currency",
+          "start_seconds": 0.88,
+          "end_seconds": 1.18
+        },
+        {
+          "word": "we're",
+          "start_seconds": 1.24,
+          "end_seconds": 1.34
+        },
+        {
+          "word": "gonna",
+          "start_seconds": 1.36,
+          "end_seconds": 1.5
+        },
+        {
+          "word": "practice",
+          "start_seconds": 1.54,
+          "end_seconds": 1.82
+        },
+        {
+          "word": "a",
+          "start_seconds": 1.9000000000000001,
+          "end_seconds": 1.92
+        },
+        {
+          "word": "uh",
+          "start_seconds": 2.08,
+          "end_seconds": 2.12
+        },
+        {
+          "word": "auto",
+          "start_seconds": 2.22,
+          "end_seconds": 2.38
+        },
+        {
+          "word": "land",
+          "start_seconds": 2.48,
+          "end_seconds": 2.66
+        },
+        {
+          "word": "with",
+          "start_seconds": 2.72,
+          "end_seconds": 2.82
+        },
+        {
+          "word": "the",
+          "start_seconds": 2.88,
+          "end_seconds": 2.94
+        },
+        {
+          "word": "plane",
+          "start_seconds": 3.04,
+          "end_seconds": 3.22
+        },
+        {
+          "word": "today",
+          "start_seconds": 3.2800000000000002,
+          "end_seconds": 3.46
+        }
+      ],
+      "duplicate_ids": []
+    },
+    {
+      "audio_sample_id": "50e7b8ec-99bd-4386-9178-cef397185c15",
+      "start_utc": "2026-11-04T16:34:34.022Z",
+      "end_utc": "2026-11-04T16:34:36.964Z",
+      "duration_seconds": 2.941125,
+      "atc_channel_id": 885,
+      "channel": {
+        "facilityId": "d7992d47-bef6-4243-9791-65afb94418cf",
+        "facilityCode": "EWR",
+        "facilityType": "airport",
+        "facilityName": "Newark",
+        "category": "Approach",
+        "name": "North",
+        "frequency": "120.15"
+      },
+      "role": "controller",
+      "role_source": "api",
+      "speaker_label": "APPROACH",
+      "controller_label": "APPROACH",
+      "pilot_label": "UNITED 1449",
+      "frequency": "120.15",
+      "text": "Okay understood you can assume that the critical areas are not protected",
+      "callsigns": [
+        "UAL1449"
+      ],
+      "word_timestamps": [
+        {
+          "word": "okay",
+          "start_seconds": 0.06,
+          "end_seconds": 0.26
+        },
+        {
+          "word": "understood",
+          "start_seconds": 0.3,
+          "end_seconds": 0.62
+        },
+        {
+          "word": "you",
+          "start_seconds": 0.66,
+          "end_seconds": 0.72
+        },
+        {
+          "word": "can",
+          "start_seconds": 0.78,
+          "end_seconds": 0.86
+        },
+        {
+          "word": "assume",
+          "start_seconds": 0.96,
+          "end_seconds": 1.2
+        },
+        {
+          "word": "that",
+          "start_seconds": 1.22,
+          "end_seconds": 1.32
+        },
+        {
+          "word": "the",
+          "start_seconds": 1.36,
+          "end_seconds": 1.42
+        },
+        {
+          "word": "critical",
+          "start_seconds": 1.5,
+          "end_seconds": 1.76
+        },
+        {
+          "word": "areas",
+          "start_seconds": 1.78,
+          "end_seconds": 2
+        },
+        {
+          "word": "are",
+          "start_seconds": 2.04,
+          "end_seconds": 2.12
+        },
+        {
+          "word": "not",
+          "start_seconds": 2.18,
+          "end_seconds": 2.2800000000000002
+        },
+        {
+          "word": "protected",
+          "start_seconds": 2.32,
+          "end_seconds": 2.66
+        }
+      ],
+      "duplicate_ids": []
+    },
+    {
+      "audio_sample_id": "7b88e264-3856-44f7-bf05-6ad6c6a4afcc",
+      "start_utc": "2026-11-04T16:34:37.288Z",
+      "end_utc": "2026-11-04T16:34:38.570Z",
+      "duration_seconds": 1.281125,
+      "atc_channel_id": 885,
+      "channel": {
+        "facilityId": "d7992d47-bef6-4243-9791-65afb94418cf",
+        "facilityCode": "EWR",
+        "facilityType": "airport",
+        "facilityName": "Newark",
+        "category": "Approach",
+        "name": "North",
+        "frequency": "120.15"
+      },
+      "role": "pilot",
+      "role_source": "api",
+      "speaker_label": "UNITED 1449",
+      "controller_label": "APPROACH",
+      "pilot_label": "UNITED 1449",
+      "frequency": "120.15",
+      "text": "Roger that, sir, thank you",
+      "callsigns": [
+        "UAL1449"
+      ],
+      "word_timestamps": [
+        {
+          "word": "roger",
+          "start_seconds": 0.18,
+          "end_seconds": 0.4
+        },
+        {
+          "word": "that,",
+          "start_seconds": 0.42,
+          "end_seconds": 0.54
+        },
+        {
+          "word": "sir,",
+          "start_seconds": 0.6,
+          "end_seconds": 0.7000000000000001
+        },
+        {
+          "word": "thank",
+          "start_seconds": 0.8,
+          "end_seconds": 0.92
+        },
+        {
+          "word": "you",
+          "start_seconds": 1.02,
+          "end_seconds": 1.08
+        }
+      ],
+      "duplicate_ids": []
+    },
+    {
+      "audio_sample_id": "352fd467-8120-4296-a614-0f526487ac2f",
+      "start_utc": "2026-11-04T16:35:21.025Z",
+      "end_utc": "2026-11-04T16:35:24.287Z",
+      "duration_seconds": 3.261125,
+      "atc_channel_id": 885,
+      "channel": {
+        "facilityId": "d7992d47-bef6-4243-9791-65afb94418cf",
+        "facilityCode": "EWR",
+        "facilityType": "airport",
+        "facilityName": "Newark",
+        "category": "Approach",
+        "name": "North",
+        "frequency": "120.15"
+      },
+      "role": "controller",
+      "role_source": "api",
+      "speaker_label": "APPROACH",
+      "controller_label": "APPROACH",
+      "pilot_label": "UNITED 1449",
+      "frequency": "120.15",
+      "text": "United 1449, turn right heading 060 speed 210",
+      "callsigns": [
+        "UAL1449"
+      ],
+      "word_timestamps": [
+        {
+          "word": "united",
+          "start_seconds": 0,
+          "end_seconds": 0.12
+        },
+        {
+          "word": "1449,",
+          "start_seconds": 0.14,
+          "end_seconds": 1.12
+        },
+        {
+          "word": "turn",
+          "start_seconds": 1.18,
+          "end_seconds": 1.32
+        },
+        {
+          "word": "right",
+          "start_seconds": 1.36,
+          "end_seconds": 1.46
+        },
+        {
+          "word": "heading",
+          "start_seconds": 1.6,
+          "end_seconds": 1.86
+        },
+        {
+          "word": "060",
+          "start_seconds": 1.92,
+          "end_seconds": 2.18
+        },
+        {
+          "word": "speed",
+          "start_seconds": 2.36,
+          "end_seconds": 2.6
+        },
+        {
+          "word": "210",
+          "start_seconds": 2.62,
+          "end_seconds": 3.06
+        }
+      ],
+      "duplicate_ids": []
+    },
+    {
+      "audio_sample_id": "941704f7-7bb8-4c0a-9d9d-c85cad4aeaae",
+      "start_utc": "2026-11-04T16:35:24.315Z",
+      "end_utc": "2026-11-04T16:35:28.317Z",
+      "duration_seconds": 4.001125,
+      "atc_channel_id": 885,
+      "channel": {
+        "facilityId": "d7992d47-bef6-4243-9791-65afb94418cf",
+        "facilityCode": "EWR",
+        "facilityType": "airport",
+        "facilityName": "Newark",
+        "category": "Approach",
+        "name": "North",
+        "frequency": "120.15"
+      },
+      "role": "pilot",
+      "role_source": "api",
+      "speaker_label": "UNITED 1449",
+      "controller_label": "APPROACH",
+      "pilot_label": "UNITED 1449",
+      "frequency": "120.15",
+      "text": "Speed 210, right turn 060, United 1449",
+      "callsigns": [
+        "UAL1449"
+      ],
+      "word_timestamps": [
+        {
+          "word": "speed",
+          "start_seconds": 0.24,
+          "end_seconds": 0.44
+        },
+        {
+          "word": "210,",
+          "start_seconds": 0.48,
+          "end_seconds": 0.9400000000000001
+        },
+        {
+          "word": "right",
+          "start_seconds": 0.98,
+          "end_seconds": 1.1400000000000001
+        },
+        {
+          "word": "turn",
+          "start_seconds": 1.22,
+          "end_seconds": 1.34
+        },
+        {
+          "word": "060,",
+          "start_seconds": 1.3800000000000001,
+          "end_seconds": 1.52
+        },
+        {
+          "word": "united",
+          "start_seconds": 1.6,
+          "end_seconds": 2.06
+        },
+        {
+          "word": "1449",
+          "start_seconds": 2.08,
+          "end_seconds": 3.7
+        }
+      ],
+      "duplicate_ids": []
+    },
+    {
+      "audio_sample_id": "ab2387d0-ea3c-4ee9-899e-604bb66bbdf0",
+      "start_utc": "2026-11-04T16:36:54.535Z",
+      "end_utc": "2026-11-04T16:36:56.977Z",
+      "duration_seconds": 2.441125,
+      "atc_channel_id": 885,
+      "channel": {
+        "facilityId": "d7992d47-bef6-4243-9791-65afb94418cf",
+        "facilityCode": "EWR",
+        "facilityType": "airport",
+        "facilityName": "Newark",
+        "category": "Approach",
+        "name": "North",
+        "frequency": "120.15"
+      },
+      "role": "controller",
+      "role_source": "api",
+      "speaker_label": "APPROACH",
+      "controller_label": "APPROACH",
+      "pilot_label": "UNITED 1449",
+      "frequency": "120.15",
+      "text": "United 1449, right heading 090",
+      "callsigns": [
+        "UAL1449"
+      ],
+      "word_timestamps": [
+        {
+          "word": "united",
+          "start_seconds": 0,
+          "end_seconds": 0.12
+        },
+        {
+          "word": "1449,",
+          "start_seconds": 0.14,
+          "end_seconds": 1.06
+        },
+        {
+          "word": "right",
+          "start_seconds": 1.12,
+          "end_seconds": 1.24
+        },
+        {
+          "word": "heading",
+          "start_seconds": 1.28,
+          "end_seconds": 1.44
+        },
+        {
+          "word": "090",
+          "start_seconds": 1.76,
+          "end_seconds": 2.24
+        }
+      ],
+      "duplicate_ids": []
+    },
+    {
+      "audio_sample_id": "89d20aa4-30f5-4c9e-b171-83926e305e03",
+      "start_utc": "2026-11-04T16:36:57.121Z",
+      "end_utc": "2026-11-04T16:36:59.263Z",
+      "duration_seconds": 2.141125,
+      "atc_channel_id": 885,
+      "channel": {
+        "facilityId": "d7992d47-bef6-4243-9791-65afb94418cf",
+        "facilityCode": "EWR",
+        "facilityType": "airport",
+        "facilityName": "Newark",
+        "category": "Approach",
+        "name": "North",
+        "frequency": "120.15"
+      },
+      "role": "pilot",
+      "role_source": "api",
+      "speaker_label": "UNITED 1449",
+      "controller_label": "APPROACH",
+      "pilot_label": "UNITED 1449",
+      "frequency": "120.15",
+      "text": "Right turn 090, United 1449",
+      "callsigns": [
+        "UAL1449"
+      ],
+      "word_timestamps": [
+        {
+          "word": "right",
+          "start_seconds": 0.14,
+          "end_seconds": 0.26
+        },
+        {
+          "word": "turn",
+          "start_seconds": 0.28,
+          "end_seconds": 0.36
+        },
+        {
+          "word": "090,",
+          "start_seconds": 0.38,
+          "end_seconds": 0.5
+        },
+        {
+          "word": "united",
+          "start_seconds": 0.52,
+          "end_seconds": 0.66
+        },
+        {
+          "word": "1449",
+          "start_seconds": 0.68,
+          "end_seconds": 2
+        }
+      ],
+      "duplicate_ids": []
+    },
+    {
+      "audio_sample_id": "ce6b02d7-2e43-4887-9811-112b3bed1cc5",
+      "start_utc": "2026-11-04T16:38:06.529Z",
+      "end_utc": "2026-11-04T16:38:09.041Z",
+      "duration_seconds": 2.511125,
+      "atc_channel_id": 885,
+      "channel": {
+        "facilityId": "d7992d47-bef6-4243-9791-65afb94418cf",
+        "facilityCode": "EWR",
+        "facilityType": "airport",
+        "facilityName": "Newark",
+        "category": "Approach",
+        "name": "North",
+        "frequency": "120.15"
+      },
+      "role": "controller",
+      "role_source": "api",
+      "speaker_label": "APPROACH",
+      "controller_label": "APPROACH",
+      "pilot_label": "UNITED 1449",
+      "frequency": "120.15",
+      "text": "United 1449, descend and maintain 4,000",
+      "callsigns": [
+        "UAL1449"
+      ],
+      "word_timestamps": [
+        {
+          "word": "united",
+          "start_seconds": 0.02,
+          "end_seconds": 0.14
+        },
+        {
+          "word": "1449,",
+          "start_seconds": 0.16,
+          "end_seconds": 1.1
+        },
+        {
+          "word": "descend",
+          "start_seconds": 1.16,
+          "end_seconds": 1.3
+        },
+        {
+          "word": "and",
+          "start_seconds": 1.32,
+          "end_seconds": 1.3800000000000001
+        },
+        {
+          "word": "maintain",
+          "start_seconds": 1.4000000000000001,
+          "end_seconds": 1.62
+        },
+        {
+          "word": "4,000",
+          "start_seconds": 1.72,
+          "end_seconds": 2.22
+        }
+      ],
+      "duplicate_ids": []
+    },
+    {
+      "audio_sample_id": "365ae000-0920-4375-9801-509738eaa593",
+      "start_utc": "2026-11-04T16:38:09.100Z",
+      "end_utc": "2026-11-04T16:38:11.332Z",
+      "duration_seconds": 2.231125,
+      "atc_channel_id": 885,
+      "channel": {
+        "facilityId": "d7992d47-bef6-4243-9791-65afb94418cf",
+        "facilityCode": "EWR",
+        "facilityType": "airport",
+        "facilityName": "Newark",
+        "category": "Approach",
+        "name": "North",
+        "frequency": "120.15"
+      },
+      "role": "pilot",
+      "role_source": "api",
+      "speaker_label": "UNITED 1449",
+      "controller_label": "APPROACH",
+      "pilot_label": "UNITED 1449",
+      "frequency": "120.15",
+      "text": "4,000, United 1449",
+      "callsigns": [
+        "UAL1449"
+      ],
+      "word_timestamps": [
+        {
+          "word": "4,000,",
+          "start_seconds": 0.26,
+          "end_seconds": 0.56
+        },
+        {
+          "word": "united",
+          "start_seconds": 0.58,
+          "end_seconds": 0.8
+        },
+        {
+          "word": "1449",
+          "start_seconds": 0.8200000000000001,
+          "end_seconds": 2.06
+        }
+      ],
+      "duplicate_ids": []
+    },
+    {
+      "audio_sample_id": "e9602821-985e-4eb9-a9e0-bb3ee9575170",
+      "start_utc": "2026-11-04T16:38:34.837Z",
+      "end_utc": "2026-11-04T16:38:38.289Z",
+      "duration_seconds": 3.451125,
+      "atc_channel_id": 885,
+      "channel": {
+        "facilityId": "d7992d47-bef6-4243-9791-65afb94418cf",
+        "facilityCode": "EWR",
+        "facilityType": "airport",
+        "facilityName": "Newark",
+        "category": "Approach",
+        "name": "North",
+        "frequency": "120.15"
+      },
+      "role": "controller",
+      "role_source": "api",
+      "speaker_label": "APPROACH",
+      "controller_label": "APPROACH",
+      "pilot_label": "UNITED 1449",
+      "frequency": "120.15",
+      "text": "United 1449, turn right heading 120 speed 180 when youre level",
+      "callsigns": [
+        "UAL1449"
+      ],
+      "word_timestamps": [
+        {
+          "word": "united",
+          "start_seconds": 0.02,
+          "end_seconds": 0.16
+        },
+        {
+          "word": "1449,",
+          "start_seconds": 0.18,
+          "end_seconds": 1.08
+        },
+        {
+          "word": "turn",
+          "start_seconds": 1.16,
+          "end_seconds": 1.26
+        },
+        {
+          "word": "right",
+          "start_seconds": 1.3,
+          "end_seconds": 1.4000000000000001
+        },
+        {
+          "word": "heading",
+          "start_seconds": 1.42,
+          "end_seconds": 1.6400000000000001
+        },
+        {
+          "word": "120",
+          "start_seconds": 1.7,
+          "end_seconds": 2.06
+        },
+        {
+          "word": "speed",
+          "start_seconds": 2.08,
+          "end_seconds": 2.24
+        },
+        {
+          "word": "180",
+          "start_seconds": 2.2600000000000002,
+          "end_seconds": 2.68
+        },
+        {
+          "word": "when",
+          "start_seconds": 2.7,
+          "end_seconds": 2.7800000000000002
+        },
+        {
+          "word": "youre",
+          "start_seconds": 2.8000000000000003,
+          "end_seconds": 2.92
+        },
+        {
+          "word": "level",
+          "start_seconds": 2.94,
+          "end_seconds": 3.1
+        }
+      ],
+      "duplicate_ids": []
+    },
+    {
+      "audio_sample_id": "48e21442-546e-4c8f-8040-da4e6424434b",
+      "start_utc": "2026-11-04T16:38:38.273Z",
+      "end_utc": "2026-11-04T16:38:41.805Z",
+      "duration_seconds": 3.531125,
+      "atc_channel_id": 885,
+      "channel": {
+        "facilityId": "d7992d47-bef6-4243-9791-65afb94418cf",
+        "facilityCode": "EWR",
+        "facilityType": "airport",
+        "facilityName": "Newark",
+        "category": "Approach",
+        "name": "North",
+        "frequency": "120.15"
+      },
+      "role": "pilot",
+      "role_source": "api",
+      "speaker_label": "UNITED 1449",
+      "controller_label": "APPROACH",
+      "pilot_label": "UNITED 1449",
+      "frequency": "120.15",
+      "text": "120 on the heading, 180 when level, United 1449",
+      "callsigns": [
+        "UAL1449"
+      ],
+      "word_timestamps": [
+        {
+          "word": "120",
+          "start_seconds": 0.4,
+          "end_seconds": 0.96
+        },
+        {
+          "word": "on",
+          "start_seconds": 1,
+          "end_seconds": 1.04
+        },
+        {
+          "word": "the",
+          "start_seconds": 1.06,
+          "end_seconds": 1.12
+        },
+        {
+          "word": "heading,",
+          "start_seconds": 1.16,
+          "end_seconds": 1.3
+        },
+        {
+          "word": "180",
+          "start_seconds": 1.32,
+          "end_seconds": 1.74
+        },
+        {
+          "word": "when",
+          "start_seconds": 1.8,
+          "end_seconds": 1.92
+        },
+        {
+          "word": "level,",
+          "start_seconds": 1.96,
+          "end_seconds": 2.16
+        },
+        {
+          "word": "united",
+          "start_seconds": 2.18,
+          "end_seconds": 2.3000000000000003
+        },
+        {
+          "word": "1449",
+          "start_seconds": 2.34,
+          "end_seconds": 3.2800000000000002
+        }
+      ],
+      "duplicate_ids": []
+    },
+    {
+      "audio_sample_id": "b05e852f-6288-42c8-942a-e6ade7586656",
+      "start_utc": "2026-11-04T16:39:31.437Z",
+      "end_utc": "2026-11-04T16:39:34.269Z",
+      "duration_seconds": 2.831125,
+      "atc_channel_id": 885,
+      "channel": {
+        "facilityId": "d7992d47-bef6-4243-9791-65afb94418cf",
+        "facilityCode": "EWR",
+        "facilityType": "airport",
+        "facilityName": "Newark",
+        "category": "Approach",
+        "name": "North",
+        "frequency": "120.15"
+      },
+      "role": "controller",
+      "role_source": "api",
+      "speaker_label": "APPROACH",
+      "controller_label": "APPROACH",
+      "pilot_label": "UNITED 1449",
+      "frequency": "120.15",
+      "text": "United 1449, on speed descend and maintain tree thousand",
+      "callsigns": [
+        "UAL1449"
+      ],
+      "word_timestamps": [
+        {
+          "word": "united",
+          "start_seconds": 0,
+          "end_seconds": 0.12
+        },
+        {
+          "word": "1449,",
+          "start_seconds": 0.14,
+          "end_seconds": 1.08
+        },
+        {
+          "word": "on",
+          "start_seconds": 1.18,
+          "end_seconds": 1.24
+        },
+        {
+          "word": "speed",
+          "start_seconds": 1.3,
+          "end_seconds": 1.48
+        },
+        {
+          "word": "descend",
+          "start_seconds": 1.5,
+          "end_seconds": 1.68
+        },
+        {
+          "word": "and",
+          "start_seconds": 1.7,
+          "end_seconds": 1.76
+        },
+        {
+          "word": "maintain",
+          "start_seconds": 1.78,
+          "end_seconds": 2.02
+        },
+        {
+          "word": "tree",
+          "start_seconds": 2.1,
+          "end_seconds": 2.22
+        },
+        {
+          "word": "thousand",
+          "start_seconds": 2.2800000000000002,
+          "end_seconds": 2.6
+        }
+      ],
+      "duplicate_ids": []
+    },
+    {
+      "audio_sample_id": "273926cf-c656-49cf-8c95-a3d4f7ee13ce",
+      "start_utc": "2026-11-04T16:39:34.401Z",
+      "end_utc": "2026-11-04T16:39:36.853Z",
+      "duration_seconds": 2.451125,
+      "atc_channel_id": 885,
+      "channel": {
+        "facilityId": "d7992d47-bef6-4243-9791-65afb94418cf",
+        "facilityCode": "EWR",
+        "facilityType": "airport",
+        "facilityName": "Newark",
+        "category": "Approach",
+        "name": "North",
+        "frequency": "120.15"
+      },
+      "role": "pilot",
+      "role_source": "api",
+      "speaker_label": "UNITED 1449",
+      "controller_label": "APPROACH",
+      "pilot_label": "UNITED 1449",
+      "frequency": "120.15",
+      "text": "3,000 now, United 1449",
+      "callsigns": [
+        "UAL1449"
+      ],
+      "word_timestamps": [
+        {
+          "word": "3,000",
+          "start_seconds": 0.36,
+          "end_seconds": 0.66
+        },
+        {
+          "word": "now,",
+          "start_seconds": 0.8,
+          "end_seconds": 1.06
+        },
+        {
+          "word": "united",
+          "start_seconds": 1.16,
+          "end_seconds": 1.42
+        },
+        {
+          "word": "1449",
+          "start_seconds": 1.5,
+          "end_seconds": 2.44
+        }
+      ],
+      "duplicate_ids": []
+    },
+    {
+      "audio_sample_id": "ad848832-5486-44f7-b6ed-e99de908dfb9",
+      "start_utc": "2026-11-04T16:40:07.283Z",
+      "end_utc": "2026-11-04T16:40:09.635Z",
+      "duration_seconds": 2.351125,
+      "atc_channel_id": 885,
+      "channel": {
+        "facilityId": "d7992d47-bef6-4243-9791-65afb94418cf",
+        "facilityCode": "EWR",
+        "facilityType": "airport",
+        "facilityName": "Newark",
+        "category": "Approach",
+        "name": "North",
+        "frequency": "120.15"
+      },
+      "role": "controller",
+      "role_source": "api",
+      "speaker_label": "APPROACH",
+      "controller_label": "APPROACH",
+      "pilot_label": "UNITED 1449",
+      "frequency": "120.15",
+      "text": "United 1449, turn right heading 150",
+      "callsigns": [
+        "UAL1449"
+      ],
+      "word_timestamps": [
+        {
+          "word": "united",
+          "start_seconds": 0,
+          "end_seconds": 0.12
+        },
+        {
+          "word": "1449,",
+          "start_seconds": 0.14,
+          "end_seconds": 1.06
+        },
+        {
+          "word": "turn",
+          "start_seconds": 1.12,
+          "end_seconds": 1.2
+        },
+        {
+          "word": "right",
+          "start_seconds": 1.22,
+          "end_seconds": 1.34
+        },
+        {
+          "word": "heading",
+          "start_seconds": 1.36,
+          "end_seconds": 1.54
+        },
+        {
+          "word": "150",
+          "start_seconds": 1.7,
+          "end_seconds": 2.34
+        }
+      ],
+      "duplicate_ids": []
+    },
+    {
+      "audio_sample_id": "65f7e605-185c-48b5-a37f-6bf7ca736d3a",
+      "start_utc": "2026-11-04T16:40:09.884Z",
+      "end_utc": "2026-11-04T16:40:12.326Z",
+      "duration_seconds": 2.441125,
+      "atc_channel_id": 885,
+      "channel": {
+        "facilityId": "d7992d47-bef6-4243-9791-65afb94418cf",
+        "facilityCode": "EWR",
+        "facilityType": "airport",
+        "facilityName": "Newark",
+        "category": "Approach",
+        "name": "North",
+        "frequency": "120.15"
+      },
+      "role": "pilot",
+      "role_source": "api",
+      "speaker_label": "UNITED 1449",
+      "controller_label": "APPROACH",
+      "pilot_label": "UNITED 1449",
+      "frequency": "120.15",
+      "text": "Right turn 150, United 1449",
+      "callsigns": [
+        "UAL1449"
+      ],
+      "word_timestamps": [
+        {
+          "word": "right",
+          "start_seconds": 0.16,
+          "end_seconds": 0.3
+        },
+        {
+          "word": "turn",
+          "start_seconds": 0.34,
+          "end_seconds": 0.46
+        },
+        {
+          "word": "150,",
+          "start_seconds": 0.56,
+          "end_seconds": 1.1400000000000001
+        },
+        {
+          "word": "united",
+          "start_seconds": 1.16,
+          "end_seconds": 1.32
+        },
+        {
+          "word": "1449",
+          "start_seconds": 1.34,
+          "end_seconds": 2.32
+        }
+      ],
+      "duplicate_ids": []
+    },
+    {
+      "audio_sample_id": "e92eea44-a146-421c-98c4-be121273805d",
+      "start_utc": "2026-11-04T16:41:09.298Z",
+      "end_utc": "2026-11-04T16:41:14.390Z",
+      "duration_seconds": 5.091125,
+      "atc_channel_id": 885,
+      "channel": {
+        "facilityId": "d7992d47-bef6-4243-9791-65afb94418cf",
+        "facilityCode": "EWR",
+        "facilityType": "airport",
+        "facilityName": "Newark",
+        "category": "Approach",
+        "name": "North",
+        "frequency": "120.15"
+      },
+      "role": "controller",
+      "role_source": "api",
+      "speaker_label": "APPROACH",
+      "controller_label": "APPROACH",
+      "pilot_label": "UNITED 1449",
+      "frequency": "120.15",
+      "text": "United 1449, right heading 190, 2,500 till established, cleared ILS runway 22L approach",
+      "callsigns": [
+        "UAL1449"
+      ],
+      "word_timestamps": [
+        {
+          "word": "united",
+          "start_seconds": 0,
+          "end_seconds": 0.12
+        },
+        {
+          "word": "1449,",
+          "start_seconds": 0.14,
+          "end_seconds": 1
+        },
+        {
+          "word": "right",
+          "start_seconds": 1.06,
+          "end_seconds": 1.2
+        },
+        {
+          "word": "heading",
+          "start_seconds": 1.22,
+          "end_seconds": 1.4000000000000001
+        },
+        {
+          "word": "190,",
+          "start_seconds": 1.48,
+          "end_seconds": 2.04
+        },
+        {
+          "word": "2,500",
+          "start_seconds": 2.16,
+          "end_seconds": 2.92
+        },
+        {
+          "word": "till",
+          "start_seconds": 2.94,
+          "end_seconds": 3.06
+        },
+        {
+          "word": "established,",
+          "start_seconds": 3.1,
+          "end_seconds": 3.46
+        },
+        {
+          "word": "cleared",
+          "start_seconds": 3.48,
+          "end_seconds": 3.64
+        },
+        {
+          "word": "ils",
+          "start_seconds": 3.66,
+          "end_seconds": 3.72
+        },
+        {
+          "word": "runway",
+          "start_seconds": 3.74,
+          "end_seconds": 3.92
+        },
+        {
+          "word": "22l",
+          "start_seconds": 3.94,
+          "end_seconds": 4.36
+        },
+        {
+          "word": "approach",
+          "start_seconds": 4.38,
+          "end_seconds": 4.78
+        }
+      ],
+      "duplicate_ids": []
+    },
+    {
+      "audio_sample_id": "73dc3cf5-054c-4e19-b051-67fccece0a50",
+      "start_utc": "2026-11-04T16:41:14.729Z",
+      "end_utc": "2026-11-04T16:41:21.241Z",
+      "duration_seconds": 6.511125,
+      "atc_channel_id": 885,
+      "channel": {
+        "facilityId": "d7992d47-bef6-4243-9791-65afb94418cf",
+        "facilityCode": "EWR",
+        "facilityType": "airport",
+        "facilityName": "Newark",
+        "category": "Approach",
+        "name": "North",
+        "frequency": "120.15"
+      },
+      "role": "pilot",
+      "role_source": "api",
+      "speaker_label": "UNITED 1449",
+      "controller_label": "APPROACH",
+      "pilot_label": "UNITED 1449",
+      "frequency": "120.15",
+      "text": "Right turn 190, 2,500 till established, cleared for the ILS 22L, United 1449",
+      "callsigns": [
+        "UAL1449"
+      ],
+      "word_timestamps": [
+        {
+          "word": "right",
+          "start_seconds": 0.84,
+          "end_seconds": 1.02
+        },
+        {
+          "word": "turn",
+          "start_seconds": 1.42,
+          "end_seconds": 1.74
+        },
+        {
+          "word": "190,",
+          "start_seconds": 2.32,
+          "end_seconds": 3.2
+        },
+        {
+          "word": "2,500",
+          "start_seconds": 3.3000000000000003,
+          "end_seconds": 3.8000000000000003
+        },
+        {
+          "word": "till",
+          "start_seconds": 3.8200000000000003,
+          "end_seconds": 3.92
+        },
+        {
+          "word": "established,",
+          "start_seconds": 3.96,
+          "end_seconds": 4.2
+        },
+        {
+          "word": "cleared",
+          "start_seconds": 4.22,
+          "end_seconds": 4.36
+        },
+        {
+          "word": "for",
+          "start_seconds": 4.38,
+          "end_seconds": 4.44
+        },
+        {
+          "word": "the",
+          "start_seconds": 4.46,
+          "end_seconds": 4.5200000000000005
+        },
+        {
+          "word": "ils",
+          "start_seconds": 4.54,
+          "end_seconds": 4.62
+        },
+        {
+          "word": "22l,",
+          "start_seconds": 4.64,
+          "end_seconds": 4.96
+        },
+        {
+          "word": "united",
+          "start_seconds": 4.98,
+          "end_seconds": 5.18
+        },
+        {
+          "word": "1449",
+          "start_seconds": 5.2,
+          "end_seconds": 6.44
+        }
+      ],
+      "duplicate_ids": []
+    },
+    {
+      "audio_sample_id": "1584ba76-c011-4f08-bdad-eb36c88d69e3",
+      "start_utc": "2026-11-04T16:41:39.448Z",
+      "end_utc": "2026-11-04T16:41:42.760Z",
+      "duration_seconds": 3.311125,
+      "atc_channel_id": 885,
+      "channel": {
+        "facilityId": "d7992d47-bef6-4243-9791-65afb94418cf",
+        "facilityCode": "EWR",
+        "facilityType": "airport",
+        "facilityName": "Newark",
+        "category": "Approach",
+        "name": "North",
+        "frequency": "120.15"
+      },
+      "role": "controller",
+      "role_source": "api",
+      "speaker_label": "APPROACH",
+      "controller_label": "APPROACH",
+      "pilot_label": "UNITED 1449",
+      "frequency": "120.15",
+      "text": "United 1449, speed 180 to BUZZD, contact Tower 18.3",
+      "callsigns": [
+        "UAL1449"
+      ],
+      "word_timestamps": [
+        {
+          "word": "united",
+          "start_seconds": 0.02,
+          "end_seconds": 0.14
+        },
+        {
+          "word": "1449,",
+          "start_seconds": 0.16,
+          "end_seconds": 1.04
+        },
+        {
+          "word": "speed",
+          "start_seconds": 1.1400000000000001,
+          "end_seconds": 1.32
+        },
+        {
+          "word": "180",
+          "start_seconds": 1.36,
+          "end_seconds": 1.72
+        },
+        {
+          "word": "to",
+          "start_seconds": 1.76,
+          "end_seconds": 1.82
+        },
+        {
+          "word": "buzzd,",
+          "start_seconds": 1.86,
+          "end_seconds": 1.98
+        },
+        {
+          "word": "contact",
+          "start_seconds": 2.08,
+          "end_seconds": 2.4
+        },
+        {
+          "word": "tower",
+          "start_seconds": 2.42,
+          "end_seconds": 2.52
+        },
+        {
+          "word": "18.3",
+          "start_seconds": 2.54,
+          "end_seconds": 3.3000000000000003
+        }
+      ],
+      "duplicate_ids": []
+    },
+    {
+      "audio_sample_id": "601e3a8a-1fe0-4aae-94a1-092c627f623a",
+      "start_utc": "2026-11-04T16:41:43.070Z",
+      "end_utc": "2026-11-04T16:41:45.552Z",
+      "duration_seconds": 2.481125,
+      "atc_channel_id": 885,
+      "channel": {
+        "facilityId": "d7992d47-bef6-4243-9791-65afb94418cf",
+        "facilityCode": "EWR",
+        "facilityType": "airport",
+        "facilityName": "Newark",
+        "category": "Approach",
+        "name": "North",
+        "frequency": "120.15"
+      },
+      "role": "pilot",
+      "role_source": "api",
+      "speaker_label": "UNITED 1449",
+      "controller_label": "APPROACH",
+      "pilot_label": "UNITED 1449",
+      "frequency": "120.15",
+      "text": "180 to BUZZD, Tower now, United 1449, good day",
+      "callsigns": [
+        "UAL1449"
+      ],
+      "word_timestamps": [
+        {
+          "word": "180",
+          "start_seconds": 0.22,
+          "end_seconds": 0.58
+        },
+        {
+          "word": "to",
+          "start_seconds": 0.6,
+          "end_seconds": 0.64
+        },
+        {
+          "word": "buzzd,",
+          "start_seconds": 0.68,
+          "end_seconds": 0.86
+        },
+        {
+          "word": "tower",
+          "start_seconds": 0.88,
+          "end_seconds": 1.02
+        },
+        {
+          "word": "now,",
+          "start_seconds": 1.04,
+          "end_seconds": 1.1
+        },
+        {
+          "word": "united",
+          "start_seconds": 1.12,
+          "end_seconds": 1.26
+        },
+        {
+          "word": "1449,",
+          "start_seconds": 1.28,
+          "end_seconds": 2.1
+        },
+        {
+          "word": "good",
+          "start_seconds": 2.12,
+          "end_seconds": 2.24
+        },
+        {
+          "word": "day",
+          "start_seconds": 2.36,
+          "end_seconds": 2.42
+        }
+      ],
+      "duplicate_ids": []
+    },
+    {
+      "audio_sample_id": "d4dae99e-343c-40c0-8d53-364169cafce5",
+      "start_utc": "2026-11-04T16:41:51.781Z",
+      "end_utc": "2026-11-04T16:41:56.853Z",
+      "duration_seconds": 5.071125,
+      "atc_channel_id": 682,
+      "channel": {
+        "facilityId": "d7992d47-bef6-4243-9791-65afb94418cf",
+        "facilityCode": "EWR",
+        "facilityType": "airport",
+        "facilityName": "Newark",
+        "category": "Tower",
+        "name": "Main",
+        "frequency": "118.3"
+      },
+      "role": "pilot",
+      "role_source": "api",
+      "speaker_label": "UNITED 1449",
+      "controller_label": "EWR TOWER",
+      "pilot_label": "UNITED 1449",
+      "frequency": "118.3",
+      "text": "Newark Tower, United 1449 is with you ILS 22L",
+      "callsigns": [
+        "UAL1449"
+      ],
+      "word_timestamps": [
+        {
+          "word": "newark",
+          "start_seconds": 0.14,
+          "end_seconds": 0.34
+        },
+        {
+          "word": "tower,",
+          "start_seconds": 0.48,
+          "end_seconds": 0.72
+        },
+        {
+          "word": "united",
+          "start_seconds": 0.74,
+          "end_seconds": 1
+        },
+        {
+          "word": "1449",
+          "start_seconds": 1.02,
+          "end_seconds": 2.7800000000000002
+        },
+        {
+          "word": "is",
+          "start_seconds": 2.86,
+          "end_seconds": 2.94
+        },
+        {
+          "word": "with",
+          "start_seconds": 2.98,
+          "end_seconds": 3.08
+        },
+        {
+          "word": "you",
+          "start_seconds": 3.12,
+          "end_seconds": 3.18
+        },
+        {
+          "word": "ils",
+          "start_seconds": 3.2800000000000002,
+          "end_seconds": 3.62
+        },
+        {
+          "word": "22l",
+          "start_seconds": 3.8200000000000003,
+          "end_seconds": 5
+        }
+      ],
+      "duplicate_ids": []
+    },
+    {
+      "audio_sample_id": "b34d7066-f792-400b-a468-7f0d33ad3d75",
+      "start_utc": "2026-11-04T16:42:18.815Z",
+      "end_utc": "2026-11-04T16:42:24.047Z",
+      "duration_seconds": 5.231125,
+      "atc_channel_id": 682,
+      "channel": {
+        "facilityId": "d7992d47-bef6-4243-9791-65afb94418cf",
+        "facilityCode": "EWR",
+        "facilityType": "airport",
+        "facilityName": "Newark",
+        "category": "Tower",
+        "name": "Main",
+        "frequency": "118.3"
+      },
+      "role": "controller",
+      "role_source": "api",
+      "speaker_label": "EWR TOWER",
+      "controller_label": "EWR TOWER",
+      "pilot_label": "UNITED 1449",
+      "frequency": "118.3",
+      "text": "United 1449, Newark Tower, wind 240 12 gusts 15, runway 22L cleared to land",
+      "callsigns": [
+        "UAL1449"
+      ],
+      "word_timestamps": [
+        {
+          "word": "united",
+          "start_seconds": 0,
+          "end_seconds": 0.14
+        },
+        {
+          "word": "1449,",
+          "start_seconds": 0.16,
+          "end_seconds": 1.24
+        },
+        {
+          "word": "newark",
+          "start_seconds": 1.26,
+          "end_seconds": 1.4000000000000001
+        },
+        {
+          "word": "tower,",
+          "start_seconds": 1.42,
+          "end_seconds": 1.54
+        },
+        {
+          "word": "wind",
+          "start_seconds": 1.56,
+          "end_seconds": 1.7
+        },
+        {
+          "word": "240",
+          "start_seconds": 1.76,
+          "end_seconds": 2.5
+        },
+        {
+          "word": "12",
+          "start_seconds": 2.62,
+          "end_seconds": 2.8000000000000003
+        },
+        {
+          "word": "gusts",
+          "start_seconds": 2.84,
+          "end_seconds": 3.04
+        },
+        {
+          "word": "15,",
+          "start_seconds": 3.36,
+          "end_seconds": 3.68
+        },
+        {
+          "word": "runway",
+          "start_seconds": 3.74,
+          "end_seconds": 3.86
+        },
+        {
+          "word": "22l",
+          "start_seconds": 3.92,
+          "end_seconds": 4.3
+        },
+        {
+          "word": "cleared",
+          "start_seconds": 4.32,
+          "end_seconds": 4.62
+        },
+        {
+          "word": "to",
+          "start_seconds": 4.64,
+          "end_seconds": 4.7
+        },
+        {
+          "word": "land",
+          "start_seconds": 4.72,
+          "end_seconds": 4.94
+        }
+      ],
+      "duplicate_ids": []
+    },
+    {
+      "audio_sample_id": "39805079-c199-4c0b-b07a-03304bd9679e",
+      "start_utc": "2026-11-04T16:42:24.406Z",
+      "end_utc": "2026-11-04T16:42:30.668Z",
+      "duration_seconds": 6.261125,
+      "atc_channel_id": 682,
+      "channel": {
+        "facilityId": "d7992d47-bef6-4243-9791-65afb94418cf",
+        "facilityCode": "EWR",
+        "facilityType": "airport",
+        "facilityName": "Newark",
+        "category": "Tower",
+        "name": "Main",
+        "frequency": "118.3"
+      },
+      "role": "pilot",
+      "role_source": "api",
+      "speaker_label": "UNITED 1449",
+      "controller_label": "EWR TOWER",
+      "pilot_label": "UNITED 1449",
+      "frequency": "118.3",
+      "text": "All right 22L cleared to land, United 1449, just be advised were doing a uh auto land for aircraft currency sir",
+      "callsigns": [
+        "UAL1449"
+      ],
+      "word_timestamps": [
+        {
+          "word": "all",
+          "start_seconds": 0.1,
+          "end_seconds": 0.18
+        },
+        {
+          "word": "right",
+          "start_seconds": 0.2,
+          "end_seconds": 0.34
+        },
+        {
+          "word": "22l",
+          "start_seconds": 0.38,
+          "end_seconds": 0.64
+        },
+        {
+          "word": "cleared",
+          "start_seconds": 0.66,
+          "end_seconds": 0.84
+        },
+        {
+          "word": "to",
+          "start_seconds": 0.86,
+          "end_seconds": 0.9
+        },
+        {
+          "word": "land,",
+          "start_seconds": 0.92,
+          "end_seconds": 1.02
+        },
+        {
+          "word": "united",
+          "start_seconds": 1.04,
+          "end_seconds": 1.2
+        },
+        {
+          "word": "1449,",
+          "start_seconds": 1.22,
+          "end_seconds": 2.42
+        },
+        {
+          "word": "just",
+          "start_seconds": 2.44,
+          "end_seconds": 2.56
+        },
+        {
+          "word": "be",
+          "start_seconds": 2.62,
+          "end_seconds": 2.66
+        },
+        {
+          "word": "advised",
+          "start_seconds": 2.68,
+          "end_seconds": 2.92
+        },
+        {
+          "word": "were",
+          "start_seconds": 2.94,
+          "end_seconds": 3.04
+        },
+        {
+          "word": "doing",
+          "start_seconds": 3.08,
+          "end_seconds": 3.2600000000000002
+        },
+        {
+          "word": "a",
+          "start_seconds": 3.3200000000000003,
+          "end_seconds": 3.34
+        },
+        {
+          "word": "uh",
+          "start_seconds": 3.56,
+          "end_seconds": 3.64
+        },
+        {
+          "word": "auto",
+          "start_seconds": 4.28,
+          "end_seconds": 4.46
+        },
+        {
+          "word": "land",
+          "start_seconds": 4.72,
+          "end_seconds": 4.92
+        },
+        {
+          "word": "for",
+          "start_seconds": 5,
+          "end_seconds": 5.08
+        },
+        {
+          "word": "aircraft",
+          "start_seconds": 5.16,
+          "end_seconds": 5.5
+        },
+        {
+          "word": "currency",
+          "start_seconds": 5.54,
+          "end_seconds": 5.84
+        },
+        {
+          "word": "sir",
+          "start_seconds": 5.9,
+          "end_seconds": 6.08
+        }
+      ],
+      "duplicate_ids": []
+    },
+    {
+      "audio_sample_id": "50215453-5bf7-493d-87ad-c1ddf17a0f8b",
+      "start_utc": "2026-11-04T16:42:30.824Z",
+      "end_utc": "2026-11-04T16:42:35.046Z",
+      "duration_seconds": 4.221125,
+      "atc_channel_id": 682,
+      "channel": {
+        "facilityId": "d7992d47-bef6-4243-9791-65afb94418cf",
+        "facilityCode": "EWR",
+        "facilityType": "airport",
+        "facilityName": "Newark",
+        "category": "Tower",
+        "name": "Main",
+        "frequency": "118.3"
+      },
+      "role": "controller",
+      "role_source": "api",
+      "speaker_label": "EWR TOWER",
+      "controller_label": "EWR TOWER",
+      "pilot_label": "UNITED 1449",
+      "frequency": "118.3",
+      "text": "United 1449, roger, ILS uh critical area not protected, roger sir, thanks",
+      "callsigns": [
+        "UAL1449"
+      ],
+      "word_timestamps": [
+        {
+          "word": "united",
+          "start_seconds": 0,
+          "end_seconds": 0.16
+        },
+        {
+          "word": "1449,",
+          "start_seconds": 0.18,
+          "end_seconds": 0.96
+        },
+        {
+          "word": "roger,",
+          "start_seconds": 1,
+          "end_seconds": 1.2
+        },
+        {
+          "word": "ils",
+          "start_seconds": 1.32,
+          "end_seconds": 1.6400000000000001
+        },
+        {
+          "word": "uh",
+          "start_seconds": 1.84,
+          "end_seconds": 1.94
+        },
+        {
+          "word": "critical",
+          "start_seconds": 1.98,
+          "end_seconds": 2.2
+        },
+        {
+          "word": "area",
+          "start_seconds": 2.22,
+          "end_seconds": 2.4
+        },
+        {
+          "word": "not",
+          "start_seconds": 2.5,
+          "end_seconds": 2.6
+        },
+        {
+          "word": "protected,",
+          "start_seconds": 2.64,
+          "end_seconds": 3.02
+        },
+        {
+          "word": "roger",
+          "start_seconds": 3.46,
+          "end_seconds": 3.66
+        },
+        {
+          "word": "sir,",
+          "start_seconds": 3.72,
+          "end_seconds": 3.8200000000000003
+        },
+        {
+          "word": "thanks",
+          "start_seconds": 3.86,
+          "end_seconds": 4.04
+        }
+      ],
+      "duplicate_ids": []
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "_source": "Seeded from the Enhanced Radar MCP search_events result (2026-11-04); same shape as GET /api/v0/events/{event_id}.",
+  "event_id": 5627999,
+  "atc_channel_id": 1742,
+  "facility_ids": ["3667d976-1566-4887-ae34-c024d92f46c7"],
+  "happened_at": "2026-11-04T06:01:30.242821197Z",
+  "summary": "Go around, runway 28L inquiry, \"what was the reason for the go around\"",
+  "callsigns": ["UAL1274"],
+  "evidence_audio_sample_ids": [
+    "6f34f697-c18a-4290-9107-2b7bf6a8361f",
+    "f5cf5490-7643-4b90-9a10-f725711d7d77",
+    "fcc8fe43-faf7-4ac8-a58d-90d0512f9b53"
+  ],
+  "updates": [
+    {
+      "event_update_id": 5628021,
+      "update_to_event_id": 5627999,
+      "happened_at": "2026-11-04T06:01:44.788658719Z",
+      "summary": "Go around, runway inquiry, \"what was the reason for the go around\"",
+      "callsigns": ["UAL1274"],
+      "evidence_audio_sample_ids": [
+        "6f34f697-c18a-4290-9107-2b7bf6a8361f",
+        "bcf91602-eee3-419f-8d4e-4068d7e11beb",
+        "f5cf5490-7643-4b90-9a10-f725711d7d77",
+        "fcc8fe43-faf7-4ac8-a58d-90d0512f9b53"
+      ]
+    }
+  ]
+}

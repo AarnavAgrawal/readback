@@ -1,0 +1,19 @@
+{
+  "event_id": 5639778,
+  "atc_channel_id": 598,
+  "facility_ids": [
+    "a291a26a-b466-4622-9cac-7b0b4e76b442"
+  ],
+  "happened_at": "2026-11-04T16:31:07.28025716Z",
+  "summary": "TCAS resolution advisory, aircraft descent, \"we had a uh RA, we're descending\"",
+  "callsigns": [
+    "UAL1449"
+  ],
+  "evidence_audio_sample_ids": [
+    "0373e0b3-98ed-4b18-92de-b93aa6c7bb4a",
+    "697874b1-580f-4599-98b3-6b10fcc256c5",
+    "de79cfeb-74f3-4242-9397-841eaf4de5cb",
+    "fe914add-4ee7-4586-92dc-b760fd4640e3"
+  ],
+  "updates": []
+}
