@@ -7,7 +7,7 @@
  * with this function (see outputFileTracingIncludes in next.config.ts).
  *
  * The sandbox never sees the store-wide Blob token: it gets a short-lived
- * token that can only write this story's video.mp4.
+ * token that can only write this story's MP4.
  */
 import { addBundleToSandbox, createSandbox, getRenderProgress, renderMediaOnVercel } from "@remotion/vercel";
 import { generateClientTokenFromReadWriteToken } from "@vercel/blob/client";
@@ -30,7 +30,7 @@ const BUNDLE_DIR = "build";
 const SANDBOX_TIMEOUT_MS = 30 * 60 * 1000;
 const STARTING: RenderState = { status: "rendering", progress: 0, stage: "starting" };
 const key = (eventId: string) => `render:${eventId}`;
-const blobPath = (eventId: string) => `stories/${eventId}/video.mp4`;
+const blobPath = (eventId: string) => `stories/${eventId}/readback.mp4`;
 
 /** Starts rendering a story's MP4 (or returns the render already in progress / finished). */
 export async function startRender(eventId: string): Promise<RenderState> {

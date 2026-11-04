@@ -76,12 +76,6 @@ async function reportedUsageUsd(): Promise<number> {
   return balance === null ? 0 : Math.max(0, startingCreditUsd() - balance);
 }
 
-export async function budget() {
-  const spentUsd = await reportedUsageUsd();
-  const capUsd = totalCapUsd();
-  return { spentUsd: +spentUsd.toFixed(2), capUsd, remainingUsd: +Math.max(0, capUsd - spentUsd).toFixed(2) };
-}
-
 /** Refuses any paid Enhanced Radar call that could push total usage past the cap. */
 const budgetGuard: SpendGuard = {
   async reserve(estimateUsd) {
@@ -89,7 +83,7 @@ const budgetGuard: SpendGuard = {
     if ((await reportedUsageUsd()) + inflight > totalCapUsd()) {
       await kvIncrFloat(INFLIGHT_KEY, -estimateUsd, INFLIGHT_TTL);
       throw new BudgetError(
-        `This demo has used its API credits ($${totalCapUsd().toFixed(0)}). The gallery still works, but new videos are paused.`,
+        "This demo has hit its credit limit, so new videos are paused. Everything in the gallery still works.",
       );
     }
   },
@@ -360,6 +354,6 @@ async function runBuild(eventId: string, emit: (e: ProgressEvent) => void): Prom
   emit({ type: "stage", stage: "publish", status: "start" });
   buildProps(id);
   const { story, props } = await publishStory(eventId);
-  emit({ type: "stage", stage: "publish", status: "done", detail: `$${story.costUsd.toFixed(2)} in Enhanced Radar credits` });
+  emit({ type: "stage", stage: "publish", status: "done", detail: `Cost $${story.costUsd.toFixed(2)}` });
   emit({ type: "done", story, props });
 }

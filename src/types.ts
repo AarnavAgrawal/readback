@@ -32,7 +32,7 @@ export type Segment = {
   speakerLabel: string;
   /** e.g. "120.5" (MHz), shown in the speaker badge */
   frequency: string;
-  /** Verbatim transcript text from Enhanced Radar. */
+  /** Verbatim transcript text. */
   text: string;
   /** Word-level timing for karaoke captions (may be estimated). */
   words: Word[];
@@ -106,6 +106,4 @@ export type RenderProps = {
   conditions: string | null;
   /** Local date line, e.g. "Nov 3, 2026 · 9:58 PM PT" */
   dateLine: string;
-  /** e.g. "Radio data: Enhanced Radar" */
-  attribution: string;
 };

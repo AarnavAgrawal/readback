@@ -838,7 +838,6 @@ export function buildProps(eventId: number): RenderProps {
     timeJumps: timeline.timeJumps,
     conditions: sb.conditions,
     dateLine: localDateLine(timeline.segments[0]?.realTimeUtc ?? new Date().toISOString(), tz),
-    attribution: "Radio data: Enhanced Radar",
   };
   writeJson(p.renderProps, props);
   console.log(`  render-props.json → ${path.relative(process.cwd(), p.renderProps)}`);

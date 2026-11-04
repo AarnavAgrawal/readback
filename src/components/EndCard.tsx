@@ -32,7 +32,7 @@ const PHASE_COLOR: Record<FlightPhase, string> = {
   taxi: C.pilot,
 };
 
-/** Closing card: the event as a real-time timeline, plus attribution. Frames are relative to the card's Sequence. */
+/** Closing card: the event as a real-time timeline. Frames are relative to the card's Sequence. */
 export const EndCard: React.FC<Props> = ({ story, timeZone }) => {
   const frame = useCurrentFrame();
 
@@ -109,9 +109,7 @@ export const EndCard: React.FC<Props> = ({ story, timeZone }) => {
           opacity: interpolate(frame, [24, 36], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" }),
         }}
       >
-        <div style={{ height: 3, width: 120, background: C.atc, marginBottom: 30 }} />
-        <div style={{ color: C.text }}>{story.attribution}</div>
-        <div style={{ fontSize: 32, marginTop: 10 }}>Captions are verbatim radio transcripts.</div>
+        <div style={{ fontSize: 32 }}>Captions are verbatim radio transcripts.</div>
       </div>
     </div>
   );
