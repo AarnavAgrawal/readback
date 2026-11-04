@@ -49,7 +49,7 @@ Live at https://readback-atc.vercel.app. A Next.js app (`app/`, `server/`) in th
 ```bash
 npm run dev                                                   # http://localhost:3000
 npm run publish:story -- --event <id> [--event <id>] --featured   # add a CLI-built story to the gallery
-vercel deploy --prod                                          # deploy
+git push                                                      # pushing to main deploys the site
 ```
 
 - **Storage:** Vercel Blob for story files and Upstash Redis for caches and the gallery index. Without their env vars, local dev uses `.local-store/`.
