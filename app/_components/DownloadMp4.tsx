@@ -1,6 +1,7 @@
 "use client";
 
 import { useCallback, useEffect, useRef, useState } from "react";
+import styles from "./DownloadMp4.module.css";
 
 type RenderState =
   | { status: "none" }
@@ -136,8 +137,8 @@ function DownloadControl({ eventId }: { eventId: string }) {
   // Same size as the buttons below, so the page doesn't shift when the answer arrives.
   if (!view) {
     return (
-      <button type="button" className="btn btn-primary" disabled>
-        Checking for MP4…
+      <button type="button" className="btn" disabled>
+        Checking for an MP4…
       </button>
     );
   }
@@ -147,7 +148,7 @@ function DownloadControl({ eventId }: { eventId: string }) {
     const href = new URL(view.url);
     href.searchParams.set("download", "1");
     return (
-      <a className="btn btn-primary" href={href.toString()} download={`readback-${eventId}.mp4`}>
+      <a className="btn" href={href.toString()} download={`readback-${eventId}.mp4`}>
         Download MP4
       </a>
     );
@@ -156,20 +157,24 @@ function DownloadControl({ eventId }: { eventId: string }) {
   if (view.status === "rendering") {
     const pct = Math.round(view.progress * 100);
     return (
-      <p role="status" aria-live="polite" style={{ margin: 0 }}>
-        {pct > 0 ? `Rendering the MP4… ${pct}%` : "Starting the renderer… this takes a minute."} You can keep watching; the download
-        appears here when it&apos;s ready.
-      </p>
+      <div className={styles.rendering}>
+        {/* The same box as the button, filling up, so nothing moves while it runs. */}
+        <p className={styles.bar} role="status" aria-live="polite">
+          <span className={styles.fill} style={{ transform: `scaleX(${view.progress})` }} aria-hidden="true" />
+          <span className={styles.barText}>{pct > 0 ? `Rendering the MP4, ${pct}%` : "Starting the render"}</span>
+        </p>
+        <p className={styles.note}>This takes a few minutes. It keeps going if you leave.</p>
+      </div>
     );
   }
 
   return (
     <div>
-      <button type="button" className="btn btn-primary" onClick={view.status === "lost" ? recheck : start}>
-        {view.status === "none" ? "Render & download MP4" : "Try again"}
+      <button type="button" className="btn" onClick={view.status === "lost" ? recheck : start}>
+        {view.status === "none" ? "Render MP4" : "Try again"}
       </button>
       {view.status !== "none" ? (
-        <p role="alert" style={{ margin: "8px 0 0" }}>
+        <p role="alert" className={styles.note}>
           {view.message}
         </p>
       ) : null}

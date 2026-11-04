@@ -2,12 +2,11 @@
 
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { type RefObject, useCallback, useEffect, useRef, useState } from "react";
+import { type KeyboardEvent, type RefObject, useCallback, useEffect, useRef, useState } from "react";
 import type { DemoAirport, DiscoverResult, ProgressEvent, StageName, StorySummary } from "../../server/demo";
 import { airportTimeZone } from "../../src/lib/timeline";
 import type { RenderProps } from "../../src/types";
 import { formatDuration, formatUsd, formatWhen, timeAgo } from "../_lib/format";
-import { refreshBudget } from "./BudgetPill";
 import { DownloadMp4 } from "./DownloadMp4";
 import { PhonePlayer } from "./PhonePlayer";
 import styles from "./MakeOne.module.css";
@@ -15,12 +14,14 @@ import styles from "./MakeOne.module.css";
 type Candidate = DiscoverResult["candidates"][number];
 
 const STAGES: { id: StageName; label: string; hint: string }[] = [
-  { id: "collect", label: "Pulling radio transmissions", hint: "Every transmission for this flight, from 10 min before to 15 min after." },
-  { id: "clean", label: "Cleaning & deduplicating", hint: "The same call is often heard on two frequencies." },
-  { id: "storyboard", label: "Claude writes the storyboard", hint: "The longest step, usually about a minute." },
-  { id: "audio", label: "Mixing the radio audio", hint: "Downloading each clip and stitching the track." },
-  { id: "publish", label: "Publishing", hint: "Uploading the audio and the video's data." },
+  { id: "collect", label: "Pulling the radio", hint: "Every call for this flight, from 10 minutes before to 15 after." },
+  { id: "clean", label: "Cleaning up", hint: "The same call often turns up on two frequencies." },
+  { id: "storyboard", label: "Writing the story", hint: "The longest step, usually about a minute." },
+  { id: "audio", label: "Mixing the audio", hint: "Downloading each clip and stitching the track." },
+  { id: "publish", label: "Publishing", hint: "Uploading the audio and the video." },
 ];
+
+const DAY_MS = 24 * 3600 * 1000;
 
 type StageState = { status: "pending" | "active" | "done"; detail?: string; startedAt?: number; endedAt?: number };
 
@@ -64,7 +65,7 @@ function useElapsed(since: number | null, until?: number) {
 
 const resultsSummary = (data: DiscoverResult): string =>
   data.candidates.length === 0
-    ? `Nothing notable heard at ${data.airport} in the last 24 hours.`
+    ? `Nothing notable at ${data.airport} in the last 24 hours.`
     : `${data.candidates.length} moment${data.candidates.length === 1 ? "" : "s"} at ${data.airport}`;
 
 async function errorMessage(res: Response): Promise<string> {
@@ -78,6 +79,16 @@ async function errorMessage(res: Response): Promise<string> {
   return `The server answered ${res.status}.`;
 }
 
+/** Left and right arrows walk the sign, as they would a toolbar. Selecting still takes Enter or a click. */
+function walkSign(e: KeyboardEvent<HTMLDivElement>) {
+  if (e.key !== "ArrowRight" && e.key !== "ArrowLeft") return;
+  const signs = [...e.currentTarget.querySelectorAll<HTMLButtonElement>("button:not(:disabled)")];
+  const at = signs.indexOf(document.activeElement as HTMLButtonElement);
+  if (at < 0) return;
+  e.preventDefault();
+  signs[(at + (e.key === "ArrowRight" ? 1 : signs.length - 1)) % signs.length].focus();
+}
+
 export function MakeOne({ builtIds }: { builtIds: string[] }) {
   const router = useRouter();
   const [airports, setAirports] = useState<DemoAirport[] | null>(null);
@@ -85,6 +96,8 @@ export function MakeOne({ builtIds }: { builtIds: string[] }) {
   const [discover, setDiscover] = useState<Discover>({ status: "idle" });
   const [build, setBuild] = useState<Build | null>(null);
   const [built, setBuilt] = useState<Set<string>>(() => new Set(builtIds));
+  const [pointedAt, setPointedAt] = useState<string | null>(null);
+  const [lit, setLit] = useState<number | null>(null);
   const discoverAbort = useRef<AbortController | null>(null);
   // Set before the first await: a double-click lands before React re-renders the button as disabled.
   const discoverInFlight = useRef(false);
@@ -115,7 +128,7 @@ export function MakeOne({ builtIds }: { builtIds: string[] }) {
     };
   }, [loadAirports]);
 
-  /** Never called on load: a cache miss costs real credits, so only an explicit click runs it. */
+  /** Never called on load: a cache miss costs real money, so only an explicit click runs it. */
   const runDiscover = async (airport: string, refresh = false) => {
     if (discoverInFlight.current) return;
     discoverInFlight.current = true;
@@ -141,7 +154,6 @@ export function MakeOne({ builtIds }: { builtIds: string[] }) {
       });
     } finally {
       discoverInFlight.current = false;
-      refreshBudget();
     }
   };
 
@@ -232,7 +244,6 @@ export function MakeOne({ builtIds }: { builtIds: string[] }) {
       else handleEvent({ type: "error", message: err instanceof Error ? err.message : String(err) });
     } finally {
       buildInFlight.current = false;
-      refreshBudget();
       // A newly built video joins the gallery above.
       if (mounted.current && finished && !instant) router.refresh();
     }
@@ -247,58 +258,75 @@ export function MakeOne({ builtIds }: { builtIds: string[] }) {
   const building = build?.status === "running";
   const discoverStatus =
     discover.status === "loading"
-      ? `Searching the last 24 hours of radio at ${discover.airport}…`
+      ? `Searching the last 24 hours at ${discover.airport}`
       : discover.status === "ready"
         ? resultsSummary(discover.data)
         : discover.status === "error"
           ? discover.busy
             ? discover.message
-            : `Couldn’t search ${discover.airport} right now: ${discover.message}`
+            : `Couldn’t search ${discover.airport}: ${discover.message}`
           : "";
+
+  const named = airports?.find((a) => a.code === (pointedAt ?? selected));
 
   return (
     <section id="make" className={styles.section} aria-labelledby="make-heading">
       <div className={styles.intro}>
         <h2 id="make-heading" className={styles.heading}>
-          Make one now
+          Make a new one
         </h2>
-        <p className={styles.lede}>
-          Pick an airport. The app searches its last 24 hours of radio for go-arounds, emergencies and TCAS alerts; choose
-          one and watch the video get built, live.
-        </p>
+        <p className={styles.lede}>Pick an airport. We’ll search its last 24 hours of radio for go-arounds and emergencies.</p>
       </div>
 
-      <div className={styles.airports} role="group" aria-label="Airports">
-        {airports === null && !airportsError ? <p className={styles.muted}>Loading airports…</p> : null}
-        {airportsError ? (
-          <p className="notice" data-tone="error">
-            Couldn’t load the airport list: {airportsError}{" "}
-            <button type="button" className="link-quiet" onClick={() => void loadAirports()}>
-              Try again
-            </button>
-          </p>
-        ) : null}
-        {airports?.map((a) => (
-          <button
-            key={a.code}
-            type="button"
-            className={styles.chip}
-            aria-pressed={selected === a.code}
-            title={a.name}
-            disabled={discover.status === "loading" && discover.airport !== a.code}
-            onClick={() => {
-              if (selected === a.code && discover.status !== "error") return;
-              void runDiscover(a.code);
-            }}
-          >
-            {a.code}
+      {airportsError ? (
+        <p className="notice" data-tone="error">
+          Couldn’t load the airports: {airportsError}{" "}
+          <button type="button" className="link-quiet" onClick={() => void loadAirports()}>
+            Try again
           </button>
-        ))}
-      </div>
+        </p>
+      ) : (
+        <div
+          className={styles.sign}
+          role="group"
+          aria-label="Airports"
+          aria-busy={airports === null}
+          onKeyDown={walkSign}
+          onPointerLeave={() => setPointedAt(null)}
+        >
+          {airports === null
+            ? Array.from({ length: 12 }, (_, i) => <span key={i} className={styles.signBlank} aria-hidden="true" />)
+            : airports.map((a) => (
+                <button
+                  key={a.code}
+                  type="button"
+                  className={styles.panel}
+                  aria-pressed={selected === a.code}
+                  aria-label={`${a.code}, ${a.name}`}
+                  disabled={discover.status === "loading" && discover.airport !== a.code}
+                  onPointerEnter={() => setPointedAt(a.code)}
+                  onFocus={() => setPointedAt(a.code)}
+                  onBlur={() => setPointedAt(null)}
+                  onClick={() => {
+                    if (selected === a.code && discover.status !== "error") return;
+                    void runDiscover(a.code);
+                  }}
+                >
+                  {a.code}
+                </button>
+              ))}
+        </div>
+      )}
+
+      <p className={styles.airportName} aria-hidden="true">
+        {named?.name ?? " "}
+      </p>
 
       <p role="status" aria-live="polite" className="visually-hidden">
         {discoverStatus}
       </p>
+
+      <LastDay discover={discover} lit={lit} />
 
       <div className={styles.results}>
         {discover.status === "loading" ? <Searching airport={discover.airport} startedAt={discover.startedAt} /> : null}
@@ -306,8 +334,7 @@ export function MakeOne({ builtIds }: { builtIds: string[] }) {
         {discover.status === "error" ? (
           <div className="notice" data-tone={discover.busy ? undefined : "error"}>
             <p>{discoverStatus}</p>
-            <p style={{ marginTop: "0.5rem", color: "var(--dim)" }}>
-              {discover.busy ? null : "The videos in the gallery still play. "}
+            <p className={styles.noticeAction}>
               <button type="button" className="link-quiet" onClick={() => void runDiscover(discover.airport)}>
                 Try again
               </button>
@@ -321,6 +348,7 @@ export function MakeOne({ builtIds }: { builtIds: string[] }) {
             built={built}
             buildingId={building ? build?.eventId : undefined}
             disabled={building}
+            onLight={setLit}
             onBuild={(c) => void startBuild(c, discover.data.airport)}
             onRefresh={() => void runDiscover(discover.data.airport, true)}
           />
@@ -332,20 +360,46 @@ export function MakeOne({ builtIds }: { builtIds: string[] }) {
   );
 }
 
+/** The 24 hours being searched, as a line: a marker runs along it during a search and each moment lands on it. */
+function LastDay({ discover, lit }: { discover: Discover; lit: number | null }) {
+  const data = discover.status === "ready" ? discover.data : null;
+  const end = data ? new Date(data.fetchedAt).getTime() : 0;
+  const tz = data ? airportTimeZone(data.airport) : "UTC";
+  return (
+    <div className={styles.day} data-searching={discover.status === "loading" || undefined} aria-hidden="true">
+      <div className={styles.dayLine}>
+        {discover.status === "loading" ? <span className={styles.dayScan} /> : null}
+        {data?.candidates.map((c) => {
+          const left = 100 - ((end - new Date(c.happened_at).getTime()) / DAY_MS) * 100;
+          return (
+            <span
+              key={c.event_id}
+              className={styles.dayMark}
+              data-lit={lit === c.event_id || undefined}
+              style={{ left: `${Math.min(100, Math.max(0, left))}%` }}
+            />
+          );
+        })}
+      </div>
+      <div className={styles.dayEnds}>
+        <span>{data ? formatWhen(new Date(end - DAY_MS).toISOString(), tz) : "24 hours ago"}</span>
+        <span>{data ? formatWhen(data.fetchedAt, tz) : "Now"}</span>
+      </div>
+    </div>
+  );
+}
+
 function Searching({ airport, startedAt }: { airport: string; startedAt: number }) {
   const sec = useElapsed(startedAt);
   return (
     <div className={styles.searching}>
-      <span className={styles.sweep} aria-hidden="true" />
-      <div>
-        <p>Searching the last 24 hours of radio at {airport}…</p>
-        <p className={styles.muted}>
-          <span aria-hidden="true">
-            <span className="mono">{formatDuration(sec)}</span> ·{" "}
-          </span>
-          a fresh search takes 15–40 seconds; results are kept for 6 hours.
-        </p>
-      </div>
+      <p className={styles.searchingLine}>Searching {airport}</p>
+      <p className={styles.searchingNote}>
+        <span className={styles.clock} aria-hidden="true">
+          {formatDuration(sec)}
+        </span>{" "}
+        A fresh search takes 15 to 40 seconds.
+      </p>
     </div>
   );
 }
@@ -355,6 +409,7 @@ function Candidates({
   built,
   buildingId,
   disabled,
+  onLight,
   onBuild,
   onRefresh,
 }: {
@@ -362,6 +417,7 @@ function Candidates({
   built: Set<string>;
   buildingId?: number;
   disabled: boolean;
+  onLight: (eventId: number | null) => void;
   onBuild: (c: Candidate) => void;
   onRefresh: () => void;
 }) {
@@ -375,44 +431,49 @@ function Candidates({
   return (
     <div>
       <div className={styles.resultsBar}>
-        <p>{resultsSummary(data)}</p>
-        <p className={styles.muted}>
-          Results from {timeAgo(data.fetchedAt, now)} ·{" "}
+        <p className={styles.resultsCount}>{resultsSummary(data)}</p>
+        <p className={styles.resultsAge}>
+          Searched {timeAgo(data.fetchedAt, now)}.{" "}
           <button type="button" className="link-quiet" onClick={onRefresh} disabled={disabled}>
-            Refresh (costs credits)
+            Search again
           </button>
         </p>
       </div>
 
       {data.candidates.length === 0 ? (
-        <p className={styles.muted}>Try another airport: busy ones like JFK or ORD usually have something.</p>
+        <p className={styles.tryAnother}>Try another airport. The busiest ones usually have something.</p>
       ) : (
-        <ol className={styles.candidates}>
+        <ol className={styles.candidates} onPointerLeave={() => onLight(null)}>
           {data.candidates.map((c) => {
             const ids = [c.event_id, ...(c.related_event_ids ?? [])].map(String);
             const builtId = ids.find((id) => built.has(id));
             return (
-              <li key={c.event_id} className={styles.candidate}>
-                <div className={styles.when}>
-                  <span>{formatWhen(c.happened_at, tz)}</span>
-                  <span className={styles.muted}>{timeAgo(c.happened_at, now)}</span>
-                </div>
+              <li
+                key={c.event_id}
+                className={styles.candidate}
+                onPointerEnter={() => onLight(c.event_id)}
+                onFocus={() => onLight(c.event_id)}
+              >
+                <p className={styles.when}>
+                  {formatWhen(c.happened_at, tz)}
+                  <span className={styles.ago}>{timeAgo(c.happened_at, now)}</span>
+                </p>
                 <div className={styles.what}>
                   {c.callsigns.length ? <p className={styles.callsigns}>{c.callsigns.join(", ")}</p> : null}
-                  <p>{c.summary}</p>
-                  <p className={styles.score}>
-                    score {c.score.toFixed(1)} · {c.evidence} transmission{c.evidence === 1 ? "" : "s"} of evidence
+                  <p className={styles.summary}>{c.summary}</p>
+                  <p className={styles.heard}>
+                    Heard in {c.evidence} transmission{c.evidence === 1 ? "" : "s"}.
                   </p>
                 </div>
                 <div className={styles.action}>
                   {builtId ? (
-                    <Link className="btn" href={`/watch/${builtId}`}>
+                    <Link className="btn btn-quiet" href={`/watch/${builtId}`}>
                       Watch video
                     </Link>
                   ) : (
                     <button
                       type="button"
-                      className="btn btn-primary"
+                      className="btn"
                       disabled={disabled}
                       onClick={() => onBuild(c)}
                       aria-describedby={`cand-${c.event_id}`}
@@ -433,12 +494,14 @@ function Candidates({
   );
 }
 
+const plainDetail = (detail: string) => detail.replace(/\s*·\s*/g, ", ");
+
 function BuildPanel({ build, headingRef }: { build: Build; headingRef: RefObject<HTMLHeadingElement | null> }) {
   const total = useElapsed(build.startedAt, build.endedAt);
   const heading =
     build.status === "done"
       ? build.instant
-        ? "Already built: served from the gallery"
+        ? "Already made, so here it is"
         : "Your video is ready"
       : build.status === "error"
         ? "The build stopped"
@@ -447,15 +510,19 @@ function BuildPanel({ build, headingRef }: { build: Build; headingRef: RefObject
           : "Building your video";
   // The latest step reached, so the line doesn't blank out between one step ending and the next starting.
   const step = STAGES.map((s) => build.stages[s.id].status !== "pending").lastIndexOf(true);
+  const stage = step >= 0 ? STAGES[step] : null;
+  // Turned away before anything ran (the credit limit, usually): the message is all there is to show.
+  const refused = build.status === "error" && !stage;
+  const latest = [...STAGES].reverse().find((s) => build.stages[s.id].detail);
   // "error" and "lost" announce themselves through role="alert" below.
   const statusLine =
     build.status === "done"
       ? heading
       : build.status !== "running"
         ? ""
-        : step < 0
-          ? "Starting the build"
-          : `Step ${step + 1} of ${STAGES.length}: ${STAGES[step].label}`;
+        : stage
+          ? `Step ${step + 1} of ${STAGES.length}: ${stage.label}`
+          : "Starting the build";
 
   return (
     <div className={styles.build} data-status={build.status}>
@@ -467,76 +534,109 @@ function BuildPanel({ build, headingRef }: { build: Build; headingRef: RefObject
         <p role="status" aria-live="polite" className="visually-hidden">
           {statusLine}
         </p>
-        <p className={styles.muted}>
-          <span className="mono">{formatDuration(total)}</span>{" "}
-          {build.status === "running"
-            ? "elapsed · a fresh build takes 1–2 minutes. It keeps going if you leave this page."
-            : build.status === "lost"
-              ? "so far"
-              : "total"}
-        </p>
 
-        <ol className={styles.route} aria-label="Build steps">
-          {STAGES.map((s) => {
-            const st = build.stages[s.id];
-            const took = st.startedAt && st.endedAt ? Math.round((st.endedAt - st.startedAt) / 1000) : null;
-            const failed = build.status === "error" && st.status === "active";
-            return (
-              <li key={s.id} className={styles.leg} data-state={failed ? "failed" : st.status}>
-                <span className={styles.waypoint} aria-hidden="true" />
-                <div>
-                  <p className={styles.legLabel}>
+        {refused ? null : (
+          <>
+            <ol className={styles.route} aria-label="Build steps">
+              {STAGES.map((s) => {
+                const st = build.stages[s.id];
+                const failed = build.status === "error" && st.status === "active";
+                return (
+                  <li key={s.id} className={styles.leg} data-state={failed ? "failed" : st.status}>
                     {s.label}
                     <span className="visually-hidden">
                       {failed ? " (stopped)" : st.status === "done" ? " (done)" : st.status === "active" ? " (in progress)" : ""}
                     </span>
-                    {took != null && !build.instant ? <span className={styles.took}>{took} s</span> : null}
-                  </p>
-                  {st.detail ? (
-                    <p className={styles.legDetail}>{st.detail}</p>
-                  ) : st.status === "active" ? (
-                    <p className={styles.legHint}>{s.hint}</p>
-                  ) : null}
-                </div>
-              </li>
-            );
-          })}
-        </ol>
+                  </li>
+                );
+              })}
+            </ol>
+
+            <p className={styles.elapsed}>
+              <span className={styles.clock}>{formatDuration(total)}</span>{" "}
+              {build.status === "running"
+                ? "so far. It usually takes a minute or two, and it keeps going if you leave this page."
+                : build.status === "lost"
+                  ? "so far"
+                  : "in total"}
+            </p>
+          </>
+        )}
+
+        {build.instant ? null : (
+          <ul className={styles.log}>
+            {STAGES.filter((s) => build.stages[s.id].detail && !(s.id === "publish" && build.story)).map((s) => {
+              const st = build.stages[s.id];
+              const took = st.startedAt && st.endedAt ? Math.round((st.endedAt - st.startedAt) / 1000) : null;
+              return (
+                <li key={s.id} className={styles.logLine}>
+                  <span>{plainDetail(st.detail ?? "")}</span>
+                  {took != null ? <span className={styles.took}>{took} s</span> : null}
+                </li>
+              );
+            })}
+          </ul>
+        )}
 
         {build.status === "error" ? (
           <div className="notice" data-tone="error" role="alert">
             <p>{build.error}</p>
-            <p style={{ marginTop: "0.5rem", color: "var(--dim)" }}>The gallery videos still play. Any data already pulled is kept, so a retry costs less.</p>
+            {refused ? null : (
+              <p className={styles.noticeAction}>Anything already downloaded is kept, so trying again picks up where this stopped.</p>
+            )}
           </div>
         ) : null}
 
         {build.status === "lost" ? (
-          <div className="notice" role="alert">
-            <p>The build is still running on the server. The video joins the gallery when it’s done, usually within a couple of minutes.</p>
-          </div>
+          <p className="notice" role="alert">
+            The build is still running on the server. The video joins the list at the top when it’s done, usually within a couple of
+            minutes.
+          </p>
         ) : null}
 
         {build.status === "done" && build.story ? (
           <>
             <p className={styles.doneStats}>
-              {build.story.transmissionsReviewed} transmissions reviewed · {build.story.clips} clips ·{" "}
-              {formatUsd(build.story.costUsd)} in API credits
+              {build.story.clips} clips from {build.story.transmissionsReviewed} transmissions. Cost {formatUsd(build.story.costUsd)} to
+              make.
             </p>
             <div className={styles.doneActions}>
-              <Link className="btn" href={`/watch/${build.story.eventId}`}>
-                Open the full page with the transcript
-              </Link>
               <DownloadMp4 eventId={build.story.eventId} />
+              <Link className="btn btn-quiet" href={`/watch/${build.story.eventId}`}>
+                Open it with the transcript
+              </Link>
             </div>
           </>
         ) : null}
       </div>
 
-      {build.status === "done" && build.props ? (
-        <div className={styles.buildPlayer}>
-          <PhonePlayer story={build.props} initialFrame={Math.round(build.props.introSec * 30 * 0.8)} />
-        </div>
-      ) : null}
+      <div className={styles.buildScreen} data-status={build.status} hidden={refused}>
+        {build.status === "done" && build.props ? (
+          <PhonePlayer
+            story={build.props}
+            initialFrame={Math.round(build.props.introSec * 30 * 0.8)}
+            spaceKeyToPlayOrPause={false}
+          />
+        ) : (
+          <div className={styles.slot}>
+            {build.status === "running" ? (
+              <>
+                <p key={stage?.id ?? "start"} className={styles.slotStage}>
+                  {stage?.label ?? "Starting"}
+                </p>
+                <p className={styles.slotHint}>{stage?.hint}</p>
+                {latest ? (
+                  <p key={latest.id} className={styles.slotLatest}>
+                    {plainDetail(build.stages[latest.id].detail ?? "")}
+                  </p>
+                ) : null}
+              </>
+            ) : (
+              <p className={styles.slotStage}>{build.status === "lost" ? "Still going" : "Stopped"}</p>
+            )}
+          </div>
+        )}
+      </div>
     </div>
   );
 }

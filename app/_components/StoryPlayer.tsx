@@ -14,6 +14,13 @@ export type StoryPlayerProps = {
   onFrame?: (frame: number) => void;
   /** Frame shown before the first play. */
   initialFrame?: number;
+  /** Called when playback starts or stops. */
+  onPlayingChange?: (playing: boolean) => void;
+  /**
+   * Set false when the page handles Space itself. Left on, the Player also moves
+   * focus to its play button every time playback starts or stops.
+   */
+  spaceKeyToPlayOrPause?: boolean;
 };
 
 /** Shown in place of the video if the composition crashes. Drawn at composition size (1080 wide), then scaled down. */
@@ -25,7 +32,14 @@ const renderCrash = () => (
 );
 
 /** The Remotion Player for one story, filling its (9:16) parent. Client-only. */
-export default function StoryPlayer({ story, playerRef, onFrame, initialFrame }: StoryPlayerProps) {
+export default function StoryPlayer({
+  story,
+  playerRef,
+  onFrame,
+  initialFrame,
+  onPlayingChange,
+  spaceKeyToPlayOrPause,
+}: StoryPlayerProps) {
   const ownRef = useRef<PlayerRef | null>(null);
   const ref = playerRef ?? ownRef;
 
@@ -36,19 +50,27 @@ export default function StoryPlayer({ story, playerRef, onFrame, initialFrame }:
   const durationInFrames = Math.max(1, Math.ceil(story.totalSec * STORY_FPS));
 
   const onFrameRef = useRef(onFrame);
+  const onPlayingRef = useRef(onPlayingChange);
   useEffect(() => {
     onFrameRef.current = onFrame;
-  }, [onFrame]);
+    onPlayingRef.current = onPlayingChange;
+  }, [onFrame, onPlayingChange]);
 
   useEffect(() => {
     const player = ref.current;
     if (!player) return;
     const handler = (e: { detail: { frame: number } }) => onFrameRef.current?.(e.detail.frame);
+    const onPlay = () => onPlayingRef.current?.(true);
+    const onPause = () => onPlayingRef.current?.(false);
     player.addEventListener("frameupdate", handler);
     player.addEventListener("seeked", handler);
+    player.addEventListener("play", onPlay);
+    player.addEventListener("pause", onPause);
     return () => {
       player.removeEventListener("frameupdate", handler);
       player.removeEventListener("seeked", handler);
+      player.removeEventListener("play", onPlay);
+      player.removeEventListener("pause", onPause);
     };
     // A new story remounts the Player (see key below), so the listeners must move to the new instance.
   }, [ref, story.eventId]);
@@ -69,6 +91,7 @@ export default function StoryPlayer({ story, playerRef, onFrame, initialFrame }:
       clickToPlay
       doubleClickToFullscreen
       allowFullscreen
+      spaceKeyToPlayOrPause={spaceKeyToPlayOrPause}
       acknowledgeRemotionLicense
       style={{ width: "100%", height: "100%" }}
     />

@@ -20,7 +20,7 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
   const { id } = await params;
   const props = await loadProps(id);
   return {
-    title: props ? `${props.title} — Readback` : "Video not found — Readback",
+    title: props ? `${props.title} | Readback` : "Video not found | Readback",
     description: props ? `“${props.hook}” ${props.airportName}, ${props.dateLine}.` : undefined,
   };
 }

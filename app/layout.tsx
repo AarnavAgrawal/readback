@@ -1,42 +1,41 @@
 import type { Metadata, Viewport } from "next";
-import { B612, B612_Mono } from "next/font/google";
+import { Overpass, Vollkorn } from "next/font/google";
 import Link from "next/link";
-import { BudgetPill } from "./_components/BudgetPill";
 import "./globals.css";
 
-// B612 was drawn for Airbus cockpit displays; the videos use it too.
-const b612 = B612({ weight: ["400", "700"], subsets: ["latin"], variable: "--font-b612", display: "swap" });
-const b612Mono = B612_Mono({ weight: ["400", "700"], subsets: ["latin"], variable: "--font-b612-mono", display: "swap" });
+// Overpass descends from Highway Gothic, the lettering on American road and airfield signs.
+const overpass = Overpass({ subsets: ["latin"], style: ["normal", "italic"], variable: "--font-overpass", display: "swap" });
+const vollkorn = Vollkorn({ subsets: ["latin"], style: ["normal", "italic"], variable: "--font-vollkorn", display: "swap" });
 
 export const metadata: Metadata = {
-  title: "Readback — ATC radio, turned into video",
-  description:
-    "Real air traffic control radio moments, turned into short vertical videos automatically. Built on the Enhanced Radar API.",
+  title: "Readback",
+  description: "Short vertical videos of real air traffic control radio.",
 };
 
 export const viewport: Viewport = {
-  themeColor: "#03101B",
-  colorScheme: "dark",
+  themeColor: "#ffd100",
+  colorScheme: "light",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={`${b612.variable} ${b612Mono.variable}`} data-scroll-behavior="smooth">
+    <html lang="en" className={`${overpass.variable} ${vollkorn.variable}`} data-scroll-behavior="smooth">
       <body>
         <a className="skip-link" href="#main">
           Skip to content
         </a>
         <header className="site-header">
           <Link href="/" className="wordmark">
-            <span className="wordmark-mark" aria-hidden="true" />
-            <span>Readback</span>
-            <span className="wordmark-sub">on Enhanced Radar</span>
+            Readback
           </Link>
-          <BudgetPill />
+          <nav className="site-nav" aria-label="Site">
+            <Link href="/#gallery">Videos</Link>
+            <Link href="/#make">Make one</Link>
+          </nav>
         </header>
         <main id="main">{children}</main>
         <footer className="site-footer">
-          <p>Radio data: Enhanced Radar · Storyboards: Claude · Video: Remotion</p>
+          <p>Every call in these videos really happened.</p>
         </footer>
       </body>
     </html>

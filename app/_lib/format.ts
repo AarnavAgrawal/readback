@@ -11,13 +11,17 @@ export function formatUsd(usd: number): string {
   return `$${(Number.isFinite(usd) ? usd : 0).toFixed(2)}`;
 }
 
-/** "claude-opus-5-5" → "Claude Opus 5.5"; anything else is returned as-is. */
-export function modelName(id: string): string {
-  // Minor version is 1–2 digits, so a date suffix (-20250514) isn't read as one.
-  const m = /^claude-([a-z]+)-(\d{1,2})(?:-(\d{1,2})(?!\d))?/i.exec(id ?? "");
-  if (!m) return id || "Claude";
-  const family = m[1][0].toUpperCase() + m[1].slice(1);
-  return `Claude ${family} ${m[2]}${m[3] ? `.${m[3]}` : ""}`;
+/** "Nov 3, 2026 · 5:24 PM ET" → "Nov 3, 2026 at 5:24 PM ET" */
+export function plainDate(dateLine: string): string {
+  return dateLine.replace(/\s*·\s*/g, " at ");
+}
+
+/** "TURKISH 1 HEAVY" → "Turkish 1 Heavy"; the airport code and anything with a digit stay as they are. */
+export function speakerName(label: string, airportCode: string): string {
+  return label
+    .split(/\s+/)
+    .map((w) => (w === airportCode || /\d/.test(w) ? w : w.charAt(0) + w.slice(1).toLowerCase()))
+    .join(" ");
 }
 
 /** "2 h ago", "just now", "3 days ago" relative to `now`. */

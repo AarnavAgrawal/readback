@@ -9,7 +9,6 @@ import { readJson, storyPaths, sumLedger } from "../pipeline/lib";
 import {
   type Candidate,
   type CleanFile,
-  type Storyboard,
   type Timeline,
   buildAudio,
   buildProps,
@@ -175,7 +174,6 @@ export type StorySummary = {
   clips: number;
   transmissionsReviewed: number;
   costUsd: number;
-  storyboardBy: string;
   createdAt: string;
   featured: boolean;
   propsUrl: string;
@@ -183,13 +181,22 @@ export type StorySummary = {
 
 const INDEX_KEY = "stories:index";
 
+/** Older index entries carry a field that must not reach the browser. */
+function publicSummary(story: StorySummary): StorySummary {
+  const copy: StorySummary & { storyboardBy?: string } = { ...story };
+  delete copy.storyboardBy;
+  return copy;
+}
+
 export async function listStories(): Promise<StorySummary[]> {
-  const all = Object.values(await hashGetAll<StorySummary>(INDEX_KEY));
+  const all = Object.values(await hashGetAll<StorySummary>(INDEX_KEY)).map(publicSummary);
   return all.sort((a, b) => Number(b.featured) - Number(a.featured) || b.createdAt.localeCompare(a.createdAt));
 }
 
 export async function getStoryProps(eventId: string): Promise<RenderProps | null> {
-  return getJson<RenderProps>(`stories/${eventId}/render-props.json`);
+  const props = await getJson<RenderProps & { attribution?: string }>(`stories/${eventId}/render-props.json`);
+  if (props) delete props.attribution; // older stories stored a credit line
+  return props;
 }
 
 // =====================================================================
@@ -248,7 +255,6 @@ export async function publishStory(eventId: string, opts: { featured?: boolean }
   const published: RenderProps = { ...props, audioSrc: audioUrl };
   const propsUrl = await putFile(`stories/${eventId}/render-props.json`, JSON.stringify(published), "application/json");
 
-  const sb = readJson<Storyboard>(p.storyboard);
   const cleanFile = readJson<CleanFile>(p.clean);
   const timeline = readJson<Timeline>(p.timeline);
   const existing = (await hashGetAll<StorySummary>(INDEX_KEY))[eventId];
@@ -269,7 +275,6 @@ export async function publishStory(eventId: string, opts: { featured?: boolean }
       sumLedger(p.costs),
       1 + 0.03 * readJson<{ transcripts: unknown[] }>(p.transcripts).transcripts.length + 0.02 * timeline.segments.length,
     ).toFixed(2),
-    storyboardBy: sb.generated_by,
     createdAt: existing?.createdAt ?? new Date().toISOString(),
     featured: opts.featured ?? existing?.featured ?? false,
     propsUrl,
@@ -287,7 +292,7 @@ export async function buildStory(eventId: string, emit: (e: ProgressEvent) => vo
   const existing = (await hashGetAll<StorySummary>(INDEX_KEY))[eventId];
   const existingProps = existing ? await getStoryProps(eventId) : null;
   if (existing && existingProps) {
-    emit({ type: "done", story: existing, props: existingProps });
+    emit({ type: "done", story: publicSummary(existing), props: existingProps });
     return;
   }
 

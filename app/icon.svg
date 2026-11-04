@@ -1,9 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <rect width="64" height="64" rx="14" fill="#061826"/>
-  <circle cx="32" cy="32" r="22" fill="none" stroke="#1F5470" stroke-width="3"/>
-  <circle cx="32" cy="32" r="12" fill="none" stroke="#1F5470" stroke-width="3"/>
-  <path d="M32 32 L32 10 A22 22 0 0 1 51 21 Z" fill="#5CE1F2" fill-opacity="0.35"/>
-  <line x1="32" y1="32" x2="32" y2="10" stroke="#5CE1F2" stroke-width="3.5" stroke-linecap="round"/>
-  <circle cx="44" cy="24" r="4.5" fill="#FFB547"/>
-  <circle cx="32" cy="32" r="3" fill="#5CE1F2"/>
+  <rect width="64" height="64" fill="#FFD100"/>
+  <rect x="5" y="5" width="54" height="54" fill="#000"/>
+  <path d="M21 50V14h13.5c7.6 0 12.5 4.4 12.5 11 0 4.8-2.6 8.4-6.8 10L49 50h-9.6l-7.4-13.4H29.6V50H21zm8.6-20.4h4.4c3.1 0 4.9-1.7 4.9-4.3 0-2.7-1.8-4.3-4.9-4.3h-4.4v8.6z" fill="#FFD100"/>
 </svg>
