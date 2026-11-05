@@ -1,6 +1,6 @@
 # Readback
 
-Turns a notable moment on US air traffic control radio (a go-around, an emergency, a laser strike) into a 30–60 s vertical video. The video uses the **real radio audio**, verbatim karaoke captions, a schematic airport map and explainer cards. Data comes from the [Enhanced Radar API](https://enhancedradar.com/docs/api), the story framing from Claude, and the video is rendered with [Remotion](https://remotion.dev).
+Turns a notable moment on US air traffic control radio (a go-around, an emergency, a laser strike) into a 30–60s vertical video. The video uses the **real radio audio**, verbatim karaoke captions, a schematic airport map and explainer cards. Data comes from the [Enhanced Radar API](https://enhancedradar.com/docs/api), the story framing from Claude, and the video is rendered with [Remotion](https://remotion.dev).
 
 ```
  Enhanced Radar events ─► discover ─► collect ─► clean ─► storyboard (Claude) ─► audio ─► props ─► render (Remotion)
@@ -80,12 +80,3 @@ Typical cost per video: **≈ $2–4** in Enhanced Radar credits.
 - karaoke captions and a waveform
 - note stamps, explainer cards, time-jump cards
 - an end card with a recap and attribution
-
-## Guardrails
-
-- **Verbatim only.** Captions always use the Enhanced Radar transcript text, never model output. The storyboard is rejected if it references unknown transmissions or a hook that isn't in the transcript.
-- **Secrets** live in `.env` (gitignored). Downloaded audio and API caches are gitignored too.
-
-## Seed story
-
-`data/stories/5627999/`: United 1274's wake-turbulence go-around at SFO, Nov 4, 2026 05:58Z. Its data was pulled through the Enhanced Radar MCP server. Its storyboard was written by hand because no Anthropic key was configured; rerun with `--force-storyboard` to have Claude write it.
